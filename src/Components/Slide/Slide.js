@@ -1,9 +1,17 @@
 import React from "react";
-import Avatar from '../../assests/images/Avatar.png'
+import Avatar from "../../assests/images/Avatar.png";
+import Quotes from "../../assests/images/Quotes.png";
+import { FaStar } from "react-icons/fa";
 const Slide = () => {
   return (
     <div className='carousel-slide'>
-      <div className='icons'></div>
+      <div className='icons'>
+        {Array(5)
+          .fill()
+          .map((_, index) => (
+            <FaStar key={index} />
+          ))}
+      </div>
       <div className='content'>
         Mixed feelings but adequate results. Pros: technical skills & Intuition
         about colors, fonts, & layout styles. Cons: Communication, English,
@@ -17,6 +25,9 @@ const Slide = () => {
           <p>Arlene McCoy</p>
           <span>Golio</span>
         </div>
+      </div>
+      <div className='logo'>
+        <img src={Quotes} alt='Quotes' className='img-fluid' />
       </div>
     </div>
   );

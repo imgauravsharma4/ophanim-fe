@@ -519,6 +519,11 @@ h1 {
   margin-right: 16px;
 }
 
+.testimonial-header h1{
+  font-size: 57px;
+  margin-bottom: 26px;
+}
+
 .carousel-button {
   padding: 16px;
   margin-right: 10px;
@@ -527,8 +532,49 @@ h1 {
   border: none;
 }
 
-.carousel-slide{
-  border: 10px solid #FFF3CF;
+.carousel-slide {
+  border: 10px solid #fff3cf;
   border-radius: 16px;
   padding: 48px;
+  position: relative;
+}
+
+.carousel-slide .icons svg {
+  fill: #ff8800;
+  font-size: 37px;
+  margin-right: 8px;
+}
+
+.carousel-slide .icons,
+.carousel-slide .content {
+  margin-bottom: 30px;
+}
+
+.carousel-slide .content {
+  font-size: 18px;
+  color: #42526b;
+  font-weight: 400;
+}
+.carousel-slide .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.carousel-slide .user .name p {
+  margin-bottom: 4px;
+  color: #061c3d;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.carousel-slide .user .name span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.carousel-slide .logo {
+  position: absolute;
+  right: 48px;
+  bottom: 8px;
 }

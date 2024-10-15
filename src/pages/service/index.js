@@ -124,11 +124,14 @@ const ServicePage = () => {
       </div>
       <div className='section-wrapper'>
         <div className='container'>
-          <div id='carouselExample' class='carousel slide'>
+          <div id='carouselExample' className='carousel slide'>
             <div className='row'>
               <div className='col-xl-4 col-lg-4 col-md-12 col-sm-12'>
+                <div className='testimonial-header'>
+                  <h1>What our client says about our services.</h1>
+                </div>
                 <button
-                  class='carousel-button'
+                  className='carousel-button'
                   type='button'
                   data-bs-target='#carouselExample'
                   data-bs-slide='prev'
@@ -136,7 +139,7 @@ const ServicePage = () => {
                   <img src={LeftArrow} alt='LeftArrow' className='img-fluid' />
                 </button>
                 <button
-                  class='carousel-button'
+                  className='carousel-button'
                   type='button'
                   data-bs-target='#carouselExample'
                   data-bs-slide='next'
@@ -149,14 +152,14 @@ const ServicePage = () => {
                 </button>
               </div>
               <div className='col-xl-8 col-lg-8 col-md-12 col-sm-12'>
-                <div class='carousel-inner'>
-                  <div class='carousel-item active'>
+                <div className='carousel-inner'>
+                  <div className='carousel-item active'>
                     <Slide />
                   </div>
-                  <div class='carousel-item'>
+                  <div className='carousel-item'>
                     <Slide />
                   </div>
-                  <div class='carousel-item'>
+                  <div className='carousel-item'>
                     <Slide />
                   </div>
                 </div>
