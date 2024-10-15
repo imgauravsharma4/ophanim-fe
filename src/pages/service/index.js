@@ -2,8 +2,7 @@ import React from "react";
 import SeoRankingImage from "../../assests/images/Photo.png";
 import VisionImage from "../../assests/images/Photo2.png";
 import CheckCricleImage from "../../assests/images/Check circle.png";
-import LeftArrow from "../../assests/images/ArrowLeft.png";
-import RightArrow from "../../assests/images/ArrowRight.png";
+
 import Card from "../../Components/Cards/Card";
 import {
   AgencyData,
@@ -12,6 +11,7 @@ import {
   ServiceData,
 } from "../../utlis/variables";
 import Slide from "../../Components/Slide/Slide";
+import SliderContainer from "../../Components/Slide/SliderContainer";
 
 const ServicePage = () => {
   return (
@@ -122,52 +122,7 @@ const ServicePage = () => {
           </div>
         </div>
       </div>
-      <div className='section-wrapper'>
-        <div className='container'>
-          <div id='carouselExample' className='carousel slide'>
-            <div className='row'>
-              <div className='col-xl-4 col-lg-4 col-md-12 col-sm-12'>
-                <div className='testimonial-header'>
-                  <h1>What our client says about our services.</h1>
-                </div>
-                <button
-                  className='carousel-button'
-                  type='button'
-                  data-bs-target='#carouselExample'
-                  data-bs-slide='prev'
-                >
-                  <img src={LeftArrow} alt='LeftArrow' className='img-fluid' />
-                </button>
-                <button
-                  className='carousel-button'
-                  type='button'
-                  data-bs-target='#carouselExample'
-                  data-bs-slide='next'
-                >
-                  <img
-                    src={RightArrow}
-                    alt='Right Arrow'
-                    className='img-fluid'
-                  />
-                </button>
-              </div>
-              <div className='col-xl-8 col-lg-8 col-md-12 col-sm-12'>
-                <div className='carousel-inner'>
-                  <div className='carousel-item active'>
-                    <Slide />
-                  </div>
-                  <div className='carousel-item'>
-                    <Slide />
-                  </div>
-                  <div className='carousel-item'>
-                    <Slide />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <SliderContainer />
     </div>
   );
 };
