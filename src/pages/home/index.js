@@ -62,37 +62,25 @@ function Home() {
           </div>
         </div>
         <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
             <div className="image-wrapper">
               <img src={abcd} alt="Team Collaboration" className="img-fluid" />
             </div>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12">
             <div className="row ">
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <Card
-                  icon={HomeChooseUsData[0].icon}
-                  content={HomeChooseUsData[0].content}
-                />
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <Card
-                  icon={HomeChooseUsData[0].icon}
-                  content={HomeChooseUsData[0].content}
-                />
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <Card
-                  icon={HomeChooseUsData[0].icon}
-                  content={HomeChooseUsData[0].content}
-                />
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <Card
-                  icon={HomeChooseUsData[0].icon}
-                  content={HomeChooseUsData[0].content}
-                />
-              </div>
+              {HomeChooseUsData?.map((item, index) => (
+                <div
+                  className="col-xl-6 col-lg-6 col-md-12 col-sm-12 pb-3"
+                  key={`item${index}`}
+                >
+                  <Card
+                    classes="chooseUs"
+                    icon={item.icon}
+                    content={item.content}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>
