@@ -1,6 +1,7 @@
 import WorkFromHomeUserSofaStreamlineUltimate from "../assests/images/Work-From-Home-User-Sofa--Streamline-Ultimate.svg.png";
 import Icon1Image from "../assests/images/icon1.png";
 import YoutubeClipLogoStreamlineUltimate from "../assests/images/Youtube-Clip-Logo--Streamline-Ultimate.svg.png";
+import chooseUs from "../assests/images/chooseus2.svg";
 export const quickLinks = [
   {
     link: "",
@@ -139,6 +140,75 @@ export const ServiceData = [
     content: `With Ophanim's extensive experience and proven track record, you can confidently expand your company’s brand and reach on social media. When you're looking to increase the income stream of your business, whether it's to boost sales, improve efficiency, or establish a brand image, we're here to assist. We'll ensure that only the most effective Pinterest marketing strategies are at your disposal, making the process efficient and the results achievable. Our Pinterest marketing services in the United States are among the most effective, and by collaborating with us and utilizing our services, you will be able to address the numerous persistent challenges.
 `,
     tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
+  },
+];
+export const HomeChooseUsData = [
+  {
+    icon: chooseUs,
+    content:
+      "Ophanim Technologies excels in digital marketing and has a dedicated team that stays updated on industry trends",
+  },
+  {
+    icon: chooseUs,
+    content: `Ophanim Technologies prioritizes delivering measurable results through data-driven campaigns, optimizing for maximum ROI and business growth.                           `,
+  },
+  {
+    icon: chooseUs,
+    content: `Tailored digital marketing strategies for businesses of all sizes, ensuring customized solutions for success.
+`,
+  },
+  {
+    icon: chooseUs,
+    content: `Ophanim Technologies offers personalized support worldwide, focusing on understanding clients' needs for effective results.
+ `,
+  },
+];
+
+export const homeTopNotchData = [
+  {
+    icon: YoutubeClipLogoStreamlineUltimate,
+    heading: "Search Engine Optimization",
+    content: `Ophanim offers industry-proven SEO solutions tailored to your needs and keeps you at the top of the game. Our SEO experts have
+                the expertise to increase your website traffic and enhance
+                revenue.`,
+  },
+  {
+    icon: YoutubeClipLogoStreamlineUltimate,
+    heading: `Social Media Optimization`,
+    content: `Increase your online visibility and connect with your target
+                audience faster through social media platforms. Ophanim offers
+                unparalleled SMO services that guarantee increased traffic,
+                leads, and sales at a competitive rate.`,
+  },
+  {
+    icon: YoutubeClipLogoStreamlineUltimate,
+    heading: `Pay Per Click`,
+    content: `Gain immediate and consistent traffic and leads by implementing
+                optimized advertising campaigns. Ophanim's Pay-per-click
+                marketing services will enable you to achieve immediate
+                visibility on Google Ads.`,
+  },
+  {
+    icon: YoutubeClipLogoStreamlineUltimate,
+    heading: `Online Reputation Management`,
+    content: `Boost your revenue by enhancing your online image and building
+                customer trust. By proactively managing your online reputation,
+                you can increase trust, leads, and sales.`,
+  },
+  {
+    icon: YoutubeClipLogoStreamlineUltimate,
+    heading: `ECommerce SEO`,
+    content: `Enhance your revenue by leveraging eCommerce SEO services to
+                connect with customers worldwide. Increase rankings, traffic,
+                and sales for your online store.`,
+  },
+  {
+    icon: YoutubeClipLogoStreamlineUltimate,
+    heading: `Content Marketing`,
+    content: `Google presents visitors with the most pertinent content based
+                on their search intent. By providing high-quality content
+                relevant to your audience, your business can enhance engagement
+                and conversions.`,
   },
 ];
 
