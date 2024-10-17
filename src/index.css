@@ -401,6 +401,11 @@ h1 {
 }
 .contact-form .input-field input {
   border: none;
+
+  :active{
+    border: none;
+  }
+
 }
 
 .contact-form .input-field i {
