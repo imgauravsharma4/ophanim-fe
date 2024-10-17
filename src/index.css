@@ -399,13 +399,11 @@ h1 {
   border: 1px solid #0405053d;
   margin-bottom: 10px;
 }
-.contact-form .input-field input {
+.contact-form .input-field input,
+.contact-form .input-field input:focus-visible,
+.contact-form .input-field input:active {
   border: none;
-
-  :active{
-    border: none;
-  }
-
+  outline: none;
 }
 
 .contact-form .input-field i {
@@ -524,7 +522,7 @@ h1 {
   margin-right: 16px;
 }
 
-.testimonial-header h1{
+.testimonial-header h1 {
   font-size: 57px;
   margin-bottom: 26px;
 }
@@ -582,4 +580,84 @@ h1 {
   position: absolute;
   right: 48px;
   bottom: 8px;
+}
+
+/* Contact Page */
+.contact-wrapper .input-field {
+  margin-bottom: 20px;
+}
+
+.contact-wrapper .input-field label {
+  margin-bottom: 5px;
+}
+.contact-wrapper .input-field label,
+.contact-wrapper .input-field input,
+.contact-wrapper .input-field textarea {
+  width: 100%;
+  display: block;
+}
+
+.contact-wrapper .input-field input,
+.contact-wrapper .input-field input:active,
+.contact-wrapper .input-field input:focus-visible,
+.contact-wrapper .input-field textarea {
+  outline: none;
+  border: 1px solid #0405053d;
+  padding: 11px 24px;
+  border-radius: 20px;
+}
+
+.primary-button {
+  background: radial-gradient(
+    108.44% 108.44% at 59.69% 50%,
+    #ffe79f 0%,
+    #f4ba0d 60.48%,
+    #ca9e1c 100%
+  );
+  border-radius: 7px;
+  padding: 24px 40px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact-info {
+  background-image: url("./assests/images/contactInfo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.sub-heading {
+  color: #000000;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.contact-info .sub-heading {
+  margin-bottom: 25px;
+}
+
+.contact-info-card .heading{
+  margin-bottom: 20px;
+}
+
+.contact-info-card .small-divider {
+  width: 27px;
+  height: 3px;
+  background: #000000;
+  margin-bottom: 30px;
+}
+
+.contact-info-card p.heading-item {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+.contact-info-card p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #42526b;
 }

@@ -162,3 +162,16 @@ export const ExpertiseData = [
     name: `Monitoring and Improving Performance`,
   },
 ];
+
+export const ContactInfoDetails = [
+  {
+    heading: "Email Address",
+    content: "info@ophanimtechnologies.com",
+    time: "Monday - Friday 6 am to 8 pm IST",
+  },
+  {
+    heading: "Number",
+    content: "+130 735 73070",
+    time: "Monday - Friday 6 am to 8 pm IST",
+  }
+];
