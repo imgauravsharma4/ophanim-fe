@@ -1,7 +1,6 @@
 import React from "react";
 import SeoRankingImage from "../../assests/images/Photo.png";
 import VisionImage from "../../assests/images/Photo2.png";
-import CheckCricleImage from "../../assests/images/Check circle.png";
 
 import Card from "../../Components/Cards/Card";
 import {
@@ -10,8 +9,8 @@ import {
   SeoRankingData,
   ServiceData,
 } from "../../utlis/variables";
-import Slide from "../../Components/Slide/Slide";
 import SliderContainer from "../../Components/Slide/SliderContainer";
+import ListItem from "../../Components/ListItem/ListItem";
 
 const ServicePage = () => {
   return (
@@ -98,14 +97,7 @@ const ServicePage = () => {
                 </p>
                 <ul>
                   {ExpertiseData.map((item, index) => (
-                    <li key={`item${index}`}>
-                      <img
-                        src={CheckCricleImage}
-                        alt='check circle'
-                        className='img-fluid'
-                      />
-                      {item.name}
-                    </li>
+                    <ListItem item={item.name} index={index} />
                   ))}
                 </ul>
               </div>
