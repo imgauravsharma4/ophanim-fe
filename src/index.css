@@ -62,6 +62,15 @@ code {
   background-color: #555;
 } */
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
 .homebg {
   background: url(../public/images/Homepage.png) no-repeat center center;
   background-size: cover;
@@ -243,7 +252,7 @@ h1 {
 
 .container-wrapper {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   padding: 2rem;
   align-content: center;
 }
@@ -642,7 +651,7 @@ h1 {
   margin-bottom: 25px;
 }
 
-.contact-info-card .heading{
+.contact-info-card .heading {
   margin-bottom: 20px;
 }
 
@@ -664,7 +673,6 @@ h1 {
   color: #42526b;
 }
 
-
-.chooseUs{
+.chooseUs {
   background: rgba(252, 249, 240, 1);
 }

@@ -1,7 +1,9 @@
 import WorkFromHomeUserSofaStreamlineUltimate from "../assests/images/Work-From-Home-User-Sofa--Streamline-Ultimate.svg.png";
 import Icon1Image from "../assests/images/icon1.png";
+import aboutUs2 from "../assests/images/aboutUs2.png";
 import YoutubeClipLogoStreamlineUltimate from "../assests/images/Youtube-Clip-Logo--Streamline-Ultimate.svg.png";
 import chooseUs from "../assests/images/chooseus2.svg";
+import { options } from "./config";
 export const quickLinks = [
   {
     link: "",
@@ -150,7 +152,7 @@ export const HomeChooseUsData = [
   },
   {
     icon: chooseUs,
-    content: `Ophanim Technologies prioritizes delivering measurable results through data-driven campaigns, optimizing for maximum ROI and business growth.                           `,
+    content: `Ophanim Technologies prioritizes delivering measurable results through data-driven campaigns, optimizing for maximum ROI and business growth.`,
   },
   {
     icon: chooseUs,
@@ -243,5 +245,97 @@ export const ContactInfoDetails = [
     heading: "Number",
     content: "+130 735 73070",
     time: "Monday - Friday 6 am to 8 pm IST",
-  }
+  },
 ];
+
+export const pricingDetails = [
+  {
+    type: options.PricingCategory.SILVER,
+    price: "$599/month",
+    tagline: "Essential Services",
+    lists: [
+      "Design Partially Custom – only 1 iteration",
+      "Layered Sliders - 05",
+      `Responsive Site (Desktop, Tablet, Mobile)`,
+      `Back-End User Management`,
+      `GUI Admin Panel`,
+      `Affliate Section`,
+      `Search Engine Friendly Structure`,
+      `Conversion Forms-up to 3`,
+      `Content Migration`,
+      `Web Hosting`,
+      `Hosted Emails-10`,
+      `Web maintenance work-5 hours/month`,
+    ],
+  },
+  {
+    type: options.PricingCategory.GOLD,
+    price: "$599/month",
+    tagline: "Essential Services",
+    lists: [
+      `Design Partially Custom – only 1 iteration`,
+      `Layered Sliders - 05`,
+      `Responsive Site (Desktop, Tablet, Mobile)`,
+      `Letterhead Design`,
+      `Custom Blog`,
+      `CMS Updates`,
+      `Front-End User Management`,
+      `Back-End User Management`,
+      `Social Logins`,
+      `Added Site Security`,
+      `GUI Admin Panel`,
+      `Shopping Cart`,
+      `Search Engine Friendly Structure`,
+      `Newsletter Module`,
+      `Google eCommerce Tracking`,
+      `Conversion Forms-up to 7`,
+      `Content Migration`,
+      `Products Migration-upto 300`,
+      `New Domain (optional)`,
+      `Web Hosting`,
+      `Hosted Emails-18`,
+      `Web maintenance work-10 hours/month`,
+    ],
+  },
+  {
+    type: options.PricingCategory.PREMIUM,
+    price: "$599/month",
+    tagline: "Essential Services",
+    lists: [
+      `Design Partially Custom – only 1 iteration`,
+      `Layered Sliders - 05`,
+      `Responsive Site (Desktop, Tablet, Mobile)`,
+      `New Logo Design`,
+      `HTML Email Templates`,
+      `Letterhead Design`,
+      `Custom Blog`,
+      `CMS Updates`,
+      `Front-End User Management`,
+      `Back-End User Management`,
+      `Social Logins`,
+      `Added Site Security`,
+      `GUI Admin Panel`,
+      `Shopping Cart`,
+      `Dealer/ Affliate Section`,
+      `Search Engine Friendly Structure`,
+      `Newsletter Module`,
+      `Google eCommerce Tracking`,
+      `Conversion Forms-up to 15`,
+      `Content Migration`,
+      `Products Migration-upto 600`,
+      `Order Migration`,
+      `User Migration`,
+      `New Domain (optional)`,
+      `Web Hosting`,
+      `Hosted Emails-30`,
+      `Web maintenance work-25 hours/month`,
+    ],
+  },
+];
+
+export const aboutUsData = {
+  icon: aboutUs2,
+  heading: "About us",
+  content: `Ophanim Technologies is a leading digital platform that helps you outrank your competitors by providing top-notch Digital Marketing and Web Development services. We understand the business need to build a personalized brand, boost traffic, and create engaging web content. Our family of specialists provides top-performing strategies that rank, boost, and convert. We focus on building organic traffic and audience retention with high-ranking keywords and engaging content.`,
+  content2: `Our work processes incorporate raw data tailored to current market trends and customer needs. With 100+ satisfied clients, we guarantee the highest ROI in the industry.`,
+};
