@@ -17,7 +17,7 @@ const NewsPage = () => {
 
         <div className="row">
           {Articles.map((article, index) => (
-            <div className="col-lg-4 col-md-4 mb-4" key={index}>
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-4" key={index}>
               <div style={{ width: "400px", height: "359.2px" }}>
                 <img
                   className="card-img-top img-fluid"
