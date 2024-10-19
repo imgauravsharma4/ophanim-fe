@@ -3,6 +3,9 @@ import Icon1Image from "../assests/images/icon1.png";
 import aboutUs2 from "../assests/images/aboutUs2.png";
 import YoutubeClipLogoStreamlineUltimate from "../assests/images/Youtube-Clip-Logo--Streamline-Ultimate.svg.png";
 import chooseUs from "../assests/images/chooseus2.svg";
+import Group from "../assests/images/Group 237606.svg";
+
+
 import { options } from "./config";
 export const quickLinks = [
   {
@@ -68,6 +71,63 @@ export const quickLinks = [
   {
     link: "",
     name: "Press Conferences",
+  },
+];
+
+export const Articles=  [
+  {
+    title: "Integer Maecenas Eget Viverra",
+    description:
+      "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+    image: Group,
+  },
+  {
+    title: "Integer Maecenas Eget Viverra",
+    description:
+      "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+    image: Group,
+  },
+  {
+    title: "Integer Maecenas Eget Viverra",
+    description:
+      "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+    image: Group,
+  },
+  {
+    title: "Integer Maecenas Eget Viverra",
+    description:
+      "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+    image: Group,
+  },
+  {
+    title: "Integer Maecenas Eget Viverra",
+    description:
+      "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+    image: Group,
+  },
+  {
+    title: "Integer Maecenas Eget Viverra",
+    description:
+      "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+    image: Group,
+  },
+  {
+    title: "Integer Maecenas Eget Viverra",
+    description:
+      "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+    image: Group,
+  },
+  {
+    title: "Integer Maecenas Eget Viverra",
+    description:
+      "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+    image: Group,
+  },
+  {
+    title: "Integer Maecenas Eget Viverra",
+    description:
+      "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+    image: Group,
   },
 ];
 export const Terms = [
