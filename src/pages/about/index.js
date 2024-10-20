@@ -30,10 +30,10 @@ const AboutPage = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
               <h2 className="display-4">Our Mission</h2>
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12">
               <p>
                 Our objective at Ophanim is to offer our clients unparalleled
                 digital success. Due to our extensive experience, we are adept
