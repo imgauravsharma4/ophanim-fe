@@ -3,6 +3,8 @@ import aboutUsImage from "../../assests/images/aboutUs.png";
 import iconLens from "../../assests/images/icon-lens.svg";
 import { aboutUsData } from "../../utlis/variables";
 import Card from "../../Components/Cards/Card";
+import SliderContainer from "../../Components/Slide/SliderContainer";
+
 
 const AboutPage = () => {
   return (
@@ -54,6 +56,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
+        <SliderContainer />
       </div>
     </div>
   );

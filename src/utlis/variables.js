@@ -3,13 +3,7 @@ import Icon1Image from "../assests/images/icon1.png";
 import aboutUs2 from "../assests/images/aboutUs2.png";
 import YoutubeClipLogoStreamlineUltimate from "../assests/images/Youtube-Clip-Logo--Streamline-Ultimate.svg.png";
 import chooseUs from "../assests/images/chooseus2.svg";
-<<<<<<< Updated upstream
 import Group from "../assests/images/Group 237606.svg";
-
-
-=======
-import missionIcon from "../assests/images/icon-lens.svg";
->>>>>>> Stashed changes
 import { options } from "./config";
 export const quickLinks = [
   {
