@@ -4,8 +4,6 @@ import aboutUs2 from "../assests/images/aboutUs2.png";
 import YoutubeClipLogoStreamlineUltimate from "../assests/images/Youtube-Clip-Logo--Streamline-Ultimate.svg.png";
 import chooseUs from "../assests/images/chooseus2.svg";
 import Group from "../assests/images/Group 237606.svg";
-
-
 import { options } from "./config";
 export const quickLinks = [
   {
