@@ -8,6 +8,7 @@ import ServicePage from "./pages/service";
 import ContactPage from "./pages/contact";
 import PricingPage from "./pages/pricing";
 import NewsPage from "./pages/news";
+import ViewArticle from "./pages/viewArticle";
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
         <Route path='/news' element={<NewsPage />} />
         <Route path='/pricing' element={<PricingPage />} />
         <Route path='/contact' element={<ContactPage />} />
+        <Route path='/view-article' element={<ViewArticle />} />
+
       </Routes>
       <Footer />
     </Router>
