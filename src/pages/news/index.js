@@ -14,29 +14,34 @@ const NewsPage = () => {
         <div className="text-center mb-5 position-relative">
           <img src={Post} alt="seo ranking" className="img-fluid" />
         </div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <p className="sub-headig-image position-absolute">Travel</p>
+        <div className="d-flex justify-content-center">
+          <p className="sub-headig-image">Travel</p>
         </div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <p
-            className="position-absolute sub-heading-2"
-            style={{ margin: "0", lineHeight: "1.1" }}
-          >
-            Richird Norton photorealistic rendering as
-            <span style={{ display: "block", margin: 0, padding: 0 , textAlign:'center'}}>real photos</span>  
-            </p>
+        <div className="d-flex justify-content-center">
+          <p className="sub-main-heading">
+           Richird Norton photorealistic rendering as
+            <span>real photos</span>
+          </p>
+          <p></p>
         </div>
-        <div className="position-absolute sub-heading-3">
-        <div style={{ display: "flex", justifyContent: "center" ,marginLeft:"300px"}}>
+        <div className="position-absolute sub-heading-3 d-flex justify-content-center align-items-center text-center">
+          <div>
+            Progressively incentivize cooperative systems through technically
+            sound
+            <br />
+            functionalities. The credibly productivate seamless data.
+          </div>
+        </div>
 
-          <p>Progressively incentivize cooperative systems through technically sound 
-            <br/>
-            functionalities. The credibly productivate seamless data.</p>
-          </div>
-          <div className="position-absolute" style={{display:"flex", justifyContent:"center", alignItems:"center", alignContent:"center", marginLeft:"550px"}} >
-            <button className="read-now ">Read Now </button>
-          </div>
-     
+        <div
+          className="position-absolute d-flex justify-content-center align-items-center"
+          style={{
+            top: "55%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+          }}
+        >
+          <button className="read-now">Read Now</button>
         </div>
 
         <NewsCard />
