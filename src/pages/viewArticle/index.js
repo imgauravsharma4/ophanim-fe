@@ -35,14 +35,14 @@ const ViewArticle = () => {
             </div>
             <div className="col-8">
               <div className="p-width">
-                <p>
+                <p className="p-article">
                   Aenean eleifend ante maecenas pulvinar montes lorem et pede
                   dis dolor pretium donec dictum. Vici consequat justo enim.
                   Venenatis eget adipiscing luctus lorem. Adipiscing veni amet
                   luctus enim sem libero tellus viverra venenatis aliquam.
                   Commodo natoque quam pulvinar elit.
                 </p>
-                <h2>Eu ridiculus fringilla aenean</h2>
+                <h2 className="p-heading">Eu ridiculus fringilla aenean</h2>
                 <p>
                   Eget aenean tellus venenatis. Donec odio tempus. Felis arcu
                   pretium metus nullam quam aenean sociis quis sem neque vici
