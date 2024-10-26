@@ -9,7 +9,7 @@ function Home() {
     <div>
       {/* Hero Section */}
       <div className="homebg">
-        <div className="container-wrapper">
+        <div className="container-wrapper container">
           <div className="left-section">
             <h1>
               Unlock Your <br />
