@@ -9,14 +9,12 @@ import SliderContainer from "../../Components/Slide/SliderContainer";
 const AboutPage = () => {
   return (
     <div>
-      About page
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <Card
               heading={aboutUsData.heading}
               content={aboutUsData.content}
-              icon={aboutUsData.icon}
             />
           </div>
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">

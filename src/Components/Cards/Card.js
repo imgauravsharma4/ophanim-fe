@@ -3,9 +3,11 @@ import React from "react";
 const Card = ({ icon, heading, content, content2, classes, tags }) => {
   return (
     <div className={`card-wrapper ${classes}`}>
-      <div className='icon'>
-        <img src={icon} alt='icon' className='img-fluid' />
-      </div>
+      {icon && (
+        <div className='icon'>
+          <img src={icon} alt='icon' className='img-fluid' />
+        </div>
+      )}
       <div className='heading'>
         <h4>{heading}</h4>
       </div>
@@ -15,7 +17,7 @@ const Card = ({ icon, heading, content, content2, classes, tags }) => {
       </div>
       {tags && (
         <div className='tags'>
-          {tags.split(',').map((item, index) => (
+          {tags.split(",").map((item, index) => (
             <span>{item}</span>
           ))}
         </div>

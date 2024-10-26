@@ -35,9 +35,9 @@ const ServicePage = () => {
             />
           </div>
         </div>
-        <div className='row'>
+        <div className='row section-wrapper'>
           <div className='col-xl-12'>
-            <h4>
+            <h4 className="mb-3">
               Why Choose Ophanim As Your Social Media Optimization Agency?
             </h4>
             <p>
@@ -62,7 +62,7 @@ const ServicePage = () => {
             </div>
           ))}
         </div>
-        <div className='row'>
+        <div className='row section-wrapper'>
           <div className='col-xl-12 col-sm-12'>
             <h2>Top Notch Services</h2>
             <p>

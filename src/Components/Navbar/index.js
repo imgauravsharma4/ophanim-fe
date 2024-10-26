@@ -4,13 +4,13 @@ import LOGO from "../../assests/images/logo.svg";
 
 const Navbar = () => {
   return (
-    <nav class='navbar navbar-sticky-top  navbar-expand-lg'>
-      <div class='container'>
-        <Link class='navbar-brand navbar-logo' to={"/"}>
+    <nav className='navbar navbar-sticky-top  navbar-expand-lg'>
+      <div className='container'>
+        <Link className='navbar-brand navbar-logo' to={"/"}>
           <img src={LOGO} alt='Logo' />
         </Link>
         <button
-          class='navbar-toggler'
+          className='navbar-toggler'
           type='button'
           data-bs-toggle='collapse'
           data-bs-target='#navbarSupportedContent'
@@ -18,10 +18,10 @@ const Navbar = () => {
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <span class='navbar-toggler-icon'></span>
+          <span className='navbar-toggler-icon'></span>
         </button>
         <div
-          class='collapse navbar-collapse justify-content-end'
+          className='collapse navbar-collapse justify-content-end'
           id='navbarSupportedContent'
         >
           <ul className=' navbar-nav navbar-links me-5'>

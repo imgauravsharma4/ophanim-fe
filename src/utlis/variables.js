@@ -72,7 +72,7 @@ export const quickLinks = [
   },
 ];
 
-export const Articles=  [
+export const Articles = [
   {
     title: "Integer Maecenas Eget Viverra",
     description:
@@ -156,6 +156,31 @@ export const AgencyData = [
     heading: "Cost-Effective Solutions",
     content:
       "Our tailored SMO services elevate your social media presence while fitting seamlessly into your budget. We aim to empower your business growth through enhanced social media engagement, increased quality traffic, and lead generation. We customize our social media optimization services to meet your unique needs and preferences.",
+  },
+  {
+    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    heading: `Custom Social Media Optimization Strategy`,
+    content: `Your business requires a unique edge to compete with more giant corporations. To achieve this, we provide bespoke social media optimization services that cater to your needs. Rather than adopting a one-size-fits-all approach, we craft a tailored SMO marketing strategy that aligns with your objectives and resonates with your target demographic.`,
+  },
+  {
+    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    heading: `Google Certified Partner`,
+    content: `Consider selecting a Google Partner-certified agency like ours to benefit from dependable SEO and SMO services. This certification demonstrates our expertise and proven success in achieving desired outcomes. Being a Google partner, we focus on SMO, search, mobile, and SMM, providing comprehensive solutions for your digital requirements.`,
+  },
+  {
+    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    heading: `Broad Expertise Across Sectors`,
+    content: `Our extensive experience spanning multiple industries allows us to leverage various technical expertise and know-how on every social media optimization project we undertake. Having collaborated with thousands of businesses across diverse sectors, our SMO specialists are well-equipped to tailor their services to meet your business's distinct requirements.`,
+  },
+  {
+    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    heading: `Comprehensive SMO Services`,
+    content: `Our all-encompassing social media optimization services are designed to drive your online success. We offer a complete range of services, from devising a tailored strategy to implementing affordable social media, search engine optimization, digital marketing, and website optimization solutions, all aimed at delivering the outcomes necessary to propel your business forward.`,
+  },
+  {
+    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    heading: `Clear Communication`,
+    content: `As a leading SMO marketing agency, we value transparency in communication. Our dedicated project managers ensure you are informed at every stage, providing detailed insights into our actions and future direction.`,
   },
 ];
 

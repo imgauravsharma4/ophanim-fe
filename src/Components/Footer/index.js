@@ -10,6 +10,7 @@ import {
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { quickLinks, Terms } from "../../utlis/variables";
+import LOGO from "../../assests/images/logo.svg";
 
 const Footer = () => {
   return (
@@ -92,7 +93,9 @@ const Footer = () => {
         <div className='row footer-section footer-divider'>
           <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
             <div className='footer-log'>
-              <div className='logo'></div>
+              <div className='logo'>
+                <img src={LOGO} alt='Logo' className='img-fluid' />
+              </div>
               <p>We growing up your business with personal AI manager.</p>
             </div>
           </div>
