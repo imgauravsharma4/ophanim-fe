@@ -103,7 +103,7 @@ li {
 /* Register button styling */
 .register-btn {
   color: #000000  ;
-  padding: 10px 20px !important;
+  padding: 10px !important;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;

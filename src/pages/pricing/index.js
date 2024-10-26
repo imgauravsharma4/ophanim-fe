@@ -20,7 +20,7 @@ const PricingPage = () => {
                   {item.type === options.PricingCategory.SILVER ? (
                     "Get Started "
                   ) : (
-                    <button className='primary-button'>Buy Now</button>
+                    <button className='primary-button register-btn'>Buy Now</button>
                   )}
                 </div>
               </div>
