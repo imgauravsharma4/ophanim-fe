@@ -16,7 +16,7 @@ const NewsCard = () => {
             className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-4"
             key={index}
           >
-            <div style={{ width: "400px", height: "359.2px" }}>
+            <div>
               <img
                 className="img-fluid"
                 src={article.image}

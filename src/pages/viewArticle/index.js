@@ -106,11 +106,11 @@ const ViewArticle = () => {
                   rhoncus. Dis donec cras ultricies. Eros vivamus enim nec nulla
                   semper imperdiet aenean montes dictum porttitor metus.
                 </p>
-                <div className="mb-5  p-width">
-                  <img src={article} alt="seo ranking" />
+                <div className="mb-5">
+                  <img src={article} alt="seo ranking"  className="img-fluid" />
                 </div>
-                <div className="mb-5 p-width">
-                  <img src={article} alt="seo ranking" />
+                <div className="mb-5">
+                  <img src={article} alt="seo ranking"  className="img-fluid" />
                 </div>
                 <div className="p-width">
                   <p>
@@ -156,8 +156,8 @@ const ViewArticle = () => {
                     venenatis dui ante luctus ultricies tellus montes. Quis in
                     sapien tempus.
                   </p>
-                  <div className="mb-5 p-width">
-                    <img src={article} alt="seo ranking" />
+                  <div className="mb-5">
+                    <img src={article} alt="seo ranking"  className="img-fluid" />
                   </div>
                   <p>Ut pede leo libero cum ridiculus</p>
                   <p style={{ marginBottom: "10px" }}>

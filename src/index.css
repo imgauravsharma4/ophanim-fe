@@ -17,10 +17,12 @@ li {
   background: url(../public/images/Homepage.png) no-repeat center center;
   background-size: cover;
 }
+
 .frame2 {
   background: url(../public/images/Frame2.png) no-repeat center center;
   background-size: cover;
 }
+
 /* .header {
   background-color: #e4bcbc;
   opacity: 50;
@@ -58,7 +60,8 @@ li {
 
 /* Logo styling */
 .navbar-logo h1 {
-  color: #007bff; /* Logo color (blue) */
+  color: #007bff;
+  /* Logo color (blue) */
   font-size: 28px;
   margin: 0;
 }
@@ -75,7 +78,8 @@ li {
 }
 
 .navbar-links a {
-  color: #007bff; /* Blue color for links */
+  color: #007bff;
+  /* Blue color for links */
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -97,12 +101,13 @@ li {
 }
 
 .navbar-links a:hover::after {
-  transform: scaleX(1); /* Hover underline effect */
+  transform: scaleX(1);
+  /* Hover underline effect */
 }
 
 /* Register button styling */
 .register-btn {
-  color: #000000  ;
+  color: #000000;
   padding: 10px !important;
   cursor: pointer;
   font-size: 16px;
@@ -281,6 +286,7 @@ h1 {
 .footer-divider {
   border-bottom: 1px solid #0000001f;
 }
+
 .footer-touch h4 {
   font-weight: 500;
 }
@@ -297,29 +303,33 @@ h1 {
   flex-wrap: wrap;
   gap: 10px;
 }
+
 .footer-touch .icon ul li {
   list-style: none;
   padding: 12px;
   border-radius: 5px;
   /* background-color: #1877f214; */
 }
+
 .footer-touch .icon ul li:nth-child(2) {
   background: #0e76a8;
 }
+
 .footer-touch .icon ul li:nth-child(2) a {
   color: #ffffff;
 }
+
 .footer-touch .icon ul li:nth-child(3) {
   background: #1da1f214;
 }
+
 .footer-touch .icon ul li:nth-child(4) {
-  background: linear-gradient(
-    45deg,
-    rgba(255, 214, 0, 0.08) 8.39%,
-    rgba(255, 1, 0, 0.08) 50%,
-    rgba(216, 0, 185, 0.08) 91.61%
-  );
+  background: linear-gradient(45deg,
+      rgba(255, 214, 0, 0.08) 8.39%,
+      rgba(255, 1, 0, 0.08) 50%,
+      rgba(216, 0, 185, 0.08) 91.61%);
 }
+
 .footer-touch .icon ul li a {
   text-decoration: none;
   text-transform: capitalize;
@@ -337,10 +347,12 @@ h1 {
   color: #040505cc;
   text-decoration: underline;
 }
+
 .contact-form {
   max-width: 360px;
   margin-left: auto;
 }
+
 .contact-form .input-field {
   background-color: #ffffff;
   padding: 14px 24px 14px 24px;
@@ -349,6 +361,7 @@ h1 {
   border: 1px solid #0405053d;
   margin-bottom: 10px;
 }
+
 .contact-form .input-field input,
 .contact-form .input-field input:focus-visible,
 .contact-form .input-field input:active {
@@ -363,6 +376,7 @@ h1 {
 .contact-form .button-wrapper {
   text-align: end;
 }
+
 .contact-form .button-wrapper button {
   padding: 10px 32px;
   border-radius: 7px;
@@ -382,9 +396,11 @@ h1 {
   list-style: none;
   padding-bottom: 15px;
 }
+
 .quick-links ul li:first-child a {
   font-weight: 600;
 }
+
 .quick-links ul li a,
 .terms ul li a {
   text-decoration: none;
@@ -394,6 +410,7 @@ h1 {
 .terms {
   text-align: end;
 }
+
 .terms ul li {
   display: inline-block;
   padding-right: 40px;
@@ -412,11 +429,13 @@ h1 {
 .white-background {
   background: #ffffff;
 }
+
 .card-wrapper .icon,
 .card-wrapper .heading,
 .card-wrapper .content {
   margin-bottom: 20px;
 }
+
 .card-wrapper .icon img {
   width: 68px;
 }
@@ -436,6 +455,7 @@ h1 {
   gap: 10px;
   flex-wrap: wrap;
 }
+
 .card-wrapper .tags span {
   background: #8080801a;
   border-radius: 10px;
@@ -452,10 +472,12 @@ h1 {
 .yellow-bg {
   background-color: #fffcf3;
 }
+
 .expertise-section ul {
   margin: 0;
   padding: 0;
 }
+
 .expertise-section ul li {
   padding: 13px 12px;
   border-radius: 20px;
@@ -508,6 +530,7 @@ h1 {
   color: #42526b;
   font-weight: 400;
 }
+
 .carousel-slide .user {
   display: flex;
   align-items: center;
@@ -540,6 +563,7 @@ h1 {
 .contact-wrapper .input-field label {
   margin-bottom: 5px;
 }
+
 .contact-wrapper .input-field label,
 .contact-wrapper .input-field input,
 .contact-wrapper .input-field textarea {
@@ -572,6 +596,7 @@ h1 {
   background-size: cover;
   background-position: center center;
 }
+
 .sub-heading {
   color: #000000;
 }
@@ -601,6 +626,7 @@ h1 {
   font-size: 20px;
   color: #000000;
 }
+
 .contact-info-card p {
   font-weight: 400;
   font-size: 18px;
@@ -617,6 +643,7 @@ h1 {
   justify-content: center;
   margin-top: 20px;
 }
+
 .button-load-more {
   border-radius: 7px;
   background-color: #fff;
@@ -629,15 +656,17 @@ h1 {
   padding: 10px 30px 10px 30px;
   border: 1px solid #8c8c8c;
 }
+
 .line-horizontal {
   width: 108px;
   background: #121416;
   height: 1px;
   cursor: pointer;
 }
-.p-width {
+
+/* .p-width {
   width: 90%;
-}
+} */
 .article-sub-heading {
   color: #ffffff;
   top: 300px;
@@ -647,6 +676,7 @@ h1 {
   width: 79.33%;
   margin-bottom: 20px;
 }
+
 .article-sub-heading1 {
   color: #ffffff;
   top: 400px;
@@ -655,6 +685,7 @@ h1 {
   font-size: 26px;
   width: 79.33%;
 }
+
 .article-sub-heading2 {
   color: #ffffff;
   top: 450px;
@@ -664,6 +695,7 @@ h1 {
   display: flex;
   gap: 20px;
 }
+
 .sub-headig-image {
   border-radius: 4px;
   padding: 5px 20px;
@@ -674,6 +706,7 @@ h1 {
   position: absolute;
   top: 25%;
 }
+
 .sub-main-heading {
   font-size: 48px;
   color: #ffffff;
@@ -685,6 +718,7 @@ h1 {
   line-height: 1.2;
   left: 50%;
 }
+
 .sub-heading-3 {
   font-size: 1.25rem;
   color: #e5e5e5;
@@ -737,6 +771,7 @@ h1 {
     padding: 10px 16px;
     font-size: 0.75rem;
   }
+
   .p-article {
     font-family: "General Sans Variable";
     font-weight: 400;
@@ -744,7 +779,8 @@ h1 {
     line-height: 33px;
     color: #121416;
   }
-  .p-heading{
+
+  .p-heading {
     font-family: "General Sans Variable";
     font-weight: 400;
     font-size: 40px;
@@ -752,4 +788,32 @@ h1 {
     color: #121416;
     letter-spacing: 0.5px;
   }
+}
+
+.port-heading {
+  font-family: Clash Display Variable;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 68px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  color: #121A22;
+}
+
+.sub-text {
+  font-family: General Sans Variable;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.right-paragraph {
+  font-family: General Sans Variable;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  width: 40%;
 }
