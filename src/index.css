@@ -669,17 +669,17 @@ h1 {
 } */
 .article-sub-heading {
   color: #ffffff;
-  top: 300px;
+  top: 400px;
   margin-left: 30px;
   font-weight: 400px;
   font-size: 40px;
   width: 79.33%;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .article-sub-heading1 {
   color: #ffffff;
-  top: 400px;
+  top: 500px;
   margin-left: 30px;
   font-weight: 400px;
   font-size: 26px;
@@ -688,7 +688,7 @@ h1 {
 
 .article-sub-heading2 {
   color: #ffffff;
-  top: 450px;
+  top: 550px;
   margin-left: 30px;
   font-weight: 400px;
   width: 79.33%;

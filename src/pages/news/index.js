@@ -19,12 +19,12 @@ const NewsPage = () => {
         </div>
         <div className="d-flex justify-content-center">
           <p className="sub-main-heading">
-           Richird Norton photorealistic rendering as
-            <span>real photos</span>
+           Richird Norton photorealistic rendering as<br></br>
+            <span className="text-center">real photos</span>
           </p>
           <p></p>
         </div>
-        <div className="position-absolute sub-heading-3 d-flex justify-content-center align-items-center text-center">
+        <div className="position-absolute sub-heading-3 d-flex justify-content-center align-items-center text-center mt-2">
           <div>
             Progressively incentivize cooperative systems through technically
             sound
