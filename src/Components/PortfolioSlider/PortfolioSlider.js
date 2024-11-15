@@ -17,7 +17,7 @@ const PortfolioSlider = () => {
                 </div>
             </div>
 
-            <button>Previous</button>
+            <button>Next</button>
 
         </div>
 
