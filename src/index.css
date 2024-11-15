@@ -878,3 +878,76 @@ opacity: 0px;
 text-align: center;
 border: 2px solid #997408
 }
+
+.hero-section {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 100%);
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.read-now-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.read-now-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.travel-tag {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+      height: 450px;
+  }
+  
+  .main-title {
+      font-size: 1.75rem !important;
+  }
+  
+  .subtitle {
+      font-size: 0.9rem !important;
+      padding: 0 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+      height: 350px;
+  }
+  
+  .main-title {
+      font-size: 1.5rem !important;
+  }
+}

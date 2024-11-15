@@ -6,45 +6,37 @@ const NewsPage = () => {
   return (
     <div>
       <div className="container">
-        <p className="text-center fs-1">News & Articles</p>
-        <p className="text-center">
-          Stay Updated with tech and implementation through our news section
-        </p>
+        <div class="container-fluid p-0">
+          <div class="container py-5">
+            <h1 class="display-4 text-center">News & Articles</h1>
+            <p class="text-center text-muted">
+              Stay Updated with tech and implementation through our news section
+            </p>
+          </div>
 
-        <div className="text-center mb-5 position-relative">
-          <img src={Post} alt="seo ranking" className="img-fluid" />
-        </div>
-        <div className="d-flex justify-content-center">
-          <p className="sub-headig-image">Travel</p>
-        </div>
-        <div className="d-flex justify-content-center">
-          <p className="sub-main-heading">
-           Richird Norton photorealistic rendering as<br></br>
-            <span className="text-center">real photos</span>
-          </p>
-          <p></p>
-        </div>
-        <div className="position-absolute sub-heading-3 d-flex justify-content-center align-items-center text-center mt-2">
-          <div>
-            Progressively incentivize cooperative systems through technically
-            sound
-            <br />
-            functionalities. The credibly productivate seamless data.
+          <div class="hero-section" style={{ backgroundImage: `url(${Post})` }}
+          >
+            <div class="overlay"></div>
+            <div class="content-wrapper d-flex flex-column justify-content-center align-items-center text-white">
+              <span class="travel-tag mb-4">Travel</span>
+
+              <h2 class="main-title text-center display-4 mb-4" style={{ maxWidth: "800px" }}>
+                Richird Norton photorealistic rendering as <br></br>
+                real photos
+              </h2>
+
+              <p class="subtitle text-center mb-4" style={{ maxWidth: "600px" }}>
+                Progressively incentivize cooperative systems through technically sound
+                functionalities. The credibly productivate seamless data.
+              </p>
+
+              <button class="read-now-btn">Read now</button>
+            </div>
           </div>
         </div>
-
-        <div
-          className="position-absolute d-flex justify-content-center align-items-center"
-          style={{
-            top: "55%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-          }}
-        >
-          <button className="read-now">Read Now</button>
+        <div className="mt-5">        <NewsCard />
         </div>
 
-        <NewsCard />
 
         <div className="button-container">
           <button className="button-load-more">Load More</button>
