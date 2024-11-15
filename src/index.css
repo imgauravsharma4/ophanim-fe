@@ -817,3 +817,64 @@ h1 {
   text-align: left;
   width: 40%;
 }
+
+.button_previous{
+  width: 84px;
+height: 84px;
+top: 673px;
+left: 202px;
+gap: 0px;
+border-radius: 280px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: #FFFFFF;
+border: 1px solid #D3EBF9
+}
+.seo-button{
+  font-family: General Sans Variable;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.012em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding: 5px 30px 5px 30px;
+gap: 0px; 
+border-radius:170px;
+opacity: 0px;
+background: #FFC759;
+outline: none;
+font-weight: bold;
+}
+
+.back-cont{
+  padding: 12px 0px 0px 0px;
+  border-radius: 1000px;
+  opacity: 0px;
+  background: #FFF9EE;  
+}
+.process-text{
+  width: 260px;
+}
+.process-sub{
+  font-family: General Sans Variable;
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.icon-heading{
+  width: 90px;
+  height: 30px;
+left: 85px;
+gap: 0px;
+border-radius: 20px;
+opacity: 0px;
+text-align: center;
+border: 2px solid #997408
+}
