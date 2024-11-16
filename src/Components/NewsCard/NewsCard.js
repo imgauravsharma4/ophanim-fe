@@ -9,7 +9,7 @@ const NewsCard = () => {
         navigate('/view-article')
     }
   return (
-    <div className="container" style={{marginTop:"100px"}}>
+    <div style={{marginTop:"100px"}}>
       <div className="row">
         {Articles.map((article, index) => (
           <div

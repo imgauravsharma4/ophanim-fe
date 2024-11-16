@@ -8,7 +8,7 @@ const NewsPage = () => {
       <div className="container">
         <div class="container-fluid p-0">
           <div class="container py-5">
-            <h1 class="display-4 text-center">News & Articles</h1>
+            <h1 class="display-4 text-center" style={{fontWeight:"500"}}>News & Articles</h1>
             <p class="text-center text-muted">
               Stay Updated with tech and implementation through our news section
             </p>

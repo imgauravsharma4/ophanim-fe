@@ -1,92 +1,73 @@
-// import React, { useState } from 'react';
-// import { ChevronLeft, ChevronRight } from 'lucide-react';
+import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+    slidesToSlide: 4 // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 768 },
+    items: 3,
+    slidesToSlide: 3 // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 767, min: 464 },
+    items: 2,
+    slidesToSlide: 1 // optional, default to 1.
+  }
+};
+const sliderImageUrl = [
+  //First image url
+  {
+    url:
+      "https://i2.wp.com/www.geeksaresexy.net/wp-content/uploads/2020/04/movie1.jpg?resize=600%2C892&ssl=1"
+  },
+  {
+    url:
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-kids-movies-2020-call-of-the-wild-1579042974.jpg?crop=0.9760858955588091xw:1xh;center,top&resize=480:*"
+  },
+  //Second image url
+  {
+    url:
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-movies-for-kids-2020-sonic-the-hedgehog-1571173983.jpg?crop=0.9871668311944719xw:1xh;center,top&resize=480:*"
+  },
+  //Third image url
+  {
+    url:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQS82ET2bq9oTNwPOL8gqyoLoLfeqJJJWJmKQ&usqp=CAU"
+  },
 
-// const PortfolioSlider = () => {
-//   const [currentIndex, setCurrentIndex] = useState(0);
+  //Fourth image url
 
-//   const portfolioItems = [
-//     {
-//       id: 1,
-//       image: "../../assests/images/slideimg.png"
-//     },
-//     {
-//       id: 2,
-//       image: "../../assests/images/slideimg.png"
-//     },
-//     {
-//       id: 3,
-//       image: "../../assests/images/slideimg.png"
-//     }
-//   ];
-
-//   const nextSlide = () => {
-//     setCurrentIndex((prevIndex) => 
-//       prevIndex === portfolioItems.length - 1 ? 0 : prevIndex + 1
-//     );
-//   };
-
-//   const prevSlide = () => {
-//     setCurrentIndex((prevIndex) => 
-//       prevIndex === 0 ? portfolioItems.length - 1 : prevIndex - 1
-//     );
-//   };
-
-//   return (
-//     <div className="relative w-full overflow-hidden">
-//       <div className="flex items-center justify-center">
-//         {/* Slider container */}
-//         <div className="relative w-full max-w-6xl mx-auto px-4">
-//           {/* Navigation Buttons */}
-//           <button
-//             onClick={prevSlide}
-//             className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors"
-//           >
-//             <ChevronLeft className="h-6 w-6 text-gray-800" />
-//           </button>
-//           <button
-//             onClick={nextSlide}
-//             className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors"
-//           >
-//             <ChevronRight className="h-6 w-6 text-gray-800" />
-//           </button>
-
-//           {/* Slides */}
-//           <div 
-//             className="flex transition-transform duration-300 ease-in-out"
-//             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-//           >
-//             {portfolioItems.map((item) => (
-//               <div
-//                 key={item.id}
-//                 className="w-full flex-shrink-0 px-4 py-8"
-//               >
-//                 <div className="bg-white rounded-lg shadow-lg p-4 mx-auto max-w-md">
-//                   <img
-//                     src={item.image}
-//                     alt={item.title}
-//                     className="w-full h-auto rounded-lg mb-4 object-cover"
-//                   />
-//                 </div>
-//               </div>
-//             ))}
-//           </div>
-
-//           {/* Dots navigation */}
-//           <div className="flex justify-center mt-4 gap-2">
-//             {portfolioItems.map((_, index) => (
-//               <button
-//                 key={index}
-//                 onClick={() => setCurrentIndex(index)}
-//                 className={`h-2 w-2 rounded-full transition-colors ${
-//                   currentIndex === index ? 'bg-blue-600' : 'bg-gray-300'
-//                 }`}
-//               />
-//             ))}
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default PortfolioSlider;
+  {
+    url:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTdvuww0JDC7nFRxiFL6yFiAxRJgM-1tvJTxA&usqp=CAU"
+  }
+];
+const PortfolioSlider = () => {
+  return (
+    <div className="parent">
+      <Carousel
+        responsive={responsive}
+        autoPlay={true}
+        swipeable={true}
+        draggable={true}
+        showDots={true}
+        infinite={true}
+        partialVisible={false}
+        dotListClass="custom-dot-list-style"
+      >
+        {sliderImageUrl.map((imageUrl, index) => {
+          return (
+            <div className="slider" key={index}>
+              <img src={imageUrl.url} alt="movie" />
+            </div>
+          );
+        })}
+      </Carousel>
+    </div>
+  );
+};
+export default PortfolioSlider;

@@ -4,8 +4,6 @@ import SliderContainer from "../../Components/Slide/SliderContainer";
 import { HomeChooseUsData, ServiceData } from "../../utlis/variables";
 import Card from "../../Components/Cards/Card";
 import abcd from "../../assests/images/why-choose-us.png";
-import arrowPortfolio from '../../assests/images/portfoliio.svg'
-import { Button } from "bootstrap";
 import PortfolioSlider from "../../Components/PortfolioSlider/PortfolioSlider";
 import ProcessSection from "../../Components/ProcessSection/ProcessSection";
 import PortfolioSection from "../../Components/PortfolioSection/PortFolioSections";
@@ -59,7 +57,7 @@ function Home() {
       </div>
   <PortfolioSection/>
       <div >
-        {/* <PortfolioSlider /> */}
+        <PortfolioSlider />
       </div>
       <div className="container">
         <div className="row">
