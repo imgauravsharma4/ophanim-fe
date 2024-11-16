@@ -8,9 +8,8 @@ const ViewArticle = () => {
     <div>
       <div className="container">
         <div>
-          <div className="text-center mb-5 position-relative">
-            <img src={Post} alt="seo ranking" className="img-fluid" />
-          </div>
+        <div class="hero-section" style={{ backgroundImage: `url(${Post})` }}>
+</div>
           <div>
             <div>
               <h3

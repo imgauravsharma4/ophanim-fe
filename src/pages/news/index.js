@@ -34,8 +34,8 @@ const NewsPage = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5">        <NewsCard />
-        </div>
+               <NewsCard />
+        
 
 
         <div className="button-container">
