@@ -7,6 +7,8 @@ import abcd from "../../assests/images/why-choose-us.png";
 import arrowPortfolio from '../../assests/images/portfoliio.svg'
 import { Button } from "bootstrap";
 import PortfolioSlider from "../../Components/PortfolioSlider/PortfolioSlider";
+import ProcessSection from "../../Components/ProcessSection/ProcessSection";
+import PortfolioSection from "../../Components/PortfolioSection/PortFolioSections";
 function Home() {
   return (
     <div>
@@ -55,20 +57,9 @@ function Home() {
           ))}
         </div>
       </div>
-      <div className="row justify-content-center" style={{ padding: '100px 70px' }}>
-        <div className="col-12 col-md-4 text-center">
-          <div className="d-flex flex-column flex-md-row align-items-center gap-2">
-            <h2 className="port-heading">Portfolio</h2>
-            <img src={arrowPortfolio} alt='icon' className='img-fluid' />
-          </div>
-          <p className="sub-text">Take a look at some of our work</p>
-        </div>
-        <div className="col-12 col-md-8 right-paragraph" style={{ width: "40%" }}>
-          <h2>Lorem ipsum dolor sit amet consectetur. Vel aliquam feugiat proin tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique non venenatis sed. Lorem ipsum dolor sit amet consectetur.</h2>
-        </div>
-      </div>
+  <PortfolioSection/>
       <div >
-        <PortfolioSlider />
+        {/* <PortfolioSlider /> */}
       </div>
       <div className="container">
         <div className="row">
@@ -103,39 +94,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="d-flex flex-column align-items-center">
-          <h1>Our Process</h1>
-          <p className="process-sub">How Ophanim Works: A Step-by-Step Guide.
-            <br />
-            We understand the problem first, then make it go away....</p>
-          <div className="d-flex flex-row gap-4 w-25  back-cont justify-content-center align-items-center">
-            <button className="seo-button">SEO Work</button>
-            <p>CretiveWork</p></div>
-        </div>
-        <div className="row" style={{paddingTop:"50px"}}>
-          <div className="col-4">
-            <div className="icon-heading">icon</div>
-            <h2>Tackling Problems</h2>
-            <p className="process-text">We listen to our clients’ problems and devise the most suitable strategy for their business growth. We also provide a report regarding the current issues the business is facing.</p>
-          </div>
-          <div  className="col-4">
-            
-          <div className="icon-heading">icon</div>
-          <h2>Brainstorming</h2>
-            <p  className="process-text">We target the problem and define essential parameters to solve it. We then send you reports for feedback and discussion, keeping the process moving in the desired direction.</p>
-          </div>
-
-          <div  className="col-4">
-          <div className="icon-heading">icon</div>
-
-            <h3>Engineered Approach</h3>
-          
-            <p  className="process-text">We have the ability to achieve goals through a well-designed procedure that avoids any last minute problems.</p>
-          </div>
-
-        </div>
-      </div>
+     <ProcessSection/>
       <SliderContainer />
     </div>
   );
