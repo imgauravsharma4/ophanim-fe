@@ -2,15 +2,17 @@ import React from "react";
 import { Articles } from "../../utlis/variables";
 import { useNavigate } from "react-router-dom";
 
-const NewsCard = () => {
+const NewsCard = ({show}) => {
     const navigate = useNavigate();
 
     const handleViewArticle=()=>{
         navigate('/view-article')
     }
   return (
-    <div style={{marginTop:"100px"}}>
-      <div className="row">
+    <div>
+      <div className="row" style={{paddingTop:"100px"}}>
+    {show &&  <p className="news-heading">You may also like</p> } 
+
         {Articles.map((article, index) => (
           <div
             className="col-xl-4 col-lg-4 col-md-6 col-sm-12  mb-4"
