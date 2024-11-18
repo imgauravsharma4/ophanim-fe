@@ -1,25 +1,75 @@
-import React from "react";
+import React, { useState } from "react";
 import { ContactInfoDetails } from "../../utlis/variables";
+import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    number: "",
+    subject: "",
+    message: "",
+  });
+  const [loading, setLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
+  const handleInputChange = (e) => {
+    const { id, value } = e.target;
+    setFormData({ ...formData, [id]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    const { name, email, number, subject, message } = formData;
+
+    try {
+      const response = await emailjs.send(
+        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
+        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+        { name, email, number, subject, message },
+        "YOUR_USER_ID" // Replace with your EmailJS user ID
+      );
+
+      if (response.status === 200) {
+        setSuccessMessage("Your message has been sent successfully!");
+        setFormData({ name: "", email: "", number: "", subject: "", message: "" });
+      } else {
+        setSuccessMessage("Something went wrong. Please try again later.");
+      }
+    } catch (error) {
+      setSuccessMessage("An error occurred while sending the email.");
+    } finally {
+      setLoading(false);
+    }
+  };
   return (
     <div>
       <div className='container'>
-        <form className='section-wrapper'>
+        <form className='section-wrapper' onSubmit={handleSubmit}>
           <div className='row contact-wrapper'>
             <div className='col-xl-4 col-lg-4 col-md-12 col-sm-12'>
               <div className='input-field'>
                 <label htmlFor='name'>Your Name</label>
-                <input type='text' id='name' placeholder='Enter your name' />
+                <input     
+                  type='text'
+                  id='name'
+                  placeholder='Enter your name'
+                  value={formData.name}
+                  onChange={handleInputChange}
+                  required />
               </div>
             </div>
             <div className='col-xl-4 col-lg-4 col-md-12 col-sm-12'>
               <div className='input-field'>
                 <label htmlFor='email'>Email Address</label>
                 <input
-                  type='email'
-                  id='email'
-                  placeholder='Enter email address'
+                 type='email'
+                 id='email'
+                 placeholder='Enter email address'
+                 value={formData.email}
+                 onChange={handleInputChange}
+                 required
                 />
               </div>
             </div>
@@ -27,30 +77,42 @@ const ContactPage = () => {
               <div className='input-field'>
                 <label htmlFor='number'>Phone Number (optional)</label>
                 <input
-                  type='number'
-                  id='number'
-                  placeholder='Enter Phone number'
+                    type='number'
+                    id='number'
+                    placeholder='Enter Phone number'
+                    value={formData.number}
+                    onChange={handleInputChange}
                 />
               </div>
             </div>
             <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12'>
               <div className='input-field'>
                 <label htmlFor='subject'>Subject</label>
-                <input type='text' id='subject' placeholder='Enter Subject' />
+                <input    type='text'
+                  id='subject'
+                  placeholder='Enter Subject'
+                  value={formData.subject}
+                  onChange={handleInputChange}
+                  required />
               </div>
             </div>
             <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12'>
               <div className='input-field'>
                 <label htmlFor='message'>Message</label>
                 <textarea
-                  id='message'
-                  placeholder='Enter Message'
-                  rows={8}
+                 id='message'
+                 placeholder='Enter Message'
+                 rows={8}
+                 value={formData.message}
+                 onChange={handleInputChange}
+                 required
                 ></textarea>
               </div>
             </div>
             <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 text-end'>
-              <button className='primary-button'>Send Message</button>
+              <button className='primary-button' type='submit'
+                disabled={loading}> {loading ? "Sending..." : "Send Message"}
+              </button>
             </div>
           </div>
         </form>
