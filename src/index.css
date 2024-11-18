@@ -1013,5 +1013,38 @@ line-height: 37.8px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
+}
+.portfolio-slider {
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
 
+.carousel-container {
+  position: relative;
+}
+
+.slider-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.1 ease-in-out;
+}
+
+.slider-image {
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.1s ease-in-out;
+  border-radius: 80px;
+}
+
+.slider-image:hover {
+  transform: scale(1.2, 1);
+  transition: transform 0.1 ease-in-out;
+}
+
+.custom-dot-list-style {
+  margin-top: 20px;
 }
