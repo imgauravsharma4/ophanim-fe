@@ -2,14 +2,16 @@ import React from "react";
 import Post from "../../assests/images/mainImage.svg";
 import article from "../../assests/images/article.svg";
 import NewsCard from "../../Components/NewsCard/NewsCard";
+import VectorImg from "../../assests/images/Vector.svg"
+
 
 const ViewArticle = () => {
   return (
     <div>
       <div className="container">
         <div>
-        <div class="hero-section" style={{ backgroundImage: `url(${Post})` }}>
-</div>
+          <div class="hero-section" style={{ backgroundImage: `url(${Post})` }}>
+          </div>
           <div>
             <div>
               <h3
@@ -22,27 +24,27 @@ const ViewArticle = () => {
 
             <p className=" position-absolute article-sub-heading1">Relationship tips couples therapists are giving all the time</p>
             <div className="position-absolute article-sub-heading2">
-              <p style={{fontSize:"20px"}}>by Joanna Wellick</p>
-              <span style={{fontSize:"16px", marginTop:"5px"}}>2 minute read</span>
-              <span style={{fontSize:"16px",marginTop:"5px"}}>views</span>
+              <p style={{ fontSize: "20px" }}>by Joanna Wellick</p>
+              <span style={{ fontSize: "16px", marginTop: "5px" }}>2 minute read</span>
+              <span style={{ fontSize: "16px", marginTop: "5px" }}>views</span>
             </div>
           </div>
           <div className="row">
-            <div className="w-25% col-2" style={{ height: "83px" }}>
+            <div className="w-25% col-2" style={{ height: "83px", paddingTop: "100px" }}>
               <p>966</p>
               <p>Shares</p>
             </div>
             <div className="col-8">
               <div className="p-width">
-                <p className="p-article">
+                <p className="p-article" style={{ paddingTop: "100px" }}>
                   Aenean eleifend ante maecenas pulvinar montes lorem et pede
                   dis dolor pretium donec dictum. Vici consequat justo enim.
                   Venenatis eget adipiscing luctus lorem. Adipiscing veni amet
                   luctus enim sem libero tellus viverra venenatis aliquam.
                   Commodo natoque quam pulvinar elit.
                 </p>
-                <h2 className="p-heading">Eu ridiculus fringilla aenean</h2>
-                <p>
+                <h2 className="p-heading" style={{ paddingTop: "50px" }}>Eu ridiculus fringilla aenean</h2>
+                <p style={{ paddingTop: "20px" }}>
                   Eget aenean tellus venenatis. Donec odio tempus. Felis arcu
                   pretium metus nullam quam aenean sociis quis sem neque vici
                   libero. Venenatis nullam fringilla pretium magnis aliquam nunc
@@ -52,16 +54,19 @@ const ViewArticle = () => {
                 </p>
               </div>
 
-              <div className="p-width">
-                <p>=</p>
-                <span>
-                  Quis adipiscing ligula donec ullamcorper tellus. Id odio
-                  vulputate aliquam nullam vitae tincidunt semper etiam quam
-                  donec quis.
-                </span>
-                <p>Donec Massa Integer</p>
+              <div  style={{paddingTop:"50px"}}>
+              <div className="row">
+               <div className="col-4">
+               <img className="img-fluid" src={VectorImg} alt="vector img" />
+               </div>
+                <div className="col-8">
+               <p>Quis adipiscing ligula donec ullamcorper tellus. Id odio vulputate aliquam nullam vitae tincidunt semper etiam quam donec quis.</p>
+               <p>Donec Massa Integer</p>
+                </div>
+                </div>
+
               </div>
-              <div className="p-width">
+              <div style={{paddingTop:"50px"}}>
                 <p>
                   Ut eu sem aenean imperdiet. Hendrerit penatibus sem adipiscing
                   aliquet consequat nec orci nascetur. Etiam massa quam dolor
@@ -98,7 +103,7 @@ const ViewArticle = () => {
                   Tellus ante quis vici elementum etiam.
                 </p>
               </div>
-              <div p-width>
+              <div>
                 <h2>Faucibus nullam luctus felis pretium donec</h2>
                 <p>
                   Amet tempus viverra ut libero nascetur id veni ridiculus
@@ -106,10 +111,10 @@ const ViewArticle = () => {
                   semper imperdiet aenean montes dictum porttitor metus.
                 </p>
                 <div className="mb-5">
-                  <img src={article} alt="seo ranking"  className="img-fluid" />
+                  <img src={article} alt="seo ranking" className="img-fluid" />
                 </div>
                 <div className="mb-5">
-                  <img src={article} alt="seo ranking"  className="img-fluid" />
+                  <img src={article} alt="seo ranking" className="img-fluid" />
                 </div>
                 <div className="p-width">
                   <p>
@@ -156,7 +161,7 @@ const ViewArticle = () => {
                     sapien tempus.
                   </p>
                   <div className="mb-5">
-                    <img src={article} alt="seo ranking"  className="img-fluid" />
+                    <img src={article} alt="seo ranking" className="img-fluid" />
                   </div>
                   <p>Ut pede leo libero cum ridiculus</p>
                   <p style={{ marginBottom: "10px" }}>
