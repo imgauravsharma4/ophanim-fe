@@ -1143,67 +1143,6 @@ h1 {
   right: -1rem;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .hero-section {
-    height: 500px;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1.125rem;
-  }
-
-  .hero-content {
-    padding: 1.5rem;
-  }
-
-  .tags-container {
-    top: 1.5rem;
-    left: 1.5rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .hero-section {
-    height: 400px;
-  }
-
-  .hero-title {
-    font-size: 1.5rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1rem;
-  }
-
-  .hero-meta {
-    font-size: 0.875rem;
-    gap: 1rem;
-  }
-
-  .hero-meta span:not(:last-child)::after {
-    right: -0.75rem;
-  }
-
-  .hero-content {
-    padding: 1rem;
-  }
-
-  .tags-container {
-    top: 1rem;
-    left: 1rem;
-  }
-
-  .tag {
-    padding: 0.25rem 0.75rem;
-    font-size: 0.75rem;
-  }
-}
-
 .price-card {
   padding: 36px;
   border-radius: 20px;
@@ -1285,4 +1224,85 @@ h1 {
   font-weight: 600;
   font-size: 20px;
   margin: 12px 0px;
+}
+
+.price-header p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #484848;
+}
+
+.price-header p span {
+  padding: 8px 10px 8px 10px;
+  border-radius: 4px;
+  background: #fffbef;
+  color: #ca9e1c;
+  transform: rotate(-3.7deg);
+  display: inline-block;
+  margin-left: 6px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 500px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .hero-content {
+    padding: 1.5rem;
+  }
+
+  .tags-container {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    height: 400px;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-meta {
+    font-size: 0.875rem;
+    gap: 1rem;
+  }
+
+  .hero-meta span:not(:last-child)::after {
+    right: -0.75rem;
+  }
+
+  .hero-content {
+    padding: 1rem;
+  }
+
+  .tags-container {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .tag {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  .price-header h1 {
+    font-size: 34px;
+  }
 }

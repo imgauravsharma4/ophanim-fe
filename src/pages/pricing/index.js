@@ -5,9 +5,19 @@ import { options } from "../../utlis/config";
 
 const PricingPage = () => {
   return (
-    <div>
+    <div className='section-wrapper'>
       <div className='container'>
         <div className='row'>
+          <div className='col-xl-12'>
+            <div className='price-header'>
+              <h1>
+                Web Development <br /> Plans
+              </h1>
+              <p>
+                Choose the plan right for you <span>Let’s get started</span>
+              </p>
+            </div>
+          </div>
           {pricingDetails.map((item) => (
             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
               <div className='price-wrapper'>
