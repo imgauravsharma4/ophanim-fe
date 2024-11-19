@@ -4,8 +4,6 @@ import article from "../../assests/images/article.svg";
 import NewsCard from "../../Components/NewsCard/NewsCard";
 import VectorImg from "../../assests/images/Vector.svg"
 import Tick from '../../assests/images/tick.svg'
-import social1 from '../../assests/images/social1.svg'
-import Capa2 from '../../assests/images/Capa 2.svg'
 import social3 from '../../assests/images/social3.svg'
 
 const ViewArticle = () => {
@@ -13,25 +11,38 @@ const ViewArticle = () => {
     <div>
       <div className="container">
         <div>
-          <div class="hero-section" style={{ backgroundImage: `url(${Post})` }}>
-          </div>
-          <div>
-            <div>
-              <h3
-                className="position-absolute article-sub-heading"
-              >
-                5 Efficient Rules How to Organize
-                <br /> Your Working Place
-              </h3>
-            </div>
+          <div class="hero-container">
+            <div class="hero-section position-relative">
+              <div class="hero-bg"></div>
 
-            <p className=" position-absolute article-sub-heading1">Relationship tips couples therapists are giving all the time</p>
-            <div className="position-absolute article-sub-heading2">
-              <p style={{ fontSize: "20px" }}>by Joanna Wellick</p>
-              <span style={{ fontSize: "16px", marginTop: "5px" }}>2 minute read</span>
-              <span style={{ fontSize: "16px", marginTop: "5px" }}>views</span>
+              <div class="hero-content">
+                <div class="tags-container mb-4">
+                  <span class="tag">Aenean Eleifend</span>
+                  <span class="tag">Aenean Eleifend</span>
+                  <span class="tag">Aliquam</span>
+                </div>
+
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-lg-8">
+                      <h1 class="hero-title mb-3">
+                        5 Efficient Rules How to Organize Your Working Place
+                      </h1>
+                      <p class="hero-subtitle mb-4">
+                        Relationship tips couples therapists are giving all the time
+                      </p>
+                      <div class="hero-meta">
+                        <span class="author">by Joanna Wellick</span>
+                        <span class="read-time">2 minute read</span>
+                        <span class="views">13k views</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
           <div className="row">
             <div className="w-25% col-2" style={{ height: "83px", paddingTop: "100px" }}>
               <p className="left-no">966
