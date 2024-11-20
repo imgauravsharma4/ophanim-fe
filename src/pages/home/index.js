@@ -30,7 +30,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Services Section */}
       <div className="container">
         <div className="row">
           <div className="col-xl-12 col-sm-12 text-center">
