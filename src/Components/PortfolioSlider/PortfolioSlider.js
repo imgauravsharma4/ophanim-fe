@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import sliderImg from '../../assests/images/slideimg.png'
 import slider2 from '../../assests/images/slider2.png'
 import slider3 from '../../assests/images/slider3.png'
 
@@ -47,11 +46,10 @@ const PortfolioSlider = () => {
         autoPlay
         swipeable
         draggable
-        showDots
         infinite
         keyBoardControl
         containerClass="carousel-container"
-        dotListClass="custom-dot-list-style"
+        
       >
         {sliderImageUrl.map((imageUrl, index) => (
           <div key={index}>

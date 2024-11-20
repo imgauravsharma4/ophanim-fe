@@ -1322,3 +1322,10 @@ opacity: 0px;
 .bg-info {
   transition: all 0.3s ease;
 }
+.tabnav{
+  display: "inline-block";
+  border: "2px solid #E5E9F2",;
+  border-radius: "50px";
+  padding: "4px";
+ background: #FFF9EE
+}

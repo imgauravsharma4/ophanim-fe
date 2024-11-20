@@ -1,4 +1,3 @@
-import arrowPortfolio from '../../assests/images/portfoliio.svg'
 import React from "react";
 
 const PortfolioSection = () => (

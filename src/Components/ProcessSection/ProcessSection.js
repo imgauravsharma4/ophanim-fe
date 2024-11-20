@@ -12,44 +12,52 @@ const ProcessSection = () => (
         </p>
       </div>
     </div>
+    <div style={{
+      background: "#FFF9F0",
+      padding: "12px",
+      width: "fit-content",
+      margin: "0 auto",
+      borderRadius: "1000px"
+    }}>
+      <ul className="nav nav-pills  justify-content-center" id="pills-tab" role="tablist">
+        <li className="nav-item" role="presentation">
+          <button
+            className="nav-link active"
+            id="pills-seo-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-seo"
+            type="button"
+            role="tab"
+            aria-controls="pills-seo"
+            aria-selected="true"
+            style={{
+              color: "#061C3D"
+            }}
+          >
+            SEO Work
+          </button>
+        </li>
+        <li className="nav-item" role="presentation">
+          <button
+            className="nav-link"
+            id="pills-creative-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-creative"
+            type="button"
+            role="tab"
+            aria-controls="pills-creative"
+            aria-selected="false"
+            style={{ color: "#42526B" }}
+          >
 
-    <ul className="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-      <li className="nav-item" role="presentation">
-        <button
-          className="nav-link active"
-          id="pills-seo-tab"
-          data-bs-toggle="pill"
-          data-bs-target="#pills-seo"
-          type="button"
-          role="tab"
-          aria-controls="pills-seo"
-          aria-selected="true"
-          style={{
-            color: "#061C3D"
-          }}
-        >
-          SEO Work
-        </button>
-      </li>
-      <li className="nav-item" role="presentation">
-        <button
-          className="nav-link"
-          id="pills-creative-tab"
-          data-bs-toggle="pill"
-          data-bs-target="#pills-creative"
-          type="button"
-          role="tab"
-          aria-controls="pills-creative"
-          aria-selected="false"
-        style={{ color: "#42526B" }}
-        >
+            Creative Work
+          </button>
+        </li>
+      </ul>
+    </div>
 
-          Creative Work
-        </button>
-      </li>
-    </ul>
 
-    <div className="tab-content" id="pills-tabContent">
+    <div className="tab-content" id="pills-tabContent" style={{marginTop:"50px"}}>
       <div
         className="tab-pane fade show active"
         id="pills-seo"
