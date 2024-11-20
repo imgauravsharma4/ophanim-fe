@@ -1,5 +1,4 @@
 import React from "react";
-import Post from "../../assests/images/mainImage.svg";
 import article from "../../assests/images/article.svg";
 import NewsCard from "../../Components/NewsCard/NewsCard";
 import VectorImg from "../../assests/images/Vector.svg"
