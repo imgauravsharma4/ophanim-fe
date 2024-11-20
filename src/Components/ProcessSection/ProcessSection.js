@@ -13,7 +13,6 @@ const ProcessSection = () => (
             We understand the problem first, then make it go away....
           </p>
           
-          {/* Button Group */}
           <div className="d-flex justify-content-center gap-3 mb-4">
             <button className="btn btn-warning px-4 py-2 rounded-pill">
               SEO Work
@@ -25,12 +24,10 @@ const ProcessSection = () => (
         </div>
       </div>
   
-      {/* Process Cards */}
       <div className="row g-4">
-        {/* Tackling Problems */}
         <div className="col-12 col-md-4">
           <div className="text-center p-3">
-            <div className="bg-warning bg-opacity-25 p-3 rounded-circle d-inline-flex mb-3">
+            <div className="bg-warning bg-opacity-25 p-3 d-inline-flex mb-3 align-items-center justify-content-center" style={{width:"80px", borderRadius:"20px", height:"80px"}}>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-warning">
                 <circle cx="11" cy="11" r="8" />
                 <path d="m21 21-4.3-4.3" />
@@ -44,10 +41,9 @@ const ProcessSection = () => (
           </div>
         </div>
   
-        {/* Brainstorming */}
         <div className="col-12 col-md-4">
           <div className="text-center p-3">
-            <div className="bg-warning bg-opacity-25 p-3 rounded-circle d-inline-flex mb-3">
+            <div className="bg-warning bg-opacity-25 p-3 d-inline-flex mb-3 align-items-center justify-content-center" style={{width:"80px", borderRadius:"20px", height:"80px"}}>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-warning">
                 <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 1 7.92 12.446a1 1 0 0 1 -.813.493h-1.5a1 1 0 0 1 -1 -1v-2a1 1 0 0 0 -1 -1h-3a1 1 0 0 0 -1 1v2a1 1 0 0 1 -1 1h-1.5a1 1 0 0 1 -.813 -.493a7.5 7.5 0 0 1 7.92 -12.446" />
                 <path d="M12 8v3" />
@@ -62,10 +58,9 @@ const ProcessSection = () => (
           </div>
         </div>
   
-        {/* Engineered Approach */}
         <div className="col-12 col-md-4">
           <div className="text-center p-3">
-            <div className="bg-warning bg-opacity-25 p-3 rounded-circle d-inline-flex mb-3">
+            <div className="bg-warning bg-opacity-25 p-3 d-inline-flex  mb-3 align-items-center justify-content-center" style={{width:"80px", borderRadius:"20px", height:"80px"}}>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-warning">
                 <line x1="18" y1="20" x2="18" y2="10" />
                 <line x1="12" y1="20" x2="12" y2="4" />
