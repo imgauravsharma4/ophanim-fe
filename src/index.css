@@ -1306,3 +1306,28 @@ h1 {
     font-size: 34px;
   }
 }
+
+
+.custom-gradiant{
+  border:100px solid;
+  border-image-source: linear-gradient(296.17deg, #FFC700 31.52%, rgba(250, 250, 250, 0.64) 55.94%);
+gap: 0px;
+/* border: 850px 0px 0px 0px; */
+opacity: 0px;
+
+}
+
+
+.nav-pills .nav-link {
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+}
+.nav-pills .nav-link.active {
+  background-color: #ffc107;
+  color: #000;
+}
+.bg-warning,
+.bg-info {
+  transition: all 0.3s ease;
+}
