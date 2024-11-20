@@ -40,7 +40,7 @@ const sliderImageUrl = [
 
 const PortfolioSlider = () => {
   return (
-    <div className="portfolio-slider">
+    <div className='container'>
       <Carousel
         responsive={responsive}
         autoPlay
@@ -53,7 +53,7 @@ const PortfolioSlider = () => {
         dotListClass="custom-dot-list-style"
       >
         {sliderImageUrl.map((imageUrl, index) => (
-          <div className="slider-item" key={index}>
+          <div key={index}>
             <img src={imageUrl.url} alt={`slide-${index}`} className="slider-image" />
           </div>
         ))}
