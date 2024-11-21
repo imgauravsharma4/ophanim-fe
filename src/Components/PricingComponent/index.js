@@ -1,23 +1,29 @@
 import React from "react";
-import { pricingDetails } from "../../utlis/variables";
-import PriceCard from "../../Components/Cards/PriceCard";
+import { pricingCategory, pricingDetails } from "../../utlis/variables";
+import PriceCard from "../Cards/PriceCard";
 
-const PricingPage = () => {
+const PricingComponent = ({ type }) => {
+  const data = pricingDetails[type] ?? [];
   return (
     <div className='section-wrapper'>
       <div className='container'>
         <div className='row'>
           <div className='col-xl-12'>
             <div className='price-header'>
-              <h1>
-                Web Development <br /> Plans
-              </h1>
+              {type === pricingCategory.WEB ? (
+                <h1>
+                  Web Development <br /> Plans
+                </h1>
+              ) : (
+                <h1>{type} Plan</h1>
+              )}
+
               <p>
                 Choose the plan right for you <span>Let’s get started</span>
               </p>
             </div>
           </div>
-          {pricingDetails.map((item, index) => (
+          {data.map((item, index) => (
             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
               <PriceCard item={item} index={index} />
             </div>
@@ -28,4 +34,4 @@ const PricingPage = () => {
   );
 };
 
-export default PricingPage;
+export default PricingComponent;

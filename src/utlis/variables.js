@@ -338,95 +338,1392 @@ export const ContactInfoDetails = [
   },
 ];
 
-export const pricingDetails = [
-  {
-    type: options.PricingCategory.SILVER,
-    price: "$599",
-    tagline: "Essential Services",
-    lists: [
-      "Design Partially Custom – only 1 iteration",
-      "Layered Sliders - 05",
-      `Responsive Site (Desktop, Tablet, Mobile)`,
-      `Back-End User Management`,
-      `GUI Admin Panel`,
-      `Affliate Section`,
-      `Search Engine Friendly Structure`,
-      `Conversion Forms-up to 3`,
-      `Content Migration`,
-      `Web Hosting`,
-      `Hosted Emails-10`,
-      `Web maintenance work-5 hours/month`,
-    ],
-    packageLine: "CMS WordPress / Joomla! / C5 /Drupal",
-  },
-  {
-    type: options.PricingCategory.GOLD,
-    price: "$599",
-    tagline: "Essential Services",
-    lists: [
-      `Design Partially Custom – only 1 iteration`,
-      `Layered Sliders - 05`,
-      `Responsive Site (Desktop, Tablet, Mobile)`,
-      `Letterhead Design`,
-      `Custom Blog`,
-      `CMS Updates`,
-      `Front-End User Management`,
-      `Back-End User Management`,
-      `Social Logins`,
-      `Added Site Security`,
-      `GUI Admin Panel`,
-      `Shopping Cart`,
-      `Search Engine Friendly Structure`,
-      `Newsletter Module`,
-      `Google eCommerce Tracking`,
-      `Conversion Forms-up to 7`,
-      `Content Migration`,
-      `Products Migration-upto 300`,
-      `New Domain (optional)`,
-      `Web Hosting`,
-      `Hosted Emails-18`,
-      `Web maintenance work-10 hours/month`,
-    ],
-    packageLine:
-      "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
-  },
-  {
-    type: options.PricingCategory.PREMIUM,
-    price: "$599",
-    tagline: "Essential Services",
-    lists: [
-      `Design Partially Custom – only 1 iteration`,
-      `Layered Sliders - 05`,
-      `Responsive Site (Desktop, Tablet, Mobile)`,
-      `New Logo Design`,
-      `HTML Email Templates`,
-      `Letterhead Design`,
-      `Custom Blog`,
-      `CMS Updates`,
-      `Front-End User Management`,
-      `Back-End User Management`,
-      `Social Logins`,
-      `Added Site Security`,
-      `GUI Admin Panel`,
-      `Shopping Cart`,
-      `Dealer/ Affliate Section`,
-      `Search Engine Friendly Structure`,
-      `Newsletter Module`,
-      `Google eCommerce Tracking`,
-      `Conversion Forms-up to 15`,
-      `Content Migration`,
-      `Products Migration-upto 600`,
-      `Order Migration`,
-      `User Migration`,
-      `New Domain (optional)`,
-      `Web Hosting`,
-      `Hosted Emails-30`,
-      `Web maintenance work-25 hours/month`,
-    ],
-    packageLine:
-      "CMS Custom Framework / WordPress / Joomla! / C5/ Drupal / Magento / Prestashop / Shopify / BigCommerce",
-  },
-];
+export const pricingDetails = {
+  WEB: [
+    {
+      type: options.PricingCategory.SILVER,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "slider-icon",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "responsive-icon",
+          isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 /Drupal",
+          icon: "responsive-icon",
+          isHeading: true,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "user-management-icon",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "admin-panel-icon",
+          isHeading: false,
+        },
+        {
+          text: "Affiliate Section",
+          icon: "affiliate-icon",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "seo-icon",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 3",
+          icon: "forms-icon",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "migration-icon",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "hosting-icon",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-10",
+          icon: "email-icon",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-5 hours/month",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.GOLD,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: "",
+          isHeading: true,
+        },
+        {
+          text: "Letterhead Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Custom Blog",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Updates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Front-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Social Logins",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Added Site Security",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Shopping Cart",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Newsletter Module",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Google eCommerce Tracking",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 7",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Products Migration-upto 300",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Domain (optional)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-18",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-10 hours/month",
+          icon: "",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.PREMIUM,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Logo Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "HTML Email Templates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Custom Framework / WordPress / Joomla! / C5/ Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: "",
+          isHeading: true,
+        },
+        {
+          text: "Letterhead Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Custom Blog",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Updates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Front-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Social Logins",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Added Site Security",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Shopping Cart",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Dealer/ Affiliate Section",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Newsletter Module",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Google eCommerce Tracking",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 15",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Products Migration-upto 600",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Order Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "User Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Domain (optional)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-30",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-25 hours/month",
+          icon: "",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+  ],
+  SEO: [
+    {
+      type: options.PricingCategory.SILVER,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "slider-icon",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "responsive-icon",
+          isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 /Drupal",
+          icon: "responsive-icon",
+          isHeading: true,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "user-management-icon",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "admin-panel-icon",
+          isHeading: false,
+        },
+        {
+          text: "Affiliate Section",
+          icon: "affiliate-icon",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "seo-icon",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 3",
+          icon: "forms-icon",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "migration-icon",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "hosting-icon",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-10",
+          icon: "email-icon",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-5 hours/month",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.GOLD,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: "",
+          isHeading: true,
+        },
+        {
+          text: "Letterhead Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Custom Blog",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Updates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Front-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Social Logins",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Added Site Security",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Shopping Cart",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Newsletter Module",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Google eCommerce Tracking",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 7",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Products Migration-upto 300",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Domain (optional)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-18",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-10 hours/month",
+          icon: "",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.PREMIUM,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Logo Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "HTML Email Templates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Custom Framework / WordPress / Joomla! / C5/ Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: "",
+          isHeading: true,
+        },
+        {
+          text: "Letterhead Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Custom Blog",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Updates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Front-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Social Logins",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Added Site Security",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Shopping Cart",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Dealer/ Affiliate Section",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Newsletter Module",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Google eCommerce Tracking",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 15",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Products Migration-upto 600",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Order Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "User Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Domain (optional)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-30",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-25 hours/month",
+          icon: "",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+  ],
+  SMO: [
+    {
+      type: options.PricingCategory.SILVER,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "slider-icon",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "responsive-icon",
+          isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 /Drupal",
+          icon: "responsive-icon",
+          isHeading: true,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "user-management-icon",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "admin-panel-icon",
+          isHeading: false,
+        },
+        {
+          text: "Affiliate Section",
+          icon: "affiliate-icon",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "seo-icon",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 3",
+          icon: "forms-icon",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "migration-icon",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "hosting-icon",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-10",
+          icon: "email-icon",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-5 hours/month",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.GOLD,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: "",
+          isHeading: true,
+        },
+        {
+          text: "Letterhead Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Custom Blog",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Updates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Front-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Social Logins",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Added Site Security",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Shopping Cart",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Newsletter Module",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Google eCommerce Tracking",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 7",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Products Migration-upto 300",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Domain (optional)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-18",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-10 hours/month",
+          icon: "",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.PREMIUM,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Logo Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "HTML Email Templates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Custom Framework / WordPress / Joomla! / C5/ Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: "",
+          isHeading: true,
+        },
+        {
+          text: "Letterhead Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Custom Blog",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Updates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Front-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Social Logins",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Added Site Security",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Shopping Cart",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Dealer/ Affiliate Section",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Newsletter Module",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Google eCommerce Tracking",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 15",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Products Migration-upto 600",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Order Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "User Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Domain (optional)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-30",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-25 hours/month",
+          icon: "",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+  ],
+  PPC: [
+    {
+      type: options.PricingCategory.SILVER,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "slider-icon",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "responsive-icon",
+          isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 /Drupal",
+          icon: "responsive-icon",
+          isHeading: true,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "user-management-icon",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "admin-panel-icon",
+          isHeading: false,
+        },
+        {
+          text: "Affiliate Section",
+          icon: "affiliate-icon",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "seo-icon",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 3",
+          icon: "forms-icon",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "migration-icon",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "hosting-icon",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-10",
+          icon: "email-icon",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-5 hours/month",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.GOLD,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: "",
+          isHeading: true,
+        },
+        {
+          text: "Letterhead Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Custom Blog",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Updates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Front-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Social Logins",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Added Site Security",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Shopping Cart",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Newsletter Module",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Google eCommerce Tracking",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 7",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Products Migration-upto 300",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Domain (optional)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-18",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-10 hours/month",
+          icon: "",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.PREMIUM,
+      price: "$599",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Design Partially Custom – only 1 iteration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Layered Sliders - 05",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Logo Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "HTML Email Templates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Custom Framework / WordPress / Joomla! / C5/ Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: "",
+          isHeading: true,
+        },
+        {
+          text: "Letterhead Design",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Custom Blog",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "CMS Updates",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Front-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Back-End User Management",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Social Logins",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Added Site Security",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "GUI Admin Panel",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Shopping Cart",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Dealer/ Affiliate Section",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Search Engine Friendly Structure",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Newsletter Module",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Google eCommerce Tracking",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Conversion Forms-up to 15",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Content Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Products Migration-upto 600",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Order Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "User Migration",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "New Domain (optional)",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web Hosting",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Hosted Emails-30",
+          icon: "",
+          isHeading: false,
+        },
+        {
+          text: "Web maintenance work-25 hours/month",
+          icon: "",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+  ],
+};
 
 export const aboutUsData = {
   icon: aboutUs2,
@@ -489,3 +1786,10 @@ export const seoPlans = [
     isHighlighted: false,
   },
 ];
+
+export const pricingCategory = {
+  WEB: "WEB",
+  SEO: "SEO",
+  SMO: "SMO",
+  PPC: "PPC",
+};

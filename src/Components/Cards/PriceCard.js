@@ -27,32 +27,14 @@ const PriceCard = ({ item, index }) => {
       <div className='list'>
         <ul>
           {item.lists.map((listItem, index) => {
-            if (item.type === options.PricingCategory.SILVER && index === 3) {
+            if (listItem.isHeading) {
               return (
                 <li key={index}>
-                  <p>{item.packageLine}</p>
-                </li>
-              );
-            } else if (
-              item.type === options.PricingCategory.GOLD &&
-              index === 4
-            ) {
-              return (
-                <li key={index}>
-                  <p>{item.packageLine}</p>
-                </li>
-              );
-            } else if (
-              item.type === options.PricingCategory.PREMIUM &&
-              index === 5
-            ) {
-              return (
-                <li key={index}>
-                  <p>{item.packageLine}</p>
+                  <p>{listItem.text}</p>
                 </li>
               );
             }
-            return <ListItem key={index} item={listItem} index={index} />;
+            return <ListItem item={listItem.text} index={index} />;
           })}
         </ul>
       </div>

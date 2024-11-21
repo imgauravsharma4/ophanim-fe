@@ -34,8 +34,29 @@ const Navbar = () => {
             <li>
               <Link to={"/service"}>Services</Link>
             </li>
-            <li>
-              <Link to={"/pricing"}>Pricing</Link>
+            <li class='nav-item dropdown navbarItem-hover'>
+              <Link
+                href='#'
+                role='button'
+                data-bs-toggle='dropdown'
+                aria-expanded='false'
+              >
+                Pricing
+              </Link>
+              <ul class='dropdown-menu dropMenu active'>
+                <li>
+                  <Link to={'/seo'}>SEO Pricing</Link>
+                </li>
+                <li>
+                  <Link to={'/smo'}>SMO Pricing</Link>
+                </li>
+                <li>
+                  <Link to={'/ppc'}>PPC Pricing</Link>
+                </li>
+                <li>
+                  <Link to={"/web-development"}>Web Development</Link>
+                </li>
+              </ul>
             </li>
             <li>
               <Link to={"/news"}>News</Link>
