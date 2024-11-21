@@ -1,12 +1,13 @@
 import React from "react";
 import SliderContainer from "../../Components/Slide/SliderContainer";
 
-import { HomeChooseUsData, ServiceData } from "../../utlis/variables";
+import { HomeChooseUsData, seoPlans, ServiceData } from "../../utlis/variables";
 import Card from "../../Components/Cards/Card";
 import abcd from "../../assests/images/why-choose-us.png";
 import PortfolioSlider from "../../Components/PortfolioSlider/PortfolioSlider";
 import ProcessSection from "../../Components/ProcessSection/ProcessSection";
 import PortfolioSection from "../../Components/PortfolioSection/PortFolioSections";
+import PlansCard from "../../Components/Cards/Plans-Card";
 function Home() {
   return (
     <div>
@@ -92,10 +93,40 @@ function Home() {
         </div>
       </div>
      <ProcessSection/>
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+            <h2>SEO Plans</h2>
+            <p>Choose the plan right for you and let’s get started</p>
+          </div>
+          <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+            <div className="toggle-container ">
+              <button className="toggle-button active">Monthly</button>
+              <button className="toggle-button">Yearly</button>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          {seoPlans?.map((plan, index) => (
+            <div
+              className="col-xl-3 col-md-12 col-sm-12 mb-4"
+              key={`item${index}`}
+            >
+              <PlansCard
+                key={index}
+                planName={plan.planName}
+                price={plan.price}
+                features={plan.features}
+                isHighlighted={plan.isHighlighted}
+                icon={plan.icon}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
       <SliderContainer />
     </div>
   );
 }
 
 export default Home;
-

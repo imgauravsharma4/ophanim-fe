@@ -644,6 +644,127 @@ h1 {
   background: rgba(252, 249, 240, 1);
 }
 
+/* plans data */
+
+.subscription-section {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading-row {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.toggle-container {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #666;
+  font-weight: bold;
+}
+
+.toggle-button.active {
+  background-color: #ffc107;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.highlight {
+  background-color: #f0f9ff;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #004aad;
+}
+
+.seoplan-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.card .price {
+  font-size: 28px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card .price span {
+  font-size: 16px;
+  color: #888;
+}
+
+.card .description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.features li {
+  font-size: 14px;
+  color: #555;
+  padding: 5px 0;
+}
+
+.features .disabled {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.buy-button {
+  padding: 10px;
+  width: 170px;
+    border-radius: 7px;
+    color: #1b5faa;
+    font-weight: 600;
+    border: 1.5px solid #1b5faa;
+    background-color: transparent;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:8px;
+}
+
+.buy-button:hover {
+  background-color: #003078;
+}
 /* News Page */
 .button-container {
   display: flex;

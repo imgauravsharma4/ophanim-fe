@@ -4,6 +4,13 @@ import aboutUs2 from "../assests/images/aboutUs2.png";
 import YoutubeClipLogoStreamlineUltimate from "../assests/images/Youtube-Clip-Logo--Streamline-Ultimate.svg.png";
 import chooseUs from "../assests/images/chooseus2.svg";
 import Group from "../assests/images/Group 237606.svg";
+import SilverIcon from "../assests/images/silverIcon.png";
+import DiamondIcon from "../assests/images/dimondicon.png";
+import GoldIcon from "../assests/images/goldIcon.png";
+import PlatiniumIcon from "../assests/images/platiniumIcon.png";
+import checkBox from "../assests/images/Check Box.png";
+import emptyCheckBox from "../assests/images//Empty Check Box.png";
+
 import { options } from "./config";
 export const quickLinks = [
   {
@@ -427,3 +434,58 @@ export const aboutUsData = {
   content: `Ophanim Technologies is a leading digital platform that helps you outrank your competitors by providing top-notch Digital Marketing and Web Development services. We understand the business need to build a personalized brand, boost traffic, and create engaging web content. Our family of specialists provides top-performing strategies that rank, boost, and convert. We focus on building organic traffic and audience retention with high-ranking keywords and engaging content.`,
   content2: `Our work processes incorporate raw data tailored to current market trends and customer needs. With 100+ satisfied clients, we guarantee the highest ROI in the industry.`,
 };
+
+export const seoPlans = [
+  {
+    icon: SilverIcon,
+    planName: "Silver",
+    price: 599,
+    features: [
+      { icon: checkBox, text: "No. of Keywords - 30" },
+      { icon: checkBox, text: "Landing Page - 05" },
+      { icon: checkBox, text: "Backlinks Per Month - 120" },
+      { icon: emptyCheckBox, text: "Geotagging", disabled: true },
+      { icon: emptyCheckBox, text: "GBP (GMB)", disabled: true },
+    ],
+    isHighlighted: false,
+  },
+  {
+    icon: GoldIcon,
+    planName: "Gold",
+    price: 899,
+    features: [
+      { icon: checkBox, text: "No. of Keywords - 40" },
+      { icon: checkBox, text: "Landing Page - 10" },
+      { icon: checkBox, text: "Backlinks Per Month - 210" },
+      { icon: checkBox, text: "Geotagging" },
+      { icon: checkBox, text: "GBP (GMB)" },
+    ],
+    isHighlighted: true,
+  },
+  {
+    icon: PlatiniumIcon,
+    planName: "Platinum",
+    price: 1199,
+    features: [
+      { icon: checkBox, text: "No. of Keywords - 50" },
+      { icon: checkBox, text: "Landing Page - 15" },
+      { icon: checkBox, text: "Backlinks Per Month - 300" },
+      { icon: checkBox, text: "Geotagging" },
+      { icon: checkBox, text: "GBP (GMB)" },
+    ],
+    isHighlighted: false,
+  },
+  {
+    icon: DiamondIcon,
+    planName: "Diamond",
+    price: 1999,
+    features: [
+      { icon: checkBox, text: "No. of Keywords - 100" },
+      { icon: checkBox, text: "Landing Page - 20" },
+      { icon: checkBox, text: "Backlinks Per Month - 600" },
+      { icon: checkBox, text: "Geotagging" },
+      { icon: checkBox, text: "GBP (GMB)" },
+    ],
+    isHighlighted: false,
+  },
+];
