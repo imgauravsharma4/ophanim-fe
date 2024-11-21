@@ -334,7 +334,7 @@ export const ContactInfoDetails = [
 export const pricingDetails = [
   {
     type: options.PricingCategory.SILVER,
-    price: "$599/month",
+    price: "$599",
     tagline: "Essential Services",
     lists: [
       "Design Partially Custom – only 1 iteration",
@@ -350,10 +350,11 @@ export const pricingDetails = [
       `Hosted Emails-10`,
       `Web maintenance work-5 hours/month`,
     ],
+    packageLine: "CMS WordPress / Joomla! / C5 /Drupal",
   },
   {
     type: options.PricingCategory.GOLD,
-    price: "$599/month",
+    price: "$599",
     tagline: "Essential Services",
     lists: [
       `Design Partially Custom – only 1 iteration`,
@@ -379,10 +380,12 @@ export const pricingDetails = [
       `Hosted Emails-18`,
       `Web maintenance work-10 hours/month`,
     ],
+    packageLine:
+      "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
   },
   {
     type: options.PricingCategory.PREMIUM,
-    price: "$599/month",
+    price: "$599",
     tagline: "Essential Services",
     lists: [
       `Design Partially Custom – only 1 iteration`,
@@ -413,6 +416,8 @@ export const pricingDetails = [
       `Hosted Emails-30`,
       `Web maintenance work-25 hours/month`,
     ],
+    packageLine:
+      "CMS Custom Framework / WordPress / Joomla! / C5/ Drupal / Magento / Prestashop / Shopify / BigCommerce",
   },
 ];
 
