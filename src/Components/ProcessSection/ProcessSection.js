@@ -1,8 +1,12 @@
 import React from "react";
 
 const ProcessSection = () => (
-  <div className="container py-5">
-    <div className="row text-center mb-5">
+
+ <>
+
+<div style={{position:"relative"}}>
+<div className="container py-5">
+  <div className="row text-center mb-5">
       <div className="col-12">
         <h1 className="display-4 mb-3">Our Process</h1>
         <p className="text-muted mb-4">
@@ -255,7 +259,15 @@ const ProcessSection = () => (
         </div>
       </div>
     </div>
+  
+
+
   </div>
+  <div className="striped-background"></div>
+</div>
+  </> 
+ 
+
 );
 
 export default ProcessSection;

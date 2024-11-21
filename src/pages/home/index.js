@@ -55,7 +55,7 @@ function Home() {
         </div>
       </div>
   <PortfolioSection/>
-      <div >
+      <div  >
         <PortfolioSlider />
       </div>
       <div className="container">
