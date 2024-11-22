@@ -4,9 +4,6 @@ const ProcessSection = () => (
 
  <>
   <div>
-      
-
-
 <div className="container py-5">
   <div className="row text-center mb-5">
       <div className="col-12">
@@ -70,13 +67,16 @@ const ProcessSection = () => (
         role="tabpanel"
         aria-labelledby="pills-seo-tab"
       >
+        
         <div className="row g-4">
           <div className="col-12 col-md-4">
             <div className="text-center p-3">
+              
               <div
                 className="bg-warning bg-opacity-25 p-3 d-inline-flex mb-3 align-items-center justify-content-center"
                 style={{ width: "80px", borderRadius: "20px", height: "80px" }}
               >
+                
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -261,10 +261,21 @@ const ProcessSection = () => (
         </div>
       </div>
     </div>
+    <div >  <svg width="1000" height="500" viewBox="0 0 1595 1827" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M313.61 129.386C275.567 249.368 289.326 616.761 648.709 1126.47C1097.94 1763.61 1045.61 1656.83 1287.51 1909.71" stroke="url(#paint0_linear_86_4087)" stroke-width="850" stroke-dasharray="10 5"/>
+<defs>
+<linearGradient id="paint0_linear_86_4087" x1="974.701" y1="1669.3" x2="1299.06" y2="1305.37" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFC700"/>
+<stop offset="1" stop-color="#FAFAFA" stop-opacity="0.64"/>
+</linearGradient>
+</defs>
+</svg></div>
   
 
 
   </div>
+
+
 </div>
   </> 
  
