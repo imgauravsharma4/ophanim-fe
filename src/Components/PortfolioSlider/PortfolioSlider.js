@@ -132,7 +132,6 @@ const PortfolioSlider = () => {
         autoPlay
         swipeable
         draggable
-        infinite
         keyBoardControl
         // customButtonGroup={<CustomButtonGroup />}
         arrows={false}
