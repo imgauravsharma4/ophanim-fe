@@ -1324,15 +1324,5 @@ opacity: 0px;
   transition: all 0.3s ease;
 }
 
-.striped-background {
-  background-image: linear-gradient(to bottom right, #f2f2f2, #f2f2f2 25%, #e6e6e6 25%, #e6e6e6 50%, #f2f2f2 50%, #f2f2f2 75%, #e6e6e6 75%, #e6e6e6);
-  background-size: 20px 20px;
-  background-repeat: repeat;
-  width: 400px;
-  height: 300px;
-  padding: 100px 0 0 0;
-  position: absolute;
-  bottom: 0;
-  z-index:-1 ;
-}
+
 

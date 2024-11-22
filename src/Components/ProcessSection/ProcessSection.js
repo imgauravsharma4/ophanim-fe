@@ -1,10 +1,12 @@
 import React from "react";
-
+import gradBack from '../../assests/images/Vector 12.svg'
 const ProcessSection = () => (
 
  <>
+  <div>
+      
 
-<div style={{position:"relative"}}>
+
 <div className="container py-5">
   <div className="row text-center mb-5">
       <div className="col-12">
@@ -263,7 +265,6 @@ const ProcessSection = () => (
 
 
   </div>
-  <div className="striped-background"></div>
 </div>
   </> 
  
