@@ -11,10 +11,21 @@ import {
 } from "../../utlis/variables";
 import SliderContainer from "../../Components/Slide/SliderContainer";
 import ListItem from "../../Components/ListItem/ListItem";
+import PageHeader from "../../Components/PageHeader";
 
 const ServicePage = () => {
   return (
     <div>
+      <PageHeader
+        title={"Most In-Demand  "}
+        subTitle={"SMO Services in the USA"}
+        tagline={
+          "#1 SEO service provider company that helps you establish the online presence you deserve, ensuring your business stands out in the digital landscape."
+        }
+        buttonText={'Get a Quote'}
+        classes={'text-center'}
+      />
+
       <div className='container'>
         <div className='row'>
           <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
@@ -37,7 +48,7 @@ const ServicePage = () => {
         </div>
         <div className='row section-wrapper'>
           <div className='col-xl-12'>
-            <h4 className="mb-3">
+            <h4 className='mb-3'>
               Why Choose Ophanim As Your Social Media Optimization Agency?
             </h4>
             <p>

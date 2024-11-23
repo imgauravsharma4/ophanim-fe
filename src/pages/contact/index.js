@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ContactInfoDetails } from "../../utlis/variables";
 import emailjs from "@emailjs/browser";
+import PageHeader from "../../Components/PageHeader";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -33,7 +34,13 @@ const ContactPage = () => {
 
       if (response.status === 200) {
         setSuccessMessage("Your message has been sent successfully!");
-        setFormData({ name: "", email: "", number: "", subject: "", message: "" });
+        setFormData({
+          name: "",
+          email: "",
+          number: "",
+          subject: "",
+          message: "",
+        });
       } else {
         setSuccessMessage("Something went wrong. Please try again later.");
       }
@@ -46,30 +53,38 @@ const ContactPage = () => {
   return (
     <div>
       <div className='container'>
+        <PageHeader
+          title={"Get in touch with us."}
+          tagline={"We're here to assist you."}
+          classes={"text-left"}
+        />
+      </div>
+      <div className='container'>
         <form className='section-wrapper' onSubmit={handleSubmit}>
           <div className='row contact-wrapper'>
             <div className='col-xl-4 col-lg-4 col-md-12 col-sm-12'>
               <div className='input-field'>
                 <label htmlFor='name'>Your Name</label>
-                <input     
+                <input
                   type='text'
                   id='name'
                   placeholder='Enter your name'
                   value={formData.name}
                   onChange={handleInputChange}
-                  required />
+                  required
+                />
               </div>
             </div>
             <div className='col-xl-4 col-lg-4 col-md-12 col-sm-12'>
               <div className='input-field'>
                 <label htmlFor='email'>Email Address</label>
                 <input
-                 type='email'
-                 id='email'
-                 placeholder='Enter email address'
-                 value={formData.email}
-                 onChange={handleInputChange}
-                 required
+                  type='email'
+                  id='email'
+                  placeholder='Enter email address'
+                  value={formData.email}
+                  onChange={handleInputChange}
+                  required
                 />
               </div>
             </div>
@@ -77,41 +92,48 @@ const ContactPage = () => {
               <div className='input-field'>
                 <label htmlFor='number'>Phone Number (optional)</label>
                 <input
-                    type='number'
-                    id='number'
-                    placeholder='Enter Phone number'
-                    value={formData.number}
-                    onChange={handleInputChange}
+                  type='number'
+                  id='number'
+                  placeholder='Enter Phone number'
+                  value={formData.number}
+                  onChange={handleInputChange}
                 />
               </div>
             </div>
             <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12'>
               <div className='input-field'>
                 <label htmlFor='subject'>Subject</label>
-                <input    type='text'
+                <input
+                  type='text'
                   id='subject'
                   placeholder='Enter Subject'
                   value={formData.subject}
                   onChange={handleInputChange}
-                  required />
+                  required
+                />
               </div>
             </div>
             <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12'>
               <div className='input-field'>
                 <label htmlFor='message'>Message</label>
                 <textarea
-                 id='message'
-                 placeholder='Enter Message'
-                 rows={8}
-                 value={formData.message}
-                 onChange={handleInputChange}
-                 required
+                  id='message'
+                  placeholder='Enter Message'
+                  rows={8}
+                  value={formData.message}
+                  onChange={handleInputChange}
+                  required
                 ></textarea>
               </div>
             </div>
             <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 text-end'>
-              <button className='primary-button' type='submit'
-                disabled={loading}> {loading ? "Sending..." : "Send Message"}
+              <button
+                className='primary-button'
+                type='submit'
+                disabled={loading}
+              >
+                {" "}
+                {loading ? "Sending..." : "Send Message"}
               </button>
             </div>
           </div>

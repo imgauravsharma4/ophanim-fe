@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import LOGO from "../../assests/images/logo.svg";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <nav className='navbar navbar-sticky-top  navbar-expand-lg'>
+    <nav
+      className={`${isScrolled ? "sticky-top" : ""} navbar navbar-expand-lg `}
+    >
       <div className='container'>
         <Link className='navbar-brand navbar-logo' to={"/"}>
           <img src={LOGO} alt='Logo' />
@@ -45,13 +63,13 @@ const Navbar = () => {
               </Link>
               <ul class='dropdown-menu dropMenu active'>
                 <li>
-                  <Link to={'/seo'}>SEO Pricing</Link>
+                  <Link to={"/seo"}>SEO Pricing</Link>
                 </li>
                 <li>
-                  <Link to={'/smo'}>SMO Pricing</Link>
+                  <Link to={"/smo"}>SMO Pricing</Link>
                 </li>
                 <li>
-                  <Link to={'/ppc'}>PPC Pricing</Link>
+                  <Link to={"/ppc"}>PPC Pricing</Link>
                 </li>
                 <li>
                   <Link to={"/web-development"}>Web Development</Link>
