@@ -1490,3 +1490,14 @@ h1 {
   gap: 0.5rem;
   margin-top: 2rem;
 }
+.arrow {
+  position: absolute;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
