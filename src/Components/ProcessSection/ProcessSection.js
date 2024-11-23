@@ -1,5 +1,4 @@
 import React from 'react';
-import gradBack from '../../assests/images/Vector 12.svg';
 const ProcessSection = () => (
   <>
     <div>

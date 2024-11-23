@@ -14,7 +14,6 @@ import Ellipse26 from "../../assests/images/Ellipse 26.png";
 function Home() {
   return (
     <div>
-      {/* Hero Section */}
       <div className='homebg'>
         <section className='section-wrapper'>
           <div className='container'>
@@ -72,34 +71,11 @@ function Home() {
         </div>
       </section>
       <PortfolioSection />
-      <div style={{ marginBottom: "200px" }}>
-        <svg
-          viewBox='0 0 220 100'
-          xmlns='http://www.w3.org/2000/svg'
-          style={{ position: "absolute" }}
-        >
-          <defs>
-            <radialGradient
-              id='grad1'
-              cx='45%'
-              cy='45%'
-              r='50%'
-              fx='10%'
-              fy='30%'
-            >
-              <stop
-                offset='40%'
-                style={{ stopColor: "#FFFDB7", stopOpacity: "1" }}
-              />
-              <stop
-                offset='100%'
-                style={{ stopColor: "#FFF9E7", stopOpacity: "0" }}
-              />
-            </radialGradient>
-          </defs>
-          <circle cx='25' cy='125' r='50' fill='url(#grad1)' />
-        </svg>
+      <div >
         <PortfolioSlider />
+        <section className='section-background'>
+      <img src={Ellipse26} alt='' className='img-fluid ellipse-img' />
+      </section>
       </div>
       <div className='container'>
         <div className='row'>
@@ -134,7 +110,12 @@ function Home() {
           </div>
         </div>
       </div>
+      <div>
+ 
       <ProcessSection />
+
+
+      </div>
       <div className='container'>
         <div className='row'>
           <div className='col-xl-7 col-lg-7 col-md-12 col-sm-12'>
