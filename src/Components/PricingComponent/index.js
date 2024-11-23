@@ -29,24 +29,26 @@ const PricingComponent = ({ type }) => {
             </div>
           ))}
           <div className='price-for-mobile'>
-            <ul class='nav nav-tabs' id='myTab' role='tablist'>
-              {data.map((item, index) => (
-                <li class='nav-item' role='presentation' key={`key-${index}`}>
-                  <button
-                    class={`nav-link ${index === 0 && "active"}`}
-                    id={`${item.type}-tab`}
-                    data-bs-toggle='tab'
-                    data-bs-target={`#${item.type}-tab-pane`}
-                    type='button'
-                    role='tab'
-                    aria-controls={`${item.type}-tab-pane`}
-                    aria-selected='true'
-                  >
-                    {item.type}
-                  </button>
-                </li>
-              ))}
-            </ul>
+            <div className='price-tabs'>
+              <ul class='nav nav-tabs' id='myTab' role='tablist'>
+                {data.map((item, index) => (
+                  <li class='nav-item' role='presentation' key={`key-${index}`}>
+                    <button
+                      class={`nav-link ${index === 0 && "active"}`}
+                      id={`${item.type}-tab`}
+                      data-bs-toggle='tab'
+                      data-bs-target={`#${item.type}-tab-pane`}
+                      type='button'
+                      role='tab'
+                      aria-controls={`${item.type}-tab-pane`}
+                      aria-selected='true'
+                    >
+                      {item.type}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div class='tab-content' id='myTabContent'>
               {data.map((item, index) => (
                 <div

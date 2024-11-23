@@ -57,7 +57,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className='contact'>
-                <p>+130 735 73070</p>
+                <p>+1 307 357 3070</p>
                 <p>info@ophanimtechnologies.com</p>
               </div>
             </div>

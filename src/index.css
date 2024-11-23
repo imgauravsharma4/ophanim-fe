@@ -1367,6 +1367,44 @@ h1 {
 .price-for-mobile {
   display: none;
 }
+
+.price-tabs {
+  max-width: 786px;
+  overflow-x: scroll;
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+}
+.price-tabs ul {
+  border: none;
+  align-items: center;
+  width: max-content;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 10px;
+  background: #fff9ee;
+  border-radius: 50px;
+}
+
+.price-tabs ul li {
+  width: 100%;
+}
+
+.price-tabs ul li button {
+  border-radius: 50px !important;
+  border: none !important;
+  padding: 8px 30px;
+  background: transparent !important;
+  text-transform: capitalize;
+  transition: .5s all linear;
+}
+.price-tabs ul li button.active {
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 8px 30px !important;
+  background-color: #ffc759 !important;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .hero-section {
