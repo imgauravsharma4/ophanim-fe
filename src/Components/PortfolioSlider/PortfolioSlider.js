@@ -43,7 +43,7 @@ const PortfolioSlider = () => {
   ];
 
   return (
-    <div style={{ marginLeft: '110px', marginRight: '50px' }}>
+    <div className='container'>
       <Carousel
         customLeftArrow={<CustomLeft />}
         customRightArrow={<CustomRight />}
