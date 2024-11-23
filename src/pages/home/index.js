@@ -56,7 +56,33 @@ function Home() {
         </div>
       </div>
   <PortfolioSection/>
-      <div  >
+  <div style={{marginBottom: '200px'}}>
+        <svg
+          viewBox="0 0 220 100"
+          xmlns="http://www.w3.org/2000/svg"
+          style={{ position: 'absolute'}}
+        >
+          <defs>
+            <radialGradient
+              id="grad1"
+              cx="45%"
+              cy="45%"
+              r="50%"
+              fx="10%"
+              fy="30%"
+            >
+              <stop
+                offset="40%"
+                style={{ stopColor: '#FFFDB7', stopOpacity: '1' }}
+              />
+              <stop
+                offset="100%"
+                style={{ stopColor: '#FFF9E7', stopOpacity: '0' }}
+              />
+            </radialGradient>
+          </defs>
+          <circle cx="25" cy="125" r="50" fill="url(#grad1)" />
+        </svg>
         <PortfolioSlider />
       </div>
       <div className="container">

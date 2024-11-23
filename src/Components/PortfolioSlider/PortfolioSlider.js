@@ -79,6 +79,7 @@ const PortfolioSlider = () => {
             items: 2,
             partialVisibilityGutter: 30,
           },
+         
         }}
         shouldResetAutoplay
         slidesToSlide={1}
