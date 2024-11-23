@@ -111,10 +111,7 @@ function Home() {
         </div>
       </div>
       <div>
- 
       <ProcessSection />
-
-
       </div>
       <div className='container'>
         <div className='row'>
