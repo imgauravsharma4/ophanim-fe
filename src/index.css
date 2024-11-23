@@ -195,6 +195,21 @@ h1 {
   padding: 3rem 2rem;
   text-align: center;
 }
+.section-background {
+  position: relative;
+}
+
+.section-background .vector-img {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+.section-background .ellipse-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
 
 .services-header {
   font-size: 2.5rem;

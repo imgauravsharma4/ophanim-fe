@@ -9,6 +9,8 @@ import ProcessSection from "../../Components/ProcessSection/ProcessSection";
 import PortfolioSection from "../../Components/PortfolioSection/PortFolioSections";
 import PlansCard from "../../Components/Cards/Plans-Card";
 import Marketing from "../../assests/images/marketing.png";
+import Vector12 from "../../assests/images/Vector 12.png";
+import Ellipse26 from "../../assests/images/Ellipse 26.png";
 function Home() {
   return (
     <div>
@@ -41,31 +43,34 @@ function Home() {
           </div>
         </section>
       </div>
-
-      <div className='container'>
-        <div className='row'>
-          <div className='col-xl-12 col-sm-12 text-center'>
-            <h2 className='services-header'>Top Notch Services</h2>
-            <p className='services-subheader'>
-              Elevate your online presence with our comprehensive social media
-              service
-            </p>
-          </div>
-          {ServiceData?.map((item, index) => (
-            <div
-              className='col-xl-6 col-md-12 col-sm-12 mb-4'
-              key={`item${index}`}
-            >
-              <Card
-                classes='white-background'
-                icon={item.icon}
-                heading={item.heading}
-                content={item.content}
-              />
+      <section className='section-background'>
+        <img src={Vector12} alt='' className='img-fluid vector-img' />
+        <img src={Ellipse26} alt='' className='img-fluid ellipse-img' />
+        <div className='container'>
+          <div className='row'>
+            <div className='col-xl-12 col-sm-12 text-center'>
+              <h2 className='services-header'>Top Notch Services</h2>
+              <p className='services-subheader'>
+                Elevate your online presence with our comprehensive social media
+                service
+              </p>
             </div>
-          ))}
+            {ServiceData?.map((item, index) => (
+              <div
+                className='col-xl-6 col-md-12 col-sm-12 mb-4'
+                key={`item${index}`}
+              >
+                <Card
+                  classes='white-background'
+                  icon={item.icon}
+                  heading={item.heading}
+                  content={item.content}
+                />
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
       <PortfolioSection />
       <div style={{ marginBottom: "200px" }}>
         <svg
