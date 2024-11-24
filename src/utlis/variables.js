@@ -692,67 +692,497 @@ export const pricingDetails = {
       tagline: "Essential Services",
       lists: [
         {
-          text: "Design Partially Custom – only 1 iteration",
+          text: "No. of Keywords – 30",
           icon: "design-icon",
           isHeading: false,
         },
         {
-          text: "Layered Sliders - 05",
+          text: "Landing Page- 05",
           icon: "slider-icon",
           isHeading: false,
         },
         {
-          text: "Responsive Site (Desktop, Tablet, Mobile)",
+          text: " Backlinks Per Month - 120",
           icon: "responsive-icon",
           isHeading: false,
         },
         {
-          text: "CMS WordPress / Joomla! / C5 /Drupal",
+          text: "GBP (GMB)",
           icon: "responsive-icon",
-          isHeading: true,
+          isHeading: false,
         },
         {
-          text: "Back-End User Management",
+          text: "Geotagging",
           icon: "user-management-icon",
           isHeading: false,
         },
         {
-          text: "GUI Admin Panel",
+          text: "FIRST HAND SEO ANALYSIS",
           icon: "admin-panel-icon",
-          isHeading: false,
+          isHeading: true,
         },
         {
-          text: "Affiliate Section",
+          text: "Pre-Optimization Website",
           icon: "affiliate-icon",
           isHeading: false,
         },
         {
-          text: "Search Engine Friendly Structure",
+          text: "Competitor Analysis",
           icon: "seo-icon",
           isHeading: false,
         },
         {
-          text: "Conversion Forms-up to 3",
+          text: "Keyword Research & Analysis",
           icon: "forms-icon",
           isHeading: false,
         },
-        -{
-          text: "Content Migration",
+        {
+          text: " Baseline Ranking Check",
           icon: "migration-icon",
           isHeading: false,
         },
         {
-          text: "Web Hosting",
+          text: "Duplicate Content Check",
           icon: "hosting-icon",
           isHeading: false,
         },
         {
-          text: "Hosted Emails-10",
+          text: "Google Penalty Check",
           icon: "email-icon",
           isHeading: false,
         },
         {
-          text: "Web maintenance work-5 hours/month",
+          text: "Backlink Analysis (if required)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "ON-SITE OPTIMIZATION ACTIVITIES",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Title Tag Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "META Description Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Website Canonical Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Heading Tags Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Image Alt Tags Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Content Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "SEO Friendly URL Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Site Navigation Analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "404 Page Implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Broken Links Check",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Website Speed Check",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Indexed Pages Check",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google XML Sitemap",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Robots.txt Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Analytics Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Webmasters Tool Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Structured Data Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "On Site Blog Section Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "On Site Blog Posting - 1",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Setup of Website HTML Sitemap",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Keyword Mapping To Target Pages",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Initial External Link Analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "linking Restructuring & Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Meta Robots Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Language Tags Open Graph Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Twitter Tags Email id Clickable",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Phone Number Clickable",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Copyright Tags implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Schema Implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Analytics traffic analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ongoing quarterly keyword ranking reporting",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Ongoing quarterly competitor conquest reports",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Business Profile optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Search Engine Submission (One Time Task)-10",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Article Writing-1",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Article Posting-1",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Article Bookmarking-10",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Classified Submissions-10",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Writing-1",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Posting-1",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Bookmarking-10",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Business Listing-4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Image sharing-5",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PPT Submissions-1",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Social Bookmarking-20",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PDF Sharing-1",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Profile Creation-4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Quora Answering-1",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Video Marketing (if Client provides)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Writing-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Distribution-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Promotion-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Guest Blog Outreach-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Guest Blog Promotion-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Writing-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Distribution-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Promotion",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release (if Client provides)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "FACEBOOK",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Facebook Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Facebook Fan Page Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Facebook Posting & Sharing",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "INSTAGRAM",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Instagram Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Instagram Posting & Sharing",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Instagram Posting & Sharing",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "TWITTER",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Twitter Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Twitter Post",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PINTEREST",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Account Creation/Management",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Pinterest Followers",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Updating of pin boards",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Pins (If Client Provides Images)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "MONTHLY REPORTS",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Monthly Keywords Ranking Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Monthly Website Analytics Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Monthly Off Page Submission Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "CUSTOMER SUPPORT",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Email",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Phone",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Chat",
           icon: "maintenance-icon",
           isHeading: false,
         },
@@ -761,270 +1191,1494 @@ export const pricingDetails = {
     },
     {
       type: options.PricingCategory.GOLD,
-      price: "$599",
+      price: "$899",
       tagline: "Essential Services",
       lists: [
         {
-          text: "Design Partially Custom – only 1 iteration",
-          icon: "",
+          text: "No. of Keywords – 40",
+          icon: "design-icon",
           isHeading: false,
         },
         {
-          text: "Layered Sliders - 05",
-          icon: "",
+          text: "Landing Page- 10",
+          icon: "slider-icon",
           isHeading: false,
         },
         {
-          text: "Responsive Site (Desktop, Tablet, Mobile)",
-          icon: "",
+          text: " Backlinks Per Month - 210",
+          icon: "responsive-icon",
           isHeading: false,
         },
         {
-          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
-          icon: "",
+          text: "GBP (GMB)",
+          icon: "responsive-icon",
+          isHeading: false,
+        },
+        {
+          text: "Geotagging",
+          icon: "user-management-icon",
+          isHeading: false,
+        },
+        {
+          text: "FIRST HAND SEO ANALYSIS",
+          icon: "admin-panel-icon",
           isHeading: true,
         },
         {
-          text: "Letterhead Design",
-          icon: "",
+          text: "Pre-Optimization Website",
+          icon: "affiliate-icon",
           isHeading: false,
         },
         {
-          text: "Custom Blog",
-          icon: "",
+          text: "Competitor Analysis",
+          icon: "seo-icon",
           isHeading: false,
         },
         {
-          text: "CMS Updates",
-          icon: "",
+          text: "Keyword Research & Analysis",
+          icon: "forms-icon",
           isHeading: false,
         },
         {
-          text: "Front-End User Management",
-          icon: "",
+          text: " Baseline Ranking Check",
+          icon: "migration-icon",
           isHeading: false,
         },
         {
-          text: "Back-End User Management",
-          icon: "",
+          text: "Duplicate Content Check",
+          icon: "hosting-icon",
           isHeading: false,
         },
         {
-          text: "Social Logins",
-          icon: "",
+          text: "Google Penalty Check",
+          icon: "email-icon",
           isHeading: false,
         },
         {
-          text: "Added Site Security",
-          icon: "",
+          text: "Backlink Analysis (if required)",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "GUI Admin Panel",
-          icon: "",
+          text: "ON-SITE OPTIMIZATION ACTIVITIES",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Title Tag Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Shopping Cart",
-          icon: "",
+          text: "META Description Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Search Engine Friendly Structure",
-          icon: "",
+          text: "Website Canonical Tags",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Newsletter Module",
-          icon: "",
+          text: "Heading Tags Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Google eCommerce Tracking",
-          icon: "",
+          text: " Image Alt Tags Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Conversion Forms-up to 7",
-          icon: "",
+          text: "Content Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Content Migration",
-          icon: "",
+          text: "SEO Friendly URL Setup",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Products Migration-upto 300",
-          icon: "",
+          text: "Site Navigation Analysis",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "New Domain (optional)",
-          icon: "",
+          text: "404 Page Implementation",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Web Hosting",
-          icon: "",
+          text: "Broken Links Check",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Hosted Emails-18",
-          icon: "",
+          text: "Website Speed Check",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Web maintenance work-10 hours/month",
-          icon: "",
+          text: "Google Indexed Pages Check",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google XML Sitemap",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Robots.txt Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Analytics Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Webmasters Tool Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Structured Data Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "On Site Blog Section Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "On Site Blog Posting - 2",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Setup of Website HTML Sitemap",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Keyword Mapping To Target Pages",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Initial External Link Analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "linking Restructuring & Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Meta Robots Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Language Tags Open Graph Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Twitter Tags Email id Clickable",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Phone Number Clickable",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Copyright Tags implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Schema Implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Analytics traffic analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ongoing quarterly keyword ranking reporting",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Ongoing quarterly competitor conquest reports",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Business Profile optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Search Engine Submission (One Time Task)-20",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Article Writing-2",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Article Posting-2",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Article Bookmarking-20",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Classified Submissions-15",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Writing-2",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Posting-2",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Bookmarking-20",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Business Listing-6",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Image sharing-10",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PPT Submissions-1",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Social Bookmarking-30",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PDF Sharing-2",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Profile Creation-6",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Quora Answering-2",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Video Marketing (if Client provides)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Writing-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Distribution-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Promotion-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Guest Blog Outreach-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Guest Blog Promotion-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Writing-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Distribution-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Promotion",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release (if Client provides)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "FACEBOOK",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Facebook Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Facebook Fan Page Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Facebook Posting & Sharing - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "INSTAGRAM",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Instagram Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Instagram Posting & Sharing - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "TWITTER",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Twitter Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Twitter Post - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PINTEREST",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Account Creation/Management",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Pinterest Followers",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Updating of pin boards",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Pins (If Client Provides Images)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "MONTHLY REPORTS",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Monthly Keywords Ranking Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Monthly Website Analytics Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Monthly Off Page Submission Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "CUSTOMER SUPPORT",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Email",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Phone",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Chat",
+          icon: "maintenance-icon",
           isHeading: false,
         },
       ],
       packageLine: "",
     },
     {
-      type: options.PricingCategory.PREMIUM,
+      type: options.PricingCategory.PLATINUM,
+      price: "$1199",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "No. of Keywords – 50",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Landing Page - 15",
+          icon: "slider-icon",
+          isHeading: false,
+        },
+        {
+          text: " Backlinks Per Month - 300",
+          icon: "responsive-icon",
+          isHeading: false,
+        },
+        {
+          text: "GBP (GMB)",
+          icon: "responsive-icon",
+          isHeading: false,
+        },
+        {
+          text: "Geotagging",
+          icon: "user-management-icon",
+          isHeading: false,
+        },
+        {
+          text: "FIRST HAND SEO ANALYSIS",
+          icon: "admin-panel-icon",
+          isHeading: true,
+        },
+        {
+          text: "Pre-Optimization Website",
+          icon: "affiliate-icon",
+          isHeading: false,
+        },
+        {
+          text: "Competitor Analysis",
+          icon: "seo-icon",
+          isHeading: false,
+        },
+        {
+          text: "Keyword Research & Analysis",
+          icon: "forms-icon",
+          isHeading: false,
+        },
+        {
+          text: " Baseline Ranking Check",
+          icon: "migration-icon",
+          isHeading: false,
+        },
+        {
+          text: "Duplicate Content Check",
+          icon: "hosting-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Penalty Check",
+          icon: "email-icon",
+          isHeading: false,
+        },
+        {
+          text: "Backlink Analysis (if required)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "ON-SITE OPTIMIZATION ACTIVITIES",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Title Tag Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "META Description Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Website Canonical Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Heading Tags Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Image Alt Tags Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Content Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "SEO Friendly URL Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Site Navigation Analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "404 Page Implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Broken Links Check",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Website Speed Check",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Indexed Pages Check",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google XML Sitemap",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Robots.txt Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Analytics Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Webmasters Tool Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Structured Data Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "On Site Blog Section Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "On Site Blog Posting - 3",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Setup of Website HTML Sitemap",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Keyword Mapping To Target Pages",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Initial External Link Analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "linking Restructuring & Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Meta Robots Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Language Tags Open Graph Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Twitter Tags Email id Clickable",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Phone Number Clickable",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Copyright Tags implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Schema Implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Analytics traffic analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ongoing quarterly keyword ranking reporting",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Ongoing quarterly competitor conquest reports",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Business Profile optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Search Engine Submission (One Time Task) - 30",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Article Writing - 3",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Article Posting - 3",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Article Bookmarking - 20",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Classified Submissions - 20",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Writing - 3",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Posting - 3",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Bookmarking - 30",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Business Listing - 8",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Image sharing - 15",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PPT Submissions - 3",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Social Bookmarking - 40",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PDF Sharing - 3",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Profile Creation - 8",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Quora Answering - 3",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Video Marketing (if Client provides)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Writing-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Distribution-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Promotion-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Guest Blog Outreach-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Guest Blog Promotion-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Writing-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Distribution-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Promotion",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release (if Client provides)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "FACEBOOK",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Facebook Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Facebook Fan Page Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Facebook Posting & Sharing-8",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "INSTAGRAM",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Instagram Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Instagram Posting & Sharing-8",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+
+        {
+          text: "TWITTER",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Twitter Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Twitter Post-8",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PINTEREST",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Account Creation/Management",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Pinterest Followers",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Updating of pin boards-6",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Pins (If Client Provides Images)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "MONTHLY REPORTS",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Monthly Keywords Ranking Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Monthly Website Analytics Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Monthly Off Page Submission Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "CUSTOMER SUPPORT",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Email",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Phone",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Chat",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.DIAMOND,
       price: "$599",
       tagline: "Essential Services",
       lists: [
         {
-          text: "Design Partially Custom – only 1 iteration",
-          icon: "",
+          text: "No. of Keywords–30",
+          icon: "design-icon",
           isHeading: false,
         },
         {
-          text: "Layered Sliders - 05",
-          icon: "",
+          text: "Landing Page- 05",
+          icon: "slider-icon",
           isHeading: false,
         },
         {
-          text: "Responsive Site (Desktop, Tablet, Mobile)",
-          icon: "",
+          text: " Backlinks Per Month-120",
+          icon: "responsive-icon",
           isHeading: false,
         },
         {
-          text: "New Logo Design",
-          icon: "",
+          text: "GBP (GMB)",
+          icon: "responsive-icon",
           isHeading: false,
         },
         {
-          text: "HTML Email Templates",
-          icon: "",
+          text: "Geotagging",
+          icon: "user-management-icon",
           isHeading: false,
         },
         {
-          text: "CMS Custom Framework / WordPress / Joomla! / C5/ Drupal / Magento / Prestashop / Shopify / BigCommerce",
-          icon: "",
+          text: "FIRST HAND SEO ANALYSIS",
+          icon: "admin-panel-icon",
           isHeading: true,
         },
         {
-          text: "Letterhead Design",
-          icon: "",
+          text: "Pre-Optimization Website",
+          icon: "affiliate-icon",
           isHeading: false,
         },
         {
-          text: "Custom Blog",
-          icon: "",
+          text: "Competitor Analysis",
+          icon: "seo-icon",
           isHeading: false,
         },
         {
-          text: "CMS Updates",
-          icon: "",
+          text: "Keyword Research & Analysis",
+          icon: "forms-icon",
           isHeading: false,
         },
         {
-          text: "Front-End User Management",
-          icon: "",
+          text: " Baseline Ranking Check",
+          icon: "migration-icon",
           isHeading: false,
         },
         {
-          text: "Back-End User Management",
-          icon: "",
+          text: "Duplicate Content Check",
+          icon: "hosting-icon",
           isHeading: false,
         },
         {
-          text: "Social Logins",
-          icon: "",
+          text: "Google Penalty Check",
+          icon: "email-icon",
           isHeading: false,
         },
         {
-          text: "Added Site Security",
-          icon: "",
+          text: "Backlink Analysis (if required)",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "GUI Admin Panel",
-          icon: "",
+          text: "ON-SITE OPTIMIZATION ACTIVITIES",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Title Tag Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Shopping Cart",
-          icon: "",
+          text: "META Description Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Dealer/ Affiliate Section",
-          icon: "",
+          text: "Website Canonical Tags",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Search Engine Friendly Structure",
-          icon: "",
+          text: "Heading Tags Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Newsletter Module",
-          icon: "",
+          text: " Image Alt Tags Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Google eCommerce Tracking",
-          icon: "",
+          text: "Content Optimization",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Conversion Forms-up to 15",
-          icon: "",
+          text: "SEO Friendly URL Setup",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Content Migration",
-          icon: "",
+          text: "Site Navigation Analysis",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Products Migration-upto 600",
-          icon: "",
+          text: "404 Page Implementation",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Order Migration",
-          icon: "",
+          text: "Broken Links Check",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "User Migration",
-          icon: "",
+          text: "Website Speed Check",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "New Domain (optional)",
-          icon: "",
+          text: "Google Indexed Pages Check",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Web Hosting",
-          icon: "",
+          text: "Google XML Sitemap",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Hosted Emails-30",
-          icon: "",
+          text: "Robots.txt Creation",
+          icon: "maintenance-icon",
           isHeading: false,
         },
         {
-          text: "Web maintenance work-25 hours/month",
-          icon: "",
+          text: "Google Analytics Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Webmasters Tool Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Structured Data Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "On Site Blog Section Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "On Site Blog Posting - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Setup of Website HTML Sitemap",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Keyword Mapping To Target Pages",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Initial External Link Analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "linking Restructuring & Optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Meta Robots Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Language Tags Open Graph Tags",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Twitter Tags Email id Clickable",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Phone Number Clickable",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Copyright Tags implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Schema Implementation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Analytics traffic analysis",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ongoing quarterly keyword ranking reporting",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Ongoing quarterly competitor conquest reports",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google Business Profile optimization",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Search Engine Submission (One Time Task) - 40",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Article Writing - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Article Posting - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Article Bookmarking - 40",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Classified Submissions - 25",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Writing - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Posting - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Blog Bookmarking - 40",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Business Listing - 10",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Image sharing - 20",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PPT Submissions - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Social Bookmarking - 50",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PDF Sharing - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Profile Creation - 10",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Quora Answering - 4",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Video Marketing (if Client provides)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Writing",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Distribution",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release Promotion",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Guest Blog Outreach",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Guest Blog Promotion",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Writing-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Distribution-(N/A)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Premium Press Release Promotion",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Press Release (if Client provides)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "FACEBOOK",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Facebook Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Facebook Fan Page Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Facebook Posting & Sharing - 16",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "INSTAGRAM",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Instagram Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Instagram Posting & Sharing - 16",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "TWITTER",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Twitter Profile Creation",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Twitter Post - 12",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "PINTEREST",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Account Creation/Management",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Pinterest Followers",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Updating of pin boards - 12",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Pins (If Client Provides Images)",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "MONTHLY REPORTS",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Monthly Keywords Ranking Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Monthly Website Analytics Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: " Monthly Off Page Submission Report",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "CUSTOMER SUPPORT",
+          icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Email",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Phone",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Chat",
+          icon: "maintenance-icon",
           isHeading: false,
         },
       ],
@@ -1034,7 +2688,7 @@ export const pricingDetails = {
   SMO: [
     {
       type: options.PricingCategory.SILVER,
-      price: "$599",
+      price: "$298",
       tagline: "Essential Services",
       lists: [
         {
@@ -1053,12 +2707,12 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Monthly Creative Creation-4",
+          text: "Monthly Creative Creation - 4",
           icon: "responsive-icon",
           isHeading: false,
         },
         {
-          text: "Monthly Postings-4",
+          text: "Monthly Postings - 4",
           icon: "user-management-icon",
           isHeading: false,
         },
@@ -1232,7 +2886,7 @@ export const pricingDetails = {
     },
     {
       type: options.PricingCategory.GOLD,
-      price: "$599",
+      price: "$348",
       tagline: "Essential Services",
       lists: [
         {
@@ -1251,12 +2905,12 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Monthly Creative Creation-4",
+          text: "Monthly Creative Creation - 8",
           icon: "responsive-icon",
           isHeading: false,
         },
         {
-          text: "Monthly Postings-4",
+          text: "Monthly Postings - 8",
           icon: "user-management-icon",
           isHeading: false,
         },
@@ -1429,8 +3083,8 @@ export const pricingDetails = {
       packageLine: "",
     },
     {
-      type: options.PricingCategory.PREMIUM,
-      price: "$599",
+      type: options.PricingCategory.PLATINUM,
+      price: "$498",
       tagline: "Essential Services",
       lists: [
         {
@@ -1449,12 +3103,12 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Monthly Creative Creation-4",
+          text: "Monthly Creative Creation - 16",
           icon: "responsive-icon",
           isHeading: false,
         },
         {
-          text: "Monthly Postings-4",
+          text: "Monthly Postings - 16",
           icon: "user-management-icon",
           isHeading: false,
         },
@@ -1630,13 +3284,33 @@ export const pricingDetails = {
   PPC: [
     {
       type: options.PricingCategory.SILVER,
-      price: "$599",
+      price: "$299",
       tagline: "Essential Services",
       lists: [
         {
-          text: "Silver Tasks",
+          text: "Setup Fee - $199",
           icon: "design-icon",
           isHeading: false,
+        },
+        {
+          text: "Advertising Budget – upto $999/month",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Full Optimizations – 1/month",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ad Groups – Up To 5",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Silver Tasks",
+          icon: "design-icon",
+          isHeading: true,
         },
         {
           text: "A/B Test",
@@ -1721,7 +3395,7 @@ export const pricingDetails = {
         {
           text: "Client Support",
           icon: "maintenance-icon",
-          isHeading: false,
+          isHeading: true,
         },
         {
           text: "Chat",
@@ -1743,9 +3417,29 @@ export const pricingDetails = {
     },
     {
       type: options.PricingCategory.GOLD,
-      price: "$599",
+      price: "$399",
       tagline: "Essential Services",
       lists: [
+        {
+          text: "Setup Fee - $349",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Advertising Budget – upto $1999/month",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Full Optimizations – 2/month",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ad Groups – Up To 10",
+          icon: "design-icon",
+          isHeading: false,
+        },
         {
           text: "Silver Tasks",
           icon: "design-icon",
@@ -1757,7 +3451,7 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Keywords Up To 50",
+          text: "Keywords Up To 100",
           icon: "responsive-icon",
           isHeading: false,
         },
@@ -1834,7 +3528,7 @@ export const pricingDetails = {
         {
           text: "Client Support",
           icon: "maintenance-icon",
-          isHeading: false,
+          isHeading: true,
         },
         {
           text: "Chat",
@@ -1855,10 +3549,30 @@ export const pricingDetails = {
       packageLine: "",
     },
     {
-      type: options.PricingCategory.PREMIUM,
-      price: "$599",
+      type: options.PricingCategory.PLATINUM,
+      price: "$549",
       tagline: "Essential Services",
       lists: [
+        {
+          text: "Setup Fee - $449",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Advertising Budget – upto $2999/month",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Full Optimizations – 3/month",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ad Groups – Up To 20",
+          icon: "design-icon",
+          isHeading: false,
+        },
         {
           text: "Silver Tasks",
           icon: "design-icon",
@@ -1870,7 +3584,7 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Keywords Up To 50",
+          text: "Keywords Up To 200",
           icon: "responsive-icon",
           isHeading: false,
         },
@@ -1947,7 +3661,140 @@ export const pricingDetails = {
         {
           text: "Client Support",
           icon: "maintenance-icon",
+          isHeading: true,
+        },
+        {
+          text: "Chat",
+          icon: "maintenance-icon",
           isHeading: false,
+        },
+        {
+          text: "Email",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Phone",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+      ],
+      packageLine: "",
+    },
+    {
+      type: options.PricingCategory.DIAMOND,
+      price: "$699",
+      tagline: "Essential Services",
+      lists: [
+        {
+          text: "Setup Fee - $599",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Advertising Budget – upto $2999/month",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Full Optimizations – 5/month",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ad Groups – Up To 40",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "Silver Tasks",
+          icon: "design-icon",
+          isHeading: false,
+        },
+        {
+          text: "A/B Test",
+          icon: "slider-icon",
+          isHeading: false,
+        },
+        {
+          text: "Keywords Up To 500",
+          icon: "responsive-icon",
+          isHeading: false,
+        },
+        {
+          text: "Negative Keywords",
+          icon: "responsive-icon",
+          isHeading: true,
+        },
+        {
+          text: "Conversion Tracking",
+          icon: "user-management-icon",
+          isHeading: false,
+        },
+        {
+          text: " Monthly Reporting",
+          icon: "admin-panel-icon",
+          isHeading: false,
+        },
+        {
+          text: "No Contracts",
+          icon: "affiliate-icon",
+          isHeading: false,
+        },
+        {
+          text: "Ad Networks",
+          icon: "seo-icon",
+          isHeading: false,
+        },
+        {
+          text: "Google",
+          icon: "forms-icon",
+          isHeading: false,
+        },
+        {
+          text: "Yahoo",
+          icon: "migration-icon",
+          isHeading: false,
+        },
+        {
+          text: "Bing",
+          icon: "hosting-icon",
+          isHeading: false,
+        },
+        {
+          text: "FB",
+          icon: "email-icon",
+          isHeading: false,
+        },
+        {
+          text: "Mobile Ads",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Call Extensions",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Sitelink Extensions",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Monthly Conference Calls",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Display/Image Ads",
+          icon: "maintenance-icon",
+          isHeading: false,
+        },
+        {
+          text: "Client Support",
+          icon: "maintenance-icon",
+          isHeading: true,
         },
         {
           text: "Chat",
