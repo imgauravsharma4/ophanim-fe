@@ -860,6 +860,16 @@ h1 {
   font-size: 1rem;
 }
 
+.vector_12-background {
+  position: relative;
+}
+
+.vector_12-background .vector_12_img {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
 /* Responsive adjustments for smaller devices */
 @media (max-width: 768px) {
   .sub-main-heading {
@@ -1095,10 +1105,6 @@ h1 {
 .slider img {
   width: 80%;
   border-radius: 10px;
-}
-
-.react-multi-carousel-list {
-  padding: 0rem 0 2rem 0;
 }
 
 .custom-dot-list-style button {
@@ -1388,6 +1394,83 @@ h1 {
   background-color: #ffc759 !important;
 }
 
+.custom-gradiant {
+  border: 100px solid;
+  border-image-source: linear-gradient(
+    296.17deg,
+    #ffc700 31.52%,
+    rgba(250, 250, 250, 0.64) 55.94%
+  );
+  gap: 0px;
+  /* border: 850px 0px 0px 0px; */
+  opacity: 0px;
+}
+
+.nav-pills .nav-link {
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+}
+.nav-pills .nav-link.active {
+  background-color: #ffc107;
+  color: #000;
+}
+.bg-warning,
+.bg-info {
+  transition: all 0.3s ease;
+}
+.tabnav {
+  display: "inline-block";
+  border: "2px solid #E5E9F2";
+  border-radius: "50px";
+  padding: "4px";
+  background: #fff9ee;
+}
+
+.react-multi-carousel-item {
+  transition: all 0.3s ease;
+}
+
+.react-multi-carousel-item--active {
+  transform: scale(1);
+}
+
+/* Optional: Add custom styling for the button group */
+.custom-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+.arrowButton {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #d3ebf9;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.arrowButton svg {
+  color: #000000;
+  font-size: 30px;
+}
+
+.portfolio-slider
+  .react-multi-carousel-list
+  .react-multi-carousel-track
+  .react-multi-carousel-item {
+  padding: 0px 7px;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .hero-section {
@@ -1457,68 +1540,4 @@ h1 {
   .price-header h1 {
     font-size: 34px;
   }
-}
-
-.custom-gradiant {
-  border: 100px solid;
-  border-image-source: linear-gradient(
-    296.17deg,
-    #ffc700 31.52%,
-    rgba(250, 250, 250, 0.64) 55.94%
-  );
-  gap: 0px;
-  /* border: 850px 0px 0px 0px; */
-  opacity: 0px;
-}
-
-.nav-pills .nav-link {
-  font-weight: bold;
-  border-radius: 50px;
-  padding: 0.5rem 1.5rem;
-}
-.nav-pills .nav-link.active {
-  background-color: #ffc107;
-  color: #000;
-}
-.bg-warning,
-.bg-info {
-  transition: all 0.3s ease;
-}
-.tabnav {
-  display: "inline-block";
-  border: "2px solid #E5E9F2";
-  border-radius: "50px";
-  padding: "4px";
-  background: #fff9ee;
-}
-
-.react-multi-carousel-list {
-  padding: 0 0 2rem 0;
-}
-
-.react-multi-carousel-item {
-  transition: all 0.3s ease;
-}
-
-.react-multi-carousel-item--active {
-  transform: scale(1);
-}
-
-/* Optional: Add custom styling for the button group */
-.custom-button-group {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 2rem;
-}
-.arrow {
-  position: absolute;
-}
-
-.right {
-  right: 0;
-}
-
-.left {
-  left: 0;
 }

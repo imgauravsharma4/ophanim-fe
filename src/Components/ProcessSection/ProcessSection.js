@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
+import Vector_12 from "../../assests/images/Vector12-flipped.png";
 const ProcessSection = () => (
-  <>
-    <div>
-      <div className="container py-5">
+  <section className='section-wrapper vector_12-background'>
+    <img src={Vector_12} alt='' className='img-fluid vector_12_img' />
+      <div className="container">
         <div className="row text-center mb-5">
           <div className="col-12">
             <h1 className="display-4 mb-3">Our Process</h1>
@@ -324,8 +325,7 @@ const ProcessSection = () => (
           </div>
         </div>
       </div>
-    </div>
-  </>
+  </section>
 );
 
 export default ProcessSection;
