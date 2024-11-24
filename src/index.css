@@ -1266,6 +1266,14 @@ h1 {
     #ffffff 71.2%
   );
 }
+.price-card.diamond {
+  background: radial-gradient(
+    81.03% 86.75% at 92.01% 8.34%,
+    #f0f6fd 3.94%,
+    #ffffff 52.09%,
+    #ffffff 71.2%
+  );
+}
 
 .price-card.gold {
   background: radial-gradient(
@@ -1277,6 +1285,14 @@ h1 {
 }
 
 .price-card.premium {
+  background: radial-gradient(
+    81.03% 86.75% at 92.01% 8.34%,
+    #90cef1 3.94%,
+    #ffffff 52.09%,
+    #ffffff 71.2%
+  );
+}
+.price-card.platinum {
   background: radial-gradient(
     81.03% 86.75% at 92.01% 8.34%,
     #90cef1 3.94%,

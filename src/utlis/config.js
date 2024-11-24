@@ -3,6 +3,7 @@ export const options = {
     SILVER: "silver",
     GOLD: "gold",
     PLATINUM: "platinum",
+    PREMIUM: "premium",
     DIAMOND: "diamond"
   },
 };
