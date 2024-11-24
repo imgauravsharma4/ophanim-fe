@@ -12,8 +12,8 @@ import Vector12 from "../../assests/images/Vector 12.png";
 import Ellipse26 from "../../assests/images/Ellipse 26.png";
 function Home() {
   return (
-    <div>
-      <div className='homebg'>
+    <>
+      <div className='homeBg'>
         <section className='section-wrapper'>
           <div className='container'>
             <div className='row align-items-center'>
@@ -138,7 +138,7 @@ function Home() {
         </div>
       </section>
       <SliderContainer />
-    </div>
+    </>
   );
 }
 
