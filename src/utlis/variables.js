@@ -3441,9 +3441,9 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Silver Tasks",
+          text: "Gold Tasks",
           icon: "design-icon",
-          isHeading: false,
+          isHeading: true,
         },
         {
           text: "A/B Test",
@@ -3574,9 +3574,9 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Silver Tasks",
+          text: "Platinum Tasks",
           icon: "design-icon",
-          isHeading: false,
+          isHeading: true,
         },
         {
           text: "A/B Test",
@@ -3707,9 +3707,9 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Silver Tasks",
+          text: "Diamond Tasks",
           icon: "design-icon",
-          isHeading: false,
+          isHeading: true,
         },
         {
           text: "A/B Test",
