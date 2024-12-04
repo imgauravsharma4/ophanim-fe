@@ -34,7 +34,13 @@ const PriceCard = ({ item, index }) => {
                 </li>
               );
             }
-            return <ListItem item={listItem.text} index={index} />;
+            return (
+              <ListItem
+                item={listItem.text}
+                index={index}
+                icon={listItem.icon}
+              />
+            );
           })}
         </ul>
       </div>

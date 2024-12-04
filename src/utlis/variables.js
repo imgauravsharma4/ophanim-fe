@@ -1,4 +1,12 @@
 import WorkFromHomeUserSofaStreamlineUltimate from "../assests/images/Work-From-Home-User-Sofa--Streamline-Ultimate.svg.png";
+import StartupProductRocket from "../assests/images/Startup-Product-Rocket-Box--Streamline-Ultimate.svg.png";
+import HumanResourcesNetwork from "../assests/images/Human-Resources-Network--Streamline-Ultimate.svg.png";
+import HumanResourcesWorkflow from "../assests/images/Human-Resources-Workflow--Streamline-Ultimate.svg.png";
+import Facebook from "../assests/images/Facebook-1--Streamline-Core.svg.png";
+import Instagram from "../assests/images/Instagram-Logo--Streamline-Ultimate.svg.png";
+import Linkedin from "../assests/images/Linkedin--Streamline-Core.svg.png";
+import XLogo from "../assests/images/X-Logo-Light--Streamline-Phosphor.svg.png";
+import Pinterest from "../assests/images/Pinterest--Streamline-Svg-Logos.svg.png";
 import Icon1Image from "../assests/images/icon1.png";
 import aboutUs2 from "../assests/images/aboutUs2.png";
 import YoutubeClipLogoStreamlineUltimate from "../assests/images/Youtube-Clip-Logo--Streamline-Ultimate.svg.png";
@@ -11,6 +19,7 @@ import PlatiniumIcon from "../assests/images/platiniumIcon.png";
 import checkBox from "../assests/images/Check Box.png";
 import emptyCheckBox from "../assests/images//Empty Check Box.png";
 import CheckCricleImage from "../assests/images/Check circle.png";
+import CrossCricleImage from "../assests/images/x-circle-contained.png";
 
 import { options } from "./config";
 export const quickLinks = [
@@ -166,27 +175,27 @@ export const AgencyData = [
       "Our tailored SMO services elevate your social media presence while fitting seamlessly into your budget. We aim to empower your business growth through enhanced social media engagement, increased quality traffic, and lead generation. We customize our social media optimization services to meet your unique needs and preferences.",
   },
   {
-    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    icon: StartupProductRocket,
     heading: `Custom Social Media Optimization Strategy`,
     content: `Your business requires a unique edge to compete with more giant corporations. To achieve this, we provide bespoke social media optimization services that cater to your needs. Rather than adopting a one-size-fits-all approach, we craft a tailored SMO marketing strategy that aligns with your objectives and resonates with your target demographic.`,
   },
   {
-    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    icon: HumanResourcesNetwork,
     heading: `Google Certified Partner`,
     content: `Consider selecting a Google Partner-certified agency like ours to benefit from dependable SEO and SMO services. This certification demonstrates our expertise and proven success in achieving desired outcomes. Being a Google partner, we focus on SMO, search, mobile, and SMM, providing comprehensive solutions for your digital requirements.`,
   },
   {
-    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    icon: HumanResourcesWorkflow,
     heading: `Broad Expertise Across Sectors`,
     content: `Our extensive experience spanning multiple industries allows us to leverage various technical expertise and know-how on every social media optimization project we undertake. Having collaborated with thousands of businesses across diverse sectors, our SMO specialists are well-equipped to tailor their services to meet your business's distinct requirements.`,
   },
   {
-    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    icon: HumanResourcesNetwork,
     heading: `Comprehensive SMO Services`,
     content: `Our all-encompassing social media optimization services are designed to drive your online success. We offer a complete range of services, from devising a tailored strategy to implementing affordable social media, search engine optimization, digital marketing, and website optimization solutions, all aimed at delivering the outcomes necessary to propel your business forward.`,
   },
   {
-    icon: WorkFromHomeUserSofaStreamlineUltimate,
+    icon: HumanResourcesWorkflow,
     heading: `Clear Communication`,
     content: `As a leading SMO marketing agency, we value transparency in communication. Our dedicated project managers ensure you are informed at every stage, providing detailed insights into our actions and future direction.`,
   },
@@ -201,34 +210,34 @@ export const ServiceData = [
     tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
   },
   {
-    icon: YoutubeClipLogoStreamlineUltimate,
+    icon: Facebook,
     heading: `Facebook Marketing`,
     content: `With over 2 billion active users, your target audience is undoubtedly present on Facebook. The market potential is substantial, and there is a high likelihood that you will encounter an audience that is intrigued by your offerings. Ophanim enables you to engage with customers directly and bridge the digital divide. The most effective solutions are presented to you by the resources and experience we possess.`,
     tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
   },
   {
-    icon: YoutubeClipLogoStreamlineUltimate,
+    icon: Instagram,
     heading: `Instagram Marketing`,
     content: `Instagram is an ideal platform for businesses to connect with their target audience, as more than one billion individuals utilize it monthly. However, establishing a brand requires effort, as competing with brands on a global scale is necessary. This is why businesses invest in Instagram marketing services from Ophanim. Our cutting-edge Instagram marketing team generates visually appealing reels and posts that will go viral on Instagram and attract millions of impressions and leads to your account. Our Instagram marketing services encompass the following:
 `,
     tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
   },
   {
-    icon: YoutubeClipLogoStreamlineUltimate,
+    icon: Linkedin,
     heading: `LinkedIn Marketing`,
     content: `LinkedIn is the optimal platform for connecting with professionals who are most likely to make critical business decisions. It boasts a conversion rate three times higher than that of any other ad platform. We offer LinkedIn Marketing services that target the entire sales funnel. We at Ophanim, possess a comprehensive expertise of LinkedIn's operations. We have recognized its usefulness and endeavour to enhance the number of users and your brand credibility most effectively.
  `,
     tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
   },
   {
-    icon: YoutubeClipLogoStreamlineUltimate,
+    icon: XLogo,
     heading: `X Marketing`,
     content: `X's millions of users are a treasure trove for traffic. It's unique features makes it a powerful tool for gaining audience insights and positioning your brand. Companies can even personalize their branding as per the trends. Ophanim assists your inbound marketing strategy by devising an effective content strategy. This strategy streamlines your content across multiple channels and reinforces your brand message in a fast, engaging, and enjoyable, such as in a tweet.
 `,
     tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
   },
   {
-    icon: YoutubeClipLogoStreamlineUltimate,
+    icon: Pinterest,
     heading: `Pinterest Marketing`,
     content: `With Ophanim's extensive experience and proven track record, you can confidently expand your company’s brand and reach on social media. When you're looking to increase the income stream of your business, whether it's to boost sales, improve efficiency, or establish a brand image, we're here to assist. We'll ensure that only the most effective Pinterest marketing strategies are at your disposal, making the process efficient and the results achievable. Our Pinterest marketing services in the United States are among the most effective, and by collaborating with us and utilizing our services, you will be able to address the numerous persistent challenges.
 `,
@@ -362,13 +371,53 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
+          text: "New Logo Design",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "HTML Email Templates",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Letterhead Design",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
           text: "CMS WordPress / Joomla! / C5 /Drupal",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: true,
+        },
+        {
+          text: "Custom Blog",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "CMS Updates",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Front-End User Management",
+          icon: CrossCricleImage,
+          isHeading: false,
         },
         {
           text: "Back-End User Management",
           icon: CheckCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Social Logins",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Added Site Security",
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -377,13 +426,28 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Affiliate Section",
-          icon: CheckCricleImage,
+          text: "Shopping Cart",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Dealer/ Affliate Section",
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Search Engine Friendly Structure",
           icon: CheckCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Newsletter Module",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Google eCommerce Tracking",
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -394,6 +458,26 @@ export const pricingDetails = {
         {
           text: "Content Migration",
           icon: CheckCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Products Migration",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Order Migration",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "User Migration",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "New Domain (optional)",
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -415,11 +499,11 @@ export const pricingDetails = {
     },
     {
       type: options.PricingCategory.GOLD,
-      price: "$599",
+      price: "$999",
       tagline: "Essential Services",
       lists: [
         {
-          text: "Design Partially Custom – only 1 iteration",
+          text: "Design Partially Custom – only 2 iteration",
           icon: CheckCricleImage,
           isHeading: false,
         },
@@ -434,14 +518,24 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
-          icon: CheckCricleImage,
-          isHeading: true,
+          text: "New Logo Design",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "HTML Email Templates",
+          icon: CrossCricleImage,
+          isHeading: false,
         },
         {
           text: "Letterhead Design",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: CrossCricleImage,
+          isHeading: true,
         },
         {
           text: "Custom Blog",
@@ -484,6 +578,11 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
+          text: "Dealer/ Affliate Section",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
           text: "Search Engine Friendly Structure",
           icon: CheckCricleImage,
           isHeading: false,
@@ -495,11 +594,11 @@ export const pricingDetails = {
         },
         {
           text: "Google eCommerce Tracking",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
-          text: "Conversion Forms-up to 7",
+          text: "Conversion Forms-up to 3",
           icon: CheckCricleImage,
           isHeading: false,
         },
@@ -514,8 +613,18 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
+          text: "Order Migration",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "User Migration",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
           text: "New Domain (optional)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -537,11 +646,11 @@ export const pricingDetails = {
     },
     {
       type: options.PricingCategory.PREMIUM,
-      price: "$599",
+      price: "$1599",
       tagline: "Essential Services",
       lists: [
         {
-          text: "Design Partially Custom – only 1 iteration",
+          text: "Design Partially Custom – only 2 iteration",
           icon: CheckCricleImage,
           isHeading: false,
         },
@@ -566,14 +675,14 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "CMS Custom Framework / WordPress / Joomla! / C5/ Drupal / Magento / Prestashop / Shopify / BigCommerce",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
           text: "Letterhead Design",
           icon: CheckCricleImage,
           isHeading: false,
+        },
+        {
+          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
+          icon: CheckCricleImage,
+          isHeading: true,
         },
         {
           text: "Custom Blog",
@@ -616,7 +725,7 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Dealer/ Affiliate Section",
+          text: "Dealer/ Affliate Section",
           icon: CheckCricleImage,
           isHeading: false,
         },
@@ -636,7 +745,7 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Conversion Forms-up to 15",
+          text: "Conversion Forms-up to 3",
           icon: CheckCricleImage,
           isHeading: false,
         },
@@ -646,7 +755,7 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Products Migration-upto 600",
+          text: "Products Migration",
           icon: CheckCricleImage,
           isHeading: false,
         },
@@ -1954,7 +2063,7 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
-          text: "Article Bookmarking - 20",
+          text: "Article Bookmarking - 30",
           icon: CheckCricleImage,
           isHeading: false,
         },
