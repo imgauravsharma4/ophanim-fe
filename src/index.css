@@ -17,9 +17,14 @@ li {
   list-style: none;
 }
 
-.homeBg {
-  background: url("./assests/images/Homepage.png") no-repeat center center;
-  background-size: cover;
+.home-page-bg{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+.home-page-bg-white{
+  background-color: #ffffffbf;
 }
 
 .page-heading {
@@ -59,7 +64,8 @@ li {
 }
 
 .navbar-links li {
-  display: inline;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-links a {
@@ -1485,6 +1491,24 @@ h1 {
   .react-multi-carousel-track
   .react-multi-carousel-item {
   padding: 0px 7px;
+}
+
+@media (min-width: 992px) {
+  .navbar.sticky-top {
+    background-color: transparent;
+  }
+
+  .mainNavBarContainer.sticky-top .navbar-brand {
+    display: none;
+  }
+  .mainNavBarContainer.sticky-top #navbarSupportedContent {
+    justify-content: center !important;
+  }
+  .mainNavBarContainer.sticky-top #navbarSupportedContent ul {
+    background-color: #ffffffe6;
+    padding: 8px;
+    border-radius: 13px;
+  }
 }
 
 /* Responsive Styles */

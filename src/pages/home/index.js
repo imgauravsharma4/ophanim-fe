@@ -10,32 +10,36 @@ import PlansCard from "../../Components/Cards/Plans-Card";
 import Marketing from "../../assests/images/marketing.png";
 import Vector12 from "../../assests/images/Vector 12.png";
 import Ellipse26 from "../../assests/images/Ellipse 26.png";
+import HomePageImage from "../../assests/images/HomepageHalf.png";
 function Home() {
   return (
     <>
-      <div className='homeBg'>
+      <div className='position-relative'>
+        <img src={HomePageImage} alt='' className='img-fluid home-page-bg' />
         <section className='section-wrapper'>
-          <div className='container'>
-            <div className='row align-items-center'>
-              <div className='col-xl-7 col-lg-6 col-md-12 col-sm-12'>
-                <div className='home-hero-section'>
-                  <h1>
-                    Unlock Your <br />
-                    <span className='highlight-text'>Brand Potential</span>
-                  </h1>
-                  <p className='subtext'>
-                    Generate <span className='bold-text'>500%</span> More
-                    revenue with us.
-                  </p>
-                  <button className='cta-button'>Get Started Now</button>
+          <div className='home-page-bg-white'>
+            <div className='container'>
+              <div className='row align-items-center'>
+                <div className='col-xl-7 col-lg-6 col-md-12 col-sm-12'>
+                  <div className='home-hero-section'>
+                    <h1>
+                      Unlock Your <br />
+                      <span className='highlight-text'>Brand Potential</span>
+                    </h1>
+                    <p className='subtext'>
+                      Generate <span className='bold-text'>500%</span> More
+                      revenue with us.
+                    </p>
+                    <button className='cta-button'>Get Started Now</button>
+                  </div>
                 </div>
-              </div>
-              <div className='col-xl-5 col-lg-6 col-md-12 col-sm-12 text-center'>
-                <img
-                  src={Marketing}
-                  alt='Marketing Campaign'
-                  className='img-fluid'
-                />
+                <div className='col-xl-5 col-lg-6 col-md-12 col-sm-12 text-center'>
+                  <img
+                    src={Marketing}
+                    alt='Marketing Campaign'
+                    className='img-fluid'
+                  />
+                </div>
               </div>
             </div>
           </div>

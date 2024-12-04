@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import LOGO from "../../assests/images/logo.svg";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const router = useNavigate();
 
+  const handleRegister = () => {
+    router("/contact");
+  };
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 200) {
@@ -21,7 +25,9 @@ const Navbar = () => {
   }, []);
   return (
     <nav
-      className={`${isScrolled ? "sticky-top" : ""} navbar navbar-expand-lg `}
+      className={`mainNavBarContainer ${
+        isScrolled ? "sticky-top" : ""
+      } navbar navbar-expand-lg `}
     >
       <div className='container'>
         <Link className='navbar-brand navbar-logo' to={"/"}>
@@ -42,7 +48,7 @@ const Navbar = () => {
           className='collapse navbar-collapse justify-content-end'
           id='navbarSupportedContent'
         >
-          <ul className=' navbar-nav navbar-links me-5'>
+          <ul className=' navbar-nav navbar-links'>
             <li>
               <Link to={"/"}>Home</Link>
             </li>
@@ -82,8 +88,15 @@ const Navbar = () => {
             <li>
               <Link to={"/contact"}>Contact</Link>
             </li>
+            <li>
+              <button
+                className='primary-button register-btn'
+                onClick={handleRegister}
+              >
+                Register
+              </button>
+            </li>
           </ul>
-          <button className='primary-button register-btn'>Register</button>
         </div>
       </div>
     </nav>
