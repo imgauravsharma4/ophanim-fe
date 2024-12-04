@@ -64,8 +64,8 @@ li {
 }
 
 .navbar-links li {
-  display: flex;
-  align-items: center;
+  display: inline;
+  margin:auto;
 }
 
 .navbar-links a {
