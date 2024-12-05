@@ -17,13 +17,13 @@ li {
   list-style: none;
 }
 
-.home-page-bg{
+.home-page-bg {
   position: absolute;
   bottom: 0;
   width: 100%;
   z-index: -1;
 }
-.home-page-bg-white{
+.home-page-bg-white {
   background-color: #ffffffbf;
 }
 
@@ -65,7 +65,7 @@ li {
 
 .navbar-links li {
   display: inline;
-  margin:auto;
+  margin: auto;
 }
 
 .navbar-links a {
@@ -697,12 +697,16 @@ h1 {
 
 .card:hover {
   transform: translateY(-10px);
-}
-
-.highlight {
   background-color: #f0f9ff;
+  border: none;
 }
 
+.card:hover svg rect {
+  fill: #1b5faa;
+}
+.card:hover svg path {
+  stroke: #ffffff;
+}
 .card h3 {
   font-size: 24px;
   color: #004aad;

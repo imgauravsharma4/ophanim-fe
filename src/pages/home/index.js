@@ -17,29 +17,27 @@ function Home() {
       <div className='position-relative'>
         <img src={HomePageImage} alt='' className='img-fluid home-page-bg' />
         <section className='section-wrapper'>
-          <div className='home-page-bg-white'>
-            <div className='container'>
-              <div className='row align-items-center'>
-                <div className='col-xl-7 col-lg-6 col-md-12 col-sm-12'>
-                  <div className='home-hero-section'>
-                    <h1>
-                      Unlock Your <br />
-                      <span className='highlight-text'>Brand Potential</span>
-                    </h1>
-                    <p className='subtext'>
-                      Generate <span className='bold-text'>500%</span> More
-                      revenue with us.
-                    </p>
-                    <button className='cta-button'>Get Started Now</button>
-                  </div>
+          <div className='container'>
+            <div className='row align-items-center'>
+              <div className='col-xl-7 col-lg-6 col-md-12 col-sm-12'>
+                <div className='home-hero-section'>
+                  <h1>
+                    Unlock Your <br />
+                    <span className='highlight-text'>Brand Potential</span>
+                  </h1>
+                  <p className='subtext'>
+                    Generate <span className='bold-text'>500%</span> More
+                    revenue with us.
+                  </p>
+                  <button className='cta-button'>Get Started Now</button>
                 </div>
-                <div className='col-xl-5 col-lg-6 col-md-12 col-sm-12 text-center'>
-                  <img
-                    src={Marketing}
-                    alt='Marketing Campaign'
-                    className='img-fluid'
-                  />
-                </div>
+              </div>
+              <div className='col-xl-5 col-lg-6 col-md-12 col-sm-12 text-center'>
+                <img
+                  src={Marketing}
+                  alt='Marketing Campaign'
+                  className='img-fluid'
+                />
               </div>
             </div>
           </div>
