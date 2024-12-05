@@ -162,9 +162,9 @@ export const Terms = [
 
 export const SeoRankingData = {
   icon: Icon1Image,
-  heading: "Why Choose SMO Services for Your Business?",
-  content: `Utilizing social media optimization involves leveraging different social platforms to boost your company's visibility online and optimizing business profiles on sites like Facebook, Twitter, and Instagram.`,
-  content2: `By engaging Social Media Optimization services, you can increase your brand's reach on multiple social platforms, encourage user interaction, build trust, acquire customers, boost conversions, and drive sales.`,
+  heading: "Why Choose SEO Services for Your Business?",
+  content: `Search Engine Optimization(SEO) is a fundamental component of any digital marketing strategy. It shows the search engine Who you are and why you matter. SEO features: link building, website optimization, keyword research, backlinking, and many more features. A good SEO strategy improves page ranking, brand awareness, and website traffic, increasing lead conversion and revenue.`,
+  content2: `An SEO service company helps make a website market relevant and visible to the target audience. They can push you above your competitors so customers see you when they opt for the required product and service.`,
 };
 
 export const AgencyData = [
@@ -815,12 +815,12 @@ export const pricingDetails = {
         },
         {
           text: "GBP (GMB)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Geotagging",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -830,12 +830,12 @@ export const pricingDetails = {
         },
         {
           text: "Pre-Optimization Website",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Competitor Analysis",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -860,7 +860,7 @@ export const pricingDetails = {
         },
         {
           text: "Backlink Analysis (if required)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -885,7 +885,7 @@ export const pricingDetails = {
         },
         {
           text: "Heading Tags Optimization",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -895,7 +895,7 @@ export const pricingDetails = {
         },
         {
           text: "Content Optimization",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -905,7 +905,7 @@ export const pricingDetails = {
         },
         {
           text: "Site Navigation Analysis",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -915,7 +915,7 @@ export const pricingDetails = {
         },
         {
           text: "Broken Links Check",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -925,7 +925,7 @@ export const pricingDetails = {
         },
         {
           text: "Google Indexed Pages Check",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -950,7 +950,7 @@ export const pricingDetails = {
         },
         {
           text: "Structured Data Setup",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1130,42 +1130,42 @@ export const pricingDetails = {
         },
         {
           text: "Press Release Writing-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Press Release Distribution-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Press Release Promotion-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Guest Blog Outreach-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Guest Blog Promotion-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Premium Press Release Writing-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Premium Press Release Distribution-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Premium Press Release Promotion",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1180,17 +1180,17 @@ export const pricingDetails = {
         },
         {
           text: "Facebook Profile Creation",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Facebook Fan Page Creation",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Facebook Posting & Sharing",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1200,17 +1200,12 @@ export const pricingDetails = {
         },
         {
           text: "Instagram Profile Creation",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Instagram Posting & Sharing",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Instagram Posting & Sharing",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1220,37 +1215,37 @@ export const pricingDetails = {
         },
         {
           text: "Twitter Profile Creation",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Twitter Post",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "PINTEREST",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: true,
         },
         {
           text: "Account Creation/Management",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Pinterest Followers",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: " Updating of pin boards",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Pins (If Client Provides Images)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1322,7 +1317,7 @@ export const pricingDetails = {
         },
         {
           text: "Geotagging",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1332,12 +1327,12 @@ export const pricingDetails = {
         },
         {
           text: "Pre-Optimization Website",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Competitor Analysis",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1362,7 +1357,7 @@ export const pricingDetails = {
         },
         {
           text: "Backlink Analysis (if required)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1407,7 +1402,7 @@ export const pricingDetails = {
         },
         {
           text: "Site Navigation Analysis",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1417,7 +1412,7 @@ export const pricingDetails = {
         },
         {
           text: "Broken Links Check",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1452,7 +1447,7 @@ export const pricingDetails = {
         },
         {
           text: "Structured Data Setup",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1632,42 +1627,42 @@ export const pricingDetails = {
         },
         {
           text: "Press Release Writing-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Press Release Distribution-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Press Release Promotion-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Guest Blog Outreach-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Guest Blog Promotion-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Premium Press Release Writing-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Premium Press Release Distribution-(N/A)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Premium Press Release Promotion",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1732,22 +1727,22 @@ export const pricingDetails = {
         },
         {
           text: "Account Creation/Management",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Pinterest Followers",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: " Updating of pin boards",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Pins (If Client Provides Images)",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -1949,7 +1944,7 @@ export const pricingDetails = {
         },
         {
           text: "Structured Data Setup",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -2296,17 +2291,17 @@ export const pricingDetails = {
       tagline: "Essential Services",
       lists: [
         {
-          text: "No. of Keywords–30",
+          text: "No. of Keywords – 100",
           icon: CheckCricleImage,
           isHeading: false,
         },
         {
-          text: "Landing Page- 05",
+          text: "Landing Page - 20",
           icon: CheckCricleImage,
           isHeading: false,
         },
         {
-          text: " Backlinks Per Month-120",
+          text: " Backlinks Per Month - 600",
           icon: CheckCricleImage,
           isHeading: false,
         },
@@ -2891,27 +2886,32 @@ export const pricingDetails = {
         },
         {
           text: "Budget Estimate",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Setting Up Campaigns",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Ad Creative Creation",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Daily Account Optimization",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Setting Up Sales Funnel For Conversion Objective",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
+          text: "Conversion Tracking Assisted By Google Analytics",
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -2921,47 +2921,47 @@ export const pricingDetails = {
         },
         {
           text: "Identifying Suitable Objectives",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Identifying Target Audience",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Creation Of Ad Accounts",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Budget Estimate",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Setting Up Campaigns",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Ad Creative Creation",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Daily Account Optimization",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Setting Up Sales Funnel For Conversion Objective",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Conversion Tracking Assisted By Google Analytics",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -3112,53 +3112,58 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
+          text: "Conversion Tracking Assisted By Google Analytics",
+          icon: CheckCricleImage,
+          isHeading: false,
+        },
+        {
           text: "REMARKETING",
           icon: CheckCricleImage,
           isHeading: true,
         },
         {
           text: "Identifying Suitable Objectives",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Identifying Target Audience",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Creation Of Ad Accounts",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Budget Estimate",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Setting Up Campaigns",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Ad Creative Creation",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Daily Account Optimization",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Setting Up Sales Funnel For Conversion Objective",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Conversion Tracking Assisted By Google Analytics",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -3309,6 +3314,11 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
+          text: "Conversion Tracking Assisted By Google Analytics",
+          icon: CheckCricleImage,
+          isHeading: false,
+        },
+        {
           text: "REMARKETING",
           icon: CheckCricleImage,
           isHeading: true,
@@ -3454,22 +3464,22 @@ export const pricingDetails = {
         },
         {
           text: "Yahoo",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Bing",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "FB",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Mobile Ads",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -3483,13 +3493,18 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
+          text: "Remarketing",
+          icon: CrossCricleImage,
+          isHeading: false,
+        },
+        {
           text: "Monthly Conference Calls",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Display/Image Ads",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -3586,22 +3601,22 @@ export const pricingDetails = {
         },
         {
           text: "Yahoo",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Bing",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "FB",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Mobile Ads",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -3615,13 +3630,18 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
+          text: "Remarketing",
+          icon: CheckCricleImage,
+          isHeading: false,
+        },
+        {
           text: "Monthly Conference Calls",
           icon: CheckCricleImage,
           isHeading: false,
         },
         {
           text: "Display/Image Ads",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -3728,12 +3748,12 @@ export const pricingDetails = {
         },
         {
           text: "FB",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
           text: "Mobile Ads",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -3747,13 +3767,18 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
+          text: "Remarketing",
+          icon: CheckCricleImage,
+          isHeading: false,
+        },
+        {
           text: "Monthly Conference Calls",
           icon: CheckCricleImage,
           isHeading: false,
         },
         {
           text: "Display/Image Ads",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {
@@ -3879,13 +3904,18 @@ export const pricingDetails = {
           isHeading: false,
         },
         {
+          text: "Remarketing",
+          icon: CheckCricleImage,
+          isHeading: false,
+        },
+        {
           text: "Monthly Conference Calls",
           icon: CheckCricleImage,
           isHeading: false,
         },
         {
           text: "Display/Image Ads",
-          icon: CheckCricleImage,
+          icon: CrossCricleImage,
           isHeading: false,
         },
         {

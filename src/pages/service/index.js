@@ -18,26 +18,26 @@ const ServicePage = () => {
     <div>
       <PageHeader
         title={"Most In-Demand  "}
-        subTitle={"SMO Services in the USA"}
+        subTitle={"SEO Services in the USA"}
         tagline={
           "#1 SEO service provider company that helps you establish the online presence you deserve, ensuring your business stands out in the digital landscape."
         }
-        buttonText={'Get a Quote'}
-        classes={'text-center'}
+        buttonText={"Get a Quote"}
+        classes={"text-center"}
       />
 
-      <div className='container'>
-        <div className='row'>
-          <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
-            <div className='image-wrapper'>
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div className="image-wrapper">
               <img
                 src={SeoRankingImage}
-                alt='seo ranking'
-                className='img-fluid'
+                alt="seo ranking"
+                className="img-fluid"
               />
             </div>
           </div>
-          <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <Card
               icon={SeoRankingData.icon}
               heading={SeoRankingData.heading}
@@ -46,26 +46,26 @@ const ServicePage = () => {
             />
           </div>
         </div>
-        <div className='row section-wrapper'>
-          <div className='col-xl-12'>
-            <h4 className='mb-3'>
-              Why Choose Ophanim As Your Social Media Optimization Agency?
+        <div className="row section-wrapper">
+          <div className="col-xl-12">
+            <h4 className="mb-3">
+              Why Choose Ophanim for SEO Services in the USA?
             </h4>
             <p>
-              Selecting the appropriate social media optimization services is
-              crucial for the growth and success of your business. As a leading
-              SMO company in the USA, we are proud to be the top choice for
-              hundreds of companies. Learn why we are the go-to partner for SMO
-              campaign success.
+              At Ophanim, we prioritize your success over money. Our goal is to
+              help your business website reach its targets with ease. Each
+              metric needs careful analysis. Seeking help from leading SEO
+              experts is essential for higher rankings and gaining a competitive
+              edge.
             </p>
           </div>
           {AgencyData?.map((item, index) => (
             <div
-              className='col-xl-6 col-md-12 col-sm-12 mb-4'
+              className="col-xl-6 col-md-12 col-sm-12 mb-4"
               key={`item${index}`}
             >
               <Card
-                classes='white-background'
+                classes="white-background"
                 icon={item.icon}
                 heading={item.heading}
                 content={item.content}
@@ -73,8 +73,8 @@ const ServicePage = () => {
             </div>
           ))}
         </div>
-        <div className='row section-wrapper'>
-          <div className='col-xl-12 col-sm-12'>
+        <div className="row section-wrapper">
+          <div className="col-xl-12 col-sm-12">
             <h2>Top Notch Services</h2>
             <p>
               Elevate your online presence with our comprehensive social media
@@ -83,11 +83,11 @@ const ServicePage = () => {
           </div>
           {ServiceData?.map((item, index) => (
             <div
-              className='col-xl-6 col-md-12 col-sm-12 mb-4'
+              className="col-xl-6 col-md-12 col-sm-12 mb-4"
               key={`item${index}`}
             >
               <Card
-                classes='white-background'
+                classes="white-background"
                 icon={item.icon}
                 heading={item.heading}
                 content={item.content}
@@ -97,11 +97,11 @@ const ServicePage = () => {
           ))}
         </div>
       </div>
-      <div className='section-wrapper yellow-bg'>
-        <div className='container'>
-          <div className='row align-items-center'>
-            <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
-              <div className='expertise-section'>
+      <div className="section-wrapper yellow-bg">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div className="expertise-section">
                 <h2>Your Vision, Our Expertise</h2>
                 <p>
                   Our Partnership Philosophy: Building Trust, Delivering Success
@@ -113,12 +113,12 @@ const ServicePage = () => {
                 </ul>
               </div>
             </div>
-            <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
-              <div className='image-wrapper'>
+            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div className="image-wrapper">
                 <img
                   src={VisionImage}
-                  alt='seo ranking'
-                  className='img-fluid'
+                  alt="seo ranking"
+                  className="img-fluid"
                 />
               </div>
             </div>
