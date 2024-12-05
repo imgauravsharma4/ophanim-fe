@@ -7,7 +7,11 @@ const SliderContainer = () => {
   return (
     <div className='section-wrapper'>
       <div className='container'>
-        <div id='carouselExample' className='carousel slide'>
+        <div
+          id='carouselExampleAutoplaying'
+          className='carousel slide'
+          data-bs-ride='carousel'
+        >
           <div className='row'>
             <div className='col-xl-4 col-lg-4 col-md-12 col-sm-12'>
               <div className='testimonial-header'>
@@ -16,7 +20,7 @@ const SliderContainer = () => {
               <button
                 className='carousel-button'
                 type='button'
-                data-bs-target='#carouselExample'
+                data-bs-target='#carouselExampleAutoplaying'
                 data-bs-slide='prev'
               >
                 <img src={LeftArrow} alt='LeftArrow' className='img-fluid' />
@@ -24,7 +28,7 @@ const SliderContainer = () => {
               <button
                 className='carousel-button'
                 type='button'
-                data-bs-target='#carouselExample'
+                data-bs-target='#carouselExampleAutoplaying'
                 data-bs-slide='next'
               >
                 <img src={RightArrow} alt='Right Arrow' className='img-fluid' />
