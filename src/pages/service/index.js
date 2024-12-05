@@ -73,29 +73,6 @@ const ServicePage = () => {
             </div>
           ))}
         </div>
-        <div className="row section-wrapper">
-          <div className="col-xl-12 col-sm-12">
-            <h2>Top Notch Services</h2>
-            <p>
-              Elevate your online presence with our comprehensive social media
-              service
-            </p>
-          </div>
-          {ServiceData?.map((item, index) => (
-            <div
-              className="col-xl-6 col-md-12 col-sm-12 mb-4"
-              key={`item${index}`}
-            >
-              <Card
-                classes="white-background"
-                icon={item.icon}
-                heading={item.heading}
-                content={item.content}
-                tags={item.tags}
-              />
-            </div>
-          ))}
-        </div>
       </div>
       <div className="section-wrapper yellow-bg">
         <div className="container">

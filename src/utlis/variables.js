@@ -170,34 +170,34 @@ export const SeoRankingData = {
 export const AgencyData = [
   {
     icon: WorkFromHomeUserSofaStreamlineUltimate,
-    heading: "Cost-Effective Solutions",
+    heading: "24x7 Exclusive Services",
     content:
-      "Our tailored SMO services elevate your social media presence while fitting seamlessly into your budget. We aim to empower your business growth through enhanced social media engagement, increased quality traffic, and lead generation. We customize our social media optimization services to meet your unique needs and preferences.",
+      "Our connection with you is more important than our financial interests. Our 24/7 services are designed exclusively to help you with your business concerns.",
   },
   {
     icon: StartupProductRocket,
-    heading: `Custom Social Media Optimization Strategy`,
-    content: `Your business requires a unique edge to compete with more giant corporations. To achieve this, we provide bespoke social media optimization services that cater to your needs. Rather than adopting a one-size-fits-all approach, we craft a tailored SMO marketing strategy that aligns with your objectives and resonates with your target demographic.`,
+    heading: `Impressive Results`,
+    content: `Since our main focus is achieving results, we create strategies to fulfill this objective without taking shortcuts for long-term gains.`,
   },
   {
     icon: HumanResourcesNetwork,
-    heading: `Google Certified Partner`,
-    content: `Consider selecting a Google Partner-certified agency like ours to benefit from dependable SEO and SMO services. This certification demonstrates our expertise and proven success in achieving desired outcomes. Being a Google partner, we focus on SMO, search, mobile, and SMM, providing comprehensive solutions for your digital requirements.`,
+    heading: `Dedicated & Focused`,
+    content: `Because of our dedication and single-minded focus, we will create new opportunities for your business and improve its overall performance.`,
   },
   {
     icon: HumanResourcesWorkflow,
-    heading: `Broad Expertise Across Sectors`,
-    content: `Our extensive experience spanning multiple industries allows us to leverage various technical expertise and know-how on every social media optimization project we undertake. Having collaborated with thousands of businesses across diverse sectors, our SMO specialists are well-equipped to tailor their services to meet your business's distinct requirements.`,
+    heading: `Trustworthy`,
+    content: `At Ophanim, we understand the importance of trust in any business relationship. That's why we strive to establish a trustworthy and transparent relationship with our partners for long-term success.`,
   },
   {
     icon: HumanResourcesNetwork,
-    heading: `Comprehensive SMO Services`,
-    content: `Our all-encompassing social media optimization services are designed to drive your online success. We offer a complete range of services, from devising a tailored strategy to implementing affordable social media, search engine optimization, digital marketing, and website optimization solutions, all aimed at delivering the outcomes necessary to propel your business forward.`,
+    heading: `Qualified and Professional`,
+    content: `We have a fantastic team of experienced professionals qualified to thrive in any challenging environment and deliver high performance.`,
   },
   {
     icon: HumanResourcesWorkflow,
-    heading: `Clear Communication`,
-    content: `As a leading SMO marketing agency, we value transparency in communication. Our dedicated project managers ensure you are informed at every stage, providing detailed insights into our actions and future direction.`,
+    heading: `Cutting Edge Tools`,
+    content: `In today’s highly competitive market, we utilize cutting-edge tools and strategies relevant to the market trends.`,
   },
 ];
 
