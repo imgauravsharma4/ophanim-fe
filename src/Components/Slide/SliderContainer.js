@@ -2,6 +2,7 @@ import React from "react";
 import Slide from "./Slide";
 import LeftArrow from "../../assests/images/ArrowLeft.png";
 import RightArrow from "../../assests/images/ArrowRight.png";
+import { reviews } from "../../utlis/variables";
 const SliderContainer = () => {
   return (
     <div className='section-wrapper'>
@@ -31,15 +32,14 @@ const SliderContainer = () => {
             </div>
             <div className='col-xl-8 col-lg-8 col-md-12 col-sm-12'>
               <div className='carousel-inner'>
-                <div className='carousel-item active'>
-                  <Slide />
-                </div>
-                <div className='carousel-item'>
-                  <Slide />
-                </div>
-                <div className='carousel-item'>
-                  <Slide />
-                </div>
+                {reviews.map((item, index) => (
+                  <div
+                    className={`carousel-item ${index === 0 ? "active" : ""}`}
+                    key={`key-${index}`}
+                  >
+                    <Slide item={item} />
+                  </div>
+                ))}
               </div>
             </div>
           </div>

@@ -60,7 +60,7 @@ li {
 .navbar-links {
   list-style-type: none;
   display: flex;
-  gap: 2rem;
+  gap: 7px;
 }
 
 .navbar-links li {
@@ -537,6 +537,13 @@ h1 {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.carousel-slide .user img{
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .carousel-slide .user .name p {

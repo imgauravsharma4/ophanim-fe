@@ -7,7 +7,6 @@ import {
   AgencyData,
   ExpertiseData,
   SeoRankingData,
-  ServiceData,
 } from "../../utlis/variables";
 import SliderContainer from "../../Components/Slide/SliderContainer";
 import ListItem from "../../Components/ListItem/ListItem";

@@ -20,6 +20,9 @@ import checkBox from "../assests/images/Check Box.png";
 import emptyCheckBox from "../assests/images//Empty Check Box.png";
 import CheckCricleImage from "../assests/images/Check circle.png";
 import CrossCricleImage from "../assests/images/x-circle-contained.png";
+import Testimonial1 from "../assests/images/testimonial-1.jpg";
+import Testimonial2 from "../assests/images/testimonial-2.jpg";
+import Testimonial3 from "../assests/images/testimonial-3.jpg";
 
 import { options } from "./config";
 export const quickLinks = [
@@ -339,12 +342,12 @@ export const ContactInfoDetails = [
   {
     heading: "Email Address",
     content: "info@ophanimtechnologies.com",
-    time: "Monday - Friday 6 am to 8 pm IST",
+    time: "Monday - Friday 10 am to 7 pm EST",
   },
   {
     heading: "Number",
-    content: "+130 735 73070",
-    time: "Monday - Friday 6 am to 8 pm IST",
+    content: "+1 307 357 3070",
+    time: "Monday - Friday 10 am to 7 pm EST",
   },
 ];
 
@@ -4011,3 +4014,24 @@ export const pricingCategory = {
   SMO: "SMO",
   PPC: "PPC",
 };
+
+export const reviews = [
+  {
+    name: "Ashvini Arya",
+    image: Testimonial1,
+    review: `I've been working with Ophanim for several months now and have been extremely pleased with the results. Their link-building strategies have been instrumental in driving more traffic to our website.`,
+    company: "Bhutishraj Pvt Ltd.",
+  },
+  {
+    name: "Vansh Singh",
+    image: Testimonial2,
+    review: `My experiences with Ophanim Technologies have been fantastic. Mr. Saurav and his team were extremely friendly, helpful, and quick to respond. They went above and beyond to help us reach many of our objectives. I can't recommend them enough! `,
+    company: "Pragyavan Pvt Ltd.",
+  },
+  {
+    name: "Sandeep Choudhary",
+    image: Testimonial3,
+    review: `The team at Ophanim exceeded our expectations with their professional and efficient link-building services. Our website's search engine rankings have greatly improved as a result. Highly recommended!`,
+    company: "Destin Services Pvt. Ltd.",
+  },
+];

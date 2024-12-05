@@ -113,12 +113,12 @@ function Home() {
               <h2>SEO Plans</h2>
               <p>Choose the plan right for you and let’s get started</p>
             </div>
-            <div className='col-xl-5 col-lg-5 col-md-12 col-sm-12'>
+            {/* <div className='col-xl-5 col-lg-5 col-md-12 col-sm-12'>
               <div className='toggle-container '>
                 <button className='toggle-button active'>Monthly</button>
                 <button className='toggle-button'>Yearly</button>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className='row'>
             {seoPlans?.map((plan, index) => (
