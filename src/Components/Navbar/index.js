@@ -58,7 +58,7 @@ const Navbar = () => {
             <li>
               <Link to={"/service"}>Services</Link>
             </li>
-            <li class='nav-item dropdown navbarItem-hover'>
+            <li className='nav-item dropdown navbarItem-hover'>
               <Link
                 href='#'
                 role='button'
@@ -67,7 +67,7 @@ const Navbar = () => {
               >
                 Pricing
               </Link>
-              <ul class='dropdown-menu dropMenu active'>
+              <ul className='dropdown-menu dropMenu active'>
                 <li>
                   <Link to={"/seo"}>SEO Pricing</Link>
                 </li>

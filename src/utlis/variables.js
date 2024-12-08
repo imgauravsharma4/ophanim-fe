@@ -347,7 +347,7 @@ export const ContactInfoDetails = [
   {
     heading: "Number",
     content: "+1 307 357 3070",
-    time: "Monday - Friday 10 am to 7 pm EST",
+    time: "",
   },
 ];
 
@@ -358,146 +358,150 @@ export const pricingDetails = {
       price: "$599",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "Design Partially Custom – only 1 iteration",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Layered Sliders - 05",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Responsive Site (Desktop, Tablet, Mobile)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "New Logo Design",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "HTML Email Templates",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Letterhead Design",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CMS WordPress / Joomla! / C5 /Drupal",
-          icon: CrossCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Custom Blog",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CMS Updates",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Front-End User Management",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Back-End User Management",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Social Logins",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Added Site Security",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "GUI Admin Panel",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Shopping Cart",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Dealer/ Affliate Section",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Search Engine Friendly Structure",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Newsletter Module",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google eCommerce Tracking",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Conversion Forms-up to 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Migration",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Products Migration",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Order Migration",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "User Migration",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "New Domain (optional)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Web Hosting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Hosted Emails-10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Web maintenance work-5 hours/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "Design Partially Custom – only 1 iteration",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Layered Sliders - 05",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Responsive Site (Desktop, Tablet, Mobile)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "New Logo Design",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "HTML Email Templates",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Letterhead Design",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CMS WordPress / Joomla! / C5 /Drupal",
+            icon: CrossCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Custom Blog",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "CMS Updates",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Front-End User Management",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Back-End User Management",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Social Logins",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Added Site Security",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "GUI Admin Panel",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Shopping Cart",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Dealer/ Affliate Section",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Search Engine Friendly Structure",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Newsletter Module",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google eCommerce Tracking",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Conversion Forms-up to 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Migration",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Products Migration",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Order Migration",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "User Migration",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "New Domain (optional)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Web Hosting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Hosted Emails-10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Web maintenance work-5 hours/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -505,146 +509,150 @@ export const pricingDetails = {
       price: "$999",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "Design Partially Custom – only 2 iteration",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Layered Sliders - 05",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Responsive Site (Desktop, Tablet, Mobile)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "New Logo Design",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "HTML Email Templates",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Letterhead Design",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
-          icon: CrossCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Custom Blog",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CMS Updates",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Front-End User Management",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Back-End User Management",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Social Logins",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Added Site Security",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "GUI Admin Panel",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Shopping Cart",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Dealer/ Affliate Section",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Search Engine Friendly Structure",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Newsletter Module",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google eCommerce Tracking",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Conversion Forms-up to 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Migration",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Products Migration-upto 300",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Order Migration",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "User Migration",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "New Domain (optional)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Web Hosting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Hosted Emails-18",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Web maintenance work-10 hours/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "Design Partially Custom – only 2 iteration",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Layered Sliders - 05",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Responsive Site (Desktop, Tablet, Mobile)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "New Logo Design",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "HTML Email Templates",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Letterhead Design",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
+            icon: CrossCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Custom Blog",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "CMS Updates",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Front-End User Management",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Back-End User Management",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Social Logins",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Added Site Security",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "GUI Admin Panel",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Shopping Cart",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Dealer/ Affliate Section",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Search Engine Friendly Structure",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Newsletter Module",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google eCommerce Tracking",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Conversion Forms-up to 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Migration",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Products Migration-upto 300",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Order Migration",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "User Migration",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "New Domain (optional)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Web Hosting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Hosted Emails-18",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Web maintenance work-10 hours/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -652,146 +660,150 @@ export const pricingDetails = {
       price: "$1599",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "Design Partially Custom – only 2 iteration",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Layered Sliders - 05",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Responsive Site (Desktop, Tablet, Mobile)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "New Logo Design",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "HTML Email Templates",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Letterhead Design",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Custom Blog",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CMS Updates",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Front-End User Management",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Back-End User Management",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Social Logins",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Added Site Security",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "GUI Admin Panel",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Shopping Cart",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Dealer/ Affliate Section",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Search Engine Friendly Structure",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Newsletter Module",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google eCommerce Tracking",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Conversion Forms-up to 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Migration",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Products Migration",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Order Migration",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "User Migration",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "New Domain (optional)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Web Hosting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Hosted Emails-30",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Web maintenance work-25 hours/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "Design Partially Custom – only 2 iteration",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Layered Sliders - 05",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Responsive Site (Desktop, Tablet, Mobile)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "New Logo Design",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "HTML Email Templates",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Letterhead Design",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CMS WordPress / Joomla! / C5 / Drupal / Magento / Prestashop / Shopify / BigCommerce",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Custom Blog",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "CMS Updates",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Front-End User Management",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Back-End User Management",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Social Logins",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Added Site Security",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "GUI Admin Panel",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Shopping Cart",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Dealer/ Affliate Section",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Search Engine Friendly Structure",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Newsletter Module",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google eCommerce Tracking",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Conversion Forms-up to 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Migration",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Products Migration",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Order Migration",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "User Migration",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "New Domain (optional)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Web Hosting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Hosted Emails-30",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Web maintenance work-25 hours/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
   ],
@@ -801,496 +813,516 @@ export const pricingDetails = {
       price: "$599",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "No. of Keywords – 30",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Landing Page- 05",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Backlinks Per Month - 120",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "GBP (GMB)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Geotagging",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FIRST HAND SEO ANALYSIS",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Pre-Optimization Website",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Competitor Analysis",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keyword Research & Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Baseline Ranking Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Duplicate Content Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Penalty Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Backlink Analysis (if required)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "ON-SITE OPTIMIZATION ACTIVITIES",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Title Tag Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "META Description Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Website Canonical Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Heading Tags Optimization",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Image Alt Tags Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Optimization",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "SEO Friendly URL Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Site Navigation Analysis",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "404 Page Implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Broken Links Check",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Website Speed Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Indexed Pages Check",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google XML Sitemap",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Robots.txt Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Analytics Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Webmasters Tool Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Structured Data Setup",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "On Site Blog Section Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "On Site Blog Posting - 1",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setup of Website HTML Sitemap",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keyword Mapping To Target Pages",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Initial External Link Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "linking Restructuring & Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Meta Robots Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Language Tags Open Graph Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Twitter Tags Email id Clickable",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone Number Clickable",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Copyright Tags implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Schema Implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Analytics traffic analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ongoing quarterly keyword ranking reporting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Ongoing quarterly competitor conquest reports",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Business Profile optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Search Engine Submission (One Time Task)-10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Article Writing-1",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Article Posting-1",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Article Bookmarking-10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Classified Submissions-10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Writing-1",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Posting-1",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Bookmarking-10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Business Listing-4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Image sharing-5",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PPT Submissions-1",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Social Bookmarking-20",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PDF Sharing-1",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Profile Creation-4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Quora Answering-1",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Video Marketing (if Client provides)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Writing-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Distribution-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Promotion-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Guest Blog Outreach-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Guest Blog Promotion-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Writing-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Distribution-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Promotion",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release (if Client provides)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FACEBOOK",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Facebook Profile Creation",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Facebook Fan Page Creation",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Facebook Posting & Sharing",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "INSTAGRAM",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Instagram Profile Creation",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Instagram Posting & Sharing",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "TWITTER",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Twitter Profile Creation",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Twitter Post",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PINTEREST",
-          icon: CrossCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Account Creation/Management",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Pinterest Followers",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Updating of pin boards",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Pins (If Client Provides Images)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "MONTHLY REPORTS",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Monthly Keywords Ranking Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Website Analytics Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Monthly Off Page Submission Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CUSTOMER SUPPORT",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "No. of Keywords – 30",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Landing Page- 05",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Backlinks Per Month - 120",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "GBP (GMB)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Geotagging",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "FIRST HAND SEO ANALYSIS",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Pre-Optimization Website",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Competitor Analysis",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keyword Research & Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Baseline Ranking Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Duplicate Content Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Penalty Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Backlink Analysis (if required)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "ON-SITE OPTIMIZATION ACTIVITIES",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Title Tag Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "META Description Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Website Canonical Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Heading Tags Optimization",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Image Alt Tags Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Optimization",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "SEO Friendly URL Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Site Navigation Analysis",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "404 Page Implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Broken Links Check",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Website Speed Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Indexed Pages Check",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google XML Sitemap",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Robots.txt Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Analytics Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Webmasters Tool Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Structured Data Setup",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "On Site Blog Section Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "On Site Blog Posting - 1",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setup of Website HTML Sitemap",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keyword Mapping To Target Pages",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Initial External Link Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "linking Restructuring & Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Meta Robots Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Language Tags Open Graph Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Twitter Tags Email id Clickable",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone Number Clickable",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Copyright Tags implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Schema Implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Analytics traffic analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ongoing quarterly keyword ranking reporting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Ongoing quarterly competitor conquest reports",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Business Profile optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Search Engine Submission (One Time Task)-10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Article Writing-1",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Article Posting-1",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Article Bookmarking-10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Classified Submissions-10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Writing-1",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Posting-1",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Bookmarking-10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Business Listing-4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Image sharing-5",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "PPT Submissions-1",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Social Bookmarking-20",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "PDF Sharing-1",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Profile Creation-4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Quora Answering-1",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Video Marketing (if Client provides)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Writing-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Distribution-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Promotion-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Guest Blog Outreach-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Guest Blog Promotion-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Writing-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Distribution-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Promotion",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release (if Client provides)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "FACEBOOK",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Facebook Profile Creation",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Facebook Fan Page Creation",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Facebook Posting & Sharing",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "INSTAGRAM",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Instagram Profile Creation",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Instagram Posting & Sharing",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "TWITTER",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Twitter Profile Creation",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Twitter Post",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "PINTEREST",
+            icon: CrossCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Account Creation/Management",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Pinterest Followers",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Updating of pin boards",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Pins (If Client Provides Images)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "MONTHLY REPORTS",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Monthly Keywords Ranking Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Website Analytics Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Monthly Off Page Submission Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CUSTOMER SUPPORT",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -1298,496 +1330,516 @@ export const pricingDetails = {
       price: "$899",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "No. of Keywords – 40",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Landing Page- 10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Backlinks Per Month - 210",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "GBP (GMB)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Geotagging",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FIRST HAND SEO ANALYSIS",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Pre-Optimization Website",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Competitor Analysis",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keyword Research & Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Baseline Ranking Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Duplicate Content Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Penalty Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Backlink Analysis (if required)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "ON-SITE OPTIMIZATION ACTIVITIES",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Title Tag Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "META Description Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Website Canonical Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Heading Tags Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Image Alt Tags Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "SEO Friendly URL Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Site Navigation Analysis",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "404 Page Implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Broken Links Check",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Website Speed Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Indexed Pages Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google XML Sitemap",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Robots.txt Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Analytics Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Webmasters Tool Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Structured Data Setup",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "On Site Blog Section Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "On Site Blog Posting - 2",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setup of Website HTML Sitemap",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keyword Mapping To Target Pages",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Initial External Link Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "linking Restructuring & Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Meta Robots Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Language Tags Open Graph Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Twitter Tags Email id Clickable",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone Number Clickable",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Copyright Tags implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Schema Implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Analytics traffic analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ongoing quarterly keyword ranking reporting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Ongoing quarterly competitor conquest reports",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Business Profile optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Search Engine Submission (One Time Task)-20",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Article Writing-2",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Article Posting-2",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Article Bookmarking-20",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Classified Submissions-15",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Writing-2",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Posting-2",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Bookmarking-20",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Business Listing-6",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Image sharing-10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PPT Submissions-1",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Social Bookmarking-30",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PDF Sharing-2",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Profile Creation-6",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Quora Answering-2",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Video Marketing (if Client provides)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Writing-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Distribution-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Promotion-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Guest Blog Outreach-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Guest Blog Promotion-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Writing-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Distribution-(N/A)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Promotion",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release (if Client provides)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FACEBOOK",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Facebook Profile Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Facebook Fan Page Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Facebook Posting & Sharing - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "INSTAGRAM",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Instagram Profile Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Instagram Posting & Sharing - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "TWITTER",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Twitter Profile Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Twitter Post - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PINTEREST",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Account Creation/Management",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Pinterest Followers",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Updating of pin boards",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Pins (If Client Provides Images)",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "MONTHLY REPORTS",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Monthly Keywords Ranking Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Website Analytics Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Monthly Off Page Submission Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CUSTOMER SUPPORT",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "No. of Keywords – 40",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Landing Page- 10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Backlinks Per Month - 210",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "GBP (GMB)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Geotagging",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "FIRST HAND SEO ANALYSIS",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Pre-Optimization Website",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Competitor Analysis",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keyword Research & Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Baseline Ranking Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Duplicate Content Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Penalty Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Backlink Analysis (if required)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "ON-SITE OPTIMIZATION ACTIVITIES",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Title Tag Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "META Description Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Website Canonical Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Heading Tags Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Image Alt Tags Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "SEO Friendly URL Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Site Navigation Analysis",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "404 Page Implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Broken Links Check",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Website Speed Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Indexed Pages Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google XML Sitemap",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Robots.txt Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Analytics Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Webmasters Tool Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Structured Data Setup",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "On Site Blog Section Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "On Site Blog Posting - 2",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setup of Website HTML Sitemap",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keyword Mapping To Target Pages",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Initial External Link Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "linking Restructuring & Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Meta Robots Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Language Tags Open Graph Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Twitter Tags Email id Clickable",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone Number Clickable",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Copyright Tags implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Schema Implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Analytics traffic analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ongoing quarterly keyword ranking reporting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Ongoing quarterly competitor conquest reports",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Business Profile optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Search Engine Submission (One Time Task)-20",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Article Writing-2",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Article Posting-2",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Article Bookmarking-20",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Classified Submissions-15",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Writing-2",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Posting-2",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Bookmarking-20",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Business Listing-6",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Image sharing-10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "PPT Submissions-1",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Social Bookmarking-30",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "PDF Sharing-2",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Profile Creation-6",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Quora Answering-2",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Video Marketing (if Client provides)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Writing-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Distribution-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Promotion-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Guest Blog Outreach-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Guest Blog Promotion-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Writing-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Distribution-(N/A)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Promotion",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release (if Client provides)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "FACEBOOK",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Facebook Profile Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Facebook Fan Page Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Facebook Posting & Sharing - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "INSTAGRAM",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Instagram Profile Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Instagram Posting & Sharing - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "TWITTER",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Twitter Profile Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Twitter Post - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "PINTEREST",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Account Creation/Management",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Pinterest Followers",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Updating of pin boards",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Pins (If Client Provides Images)",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "MONTHLY REPORTS",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Monthly Keywords Ranking Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Website Analytics Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Monthly Off Page Submission Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CUSTOMER SUPPORT",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -1795,497 +1847,516 @@ export const pricingDetails = {
       price: "$1199",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "No. of Keywords – 50",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Landing Page - 15",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Backlinks Per Month - 300",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "GBP (GMB)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Geotagging",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FIRST HAND SEO ANALYSIS",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Pre-Optimization Website",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Competitor Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keyword Research & Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Baseline Ranking Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Duplicate Content Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Penalty Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Backlink Analysis (if required)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "ON-SITE OPTIMIZATION ACTIVITIES",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Title Tag Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "META Description Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Website Canonical Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Heading Tags Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Image Alt Tags Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "SEO Friendly URL Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Site Navigation Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "404 Page Implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Broken Links Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Website Speed Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Indexed Pages Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google XML Sitemap",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Robots.txt Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Analytics Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Webmasters Tool Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Structured Data Setup",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "On Site Blog Section Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "On Site Blog Posting - 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setup of Website HTML Sitemap",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keyword Mapping To Target Pages",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Initial External Link Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "linking Restructuring & Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Meta Robots Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Language Tags Open Graph Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Twitter Tags Email id Clickable",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone Number Clickable",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Copyright Tags implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Schema Implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Analytics traffic analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ongoing quarterly keyword ranking reporting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Ongoing quarterly competitor conquest reports",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Business Profile optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Search Engine Submission (One Time Task) - 30",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Article Writing - 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Article Posting - 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Article Bookmarking - 30",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Classified Submissions - 20",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Writing - 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Posting - 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Bookmarking - 30",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Business Listing - 8",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Image sharing - 15",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PPT Submissions - 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Social Bookmarking - 40",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PDF Sharing - 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Profile Creation - 8",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Quora Answering - 3",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Video Marketing (if Client provides)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Writing-(N/A)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Distribution-(N/A)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Promotion-(N/A)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Guest Blog Outreach-(N/A)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Guest Blog Promotion-(N/A)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Writing-(N/A)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Distribution-(N/A)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Promotion",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release (if Client provides)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FACEBOOK",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Facebook Profile Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Facebook Fan Page Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Facebook Posting & Sharing-8",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "INSTAGRAM",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Instagram Profile Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Instagram Posting & Sharing-8",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-
-        {
-          text: "TWITTER",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Twitter Profile Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Twitter Post-8",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PINTEREST",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Account Creation/Management",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Pinterest Followers",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Updating of pin boards-6",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Pins (If Client Provides Images)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "MONTHLY REPORTS",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Monthly Keywords Ranking Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Website Analytics Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Monthly Off Page Submission Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CUSTOMER SUPPORT",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "No. of Keywords – 50",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Landing Page - 15",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Backlinks Per Month - 300",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "GBP (GMB)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Geotagging",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "FIRST HAND SEO ANALYSIS",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Pre-Optimization Website",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Competitor Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keyword Research & Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Baseline Ranking Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Duplicate Content Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Penalty Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Backlink Analysis (if required)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "ON-SITE OPTIMIZATION ACTIVITIES",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Title Tag Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "META Description Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Website Canonical Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Heading Tags Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Image Alt Tags Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "SEO Friendly URL Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Site Navigation Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "404 Page Implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Broken Links Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Website Speed Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Indexed Pages Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google XML Sitemap",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Robots.txt Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Analytics Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Webmasters Tool Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Structured Data Setup",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "On Site Blog Section Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "On Site Blog Posting - 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setup of Website HTML Sitemap",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keyword Mapping To Target Pages",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Initial External Link Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "linking Restructuring & Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Meta Robots Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Language Tags Open Graph Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Twitter Tags Email id Clickable",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone Number Clickable",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Copyright Tags implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Schema Implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Analytics traffic analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ongoing quarterly keyword ranking reporting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Ongoing quarterly competitor conquest reports",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Business Profile optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Search Engine Submission (One Time Task) - 30",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Article Writing - 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Article Posting - 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Article Bookmarking - 30",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Classified Submissions - 20",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Writing - 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Posting - 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Bookmarking - 30",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Business Listing - 8",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Image sharing - 15",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "PPT Submissions - 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Social Bookmarking - 40",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "PDF Sharing - 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Profile Creation - 8",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Quora Answering - 3",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Video Marketing (if Client provides)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Writing-(N/A)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Distribution-(N/A)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Promotion-(N/A)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Guest Blog Outreach-(N/A)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Guest Blog Promotion-(N/A)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Writing-(N/A)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Distribution-(N/A)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Promotion",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release (if Client provides)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "FACEBOOK",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Facebook Profile Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Facebook Fan Page Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Facebook Posting & Sharing-8",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "INSTAGRAM",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Instagram Profile Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Instagram Posting & Sharing-8",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "TWITTER",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Twitter Profile Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Twitter Post-8",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "PINTEREST",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Account Creation/Management",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Pinterest Followers",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Updating of pin boards-6",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Pins (If Client Provides Images)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "MONTHLY REPORTS",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Monthly Keywords Ranking Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Website Analytics Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Monthly Off Page Submission Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CUSTOMER SUPPORT",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -2293,496 +2364,516 @@ export const pricingDetails = {
       price: "$1999",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "No. of Keywords – 100",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Landing Page - 20",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Backlinks Per Month - 600",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "GBP (GMB)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Geotagging",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FIRST HAND SEO ANALYSIS",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Pre-Optimization Website",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Competitor Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keyword Research & Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Baseline Ranking Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Duplicate Content Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Penalty Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Backlink Analysis (if required)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "ON-SITE OPTIMIZATION ACTIVITIES",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Title Tag Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "META Description Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Website Canonical Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Heading Tags Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Image Alt Tags Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "SEO Friendly URL Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Site Navigation Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "404 Page Implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Broken Links Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Website Speed Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Indexed Pages Check",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google XML Sitemap",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Robots.txt Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Analytics Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Webmasters Tool Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Structured Data Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "On Site Blog Section Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "On Site Blog Posting - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setup of Website HTML Sitemap",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keyword Mapping To Target Pages",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Initial External Link Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "linking Restructuring & Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Meta Robots Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Language Tags Open Graph Tags",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Twitter Tags Email id Clickable",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone Number Clickable",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Copyright Tags implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Schema Implementation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Analytics traffic analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ongoing quarterly keyword ranking reporting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Ongoing quarterly competitor conquest reports",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google Business Profile optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Search Engine Submission (One Time Task) - 40",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Article Writing - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Article Posting - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Article Bookmarking - 40",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Classified Submissions - 25",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Writing - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Posting - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Blog Bookmarking - 40",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Business Listing - 10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Image sharing - 20",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PPT Submissions - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Social Bookmarking - 50",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PDF Sharing - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Profile Creation - 10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Quora Answering - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Video Marketing (if Client provides)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Writing",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Distribution",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release Promotion",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Guest Blog Outreach",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Guest Blog Promotion",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Writing-(N/A)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Distribution-(N/A)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Premium Press Release Promotion",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Press Release (if Client provides)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FACEBOOK",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Facebook Profile Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Facebook Fan Page Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Facebook Posting & Sharing - 16",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "INSTAGRAM",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Instagram Profile Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Instagram Posting & Sharing - 16",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "TWITTER",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Twitter Profile Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Twitter Post - 12",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PINTEREST",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Account Creation/Management",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Pinterest Followers",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Updating of pin boards - 12",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Pins (If Client Provides Images)",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "MONTHLY REPORTS",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Monthly Keywords Ranking Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Website Analytics Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Monthly Off Page Submission Report",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CUSTOMER SUPPORT",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "No. of Keywords – 100",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Landing Page - 20",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Backlinks Per Month - 600",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "GBP (GMB)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Geotagging",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "FIRST HAND SEO ANALYSIS",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Pre-Optimization Website",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Competitor Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keyword Research & Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Baseline Ranking Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Duplicate Content Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Penalty Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Backlink Analysis (if required)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "ON-SITE OPTIMIZATION ACTIVITIES",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Title Tag Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "META Description Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Website Canonical Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Heading Tags Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Image Alt Tags Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "SEO Friendly URL Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Site Navigation Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "404 Page Implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Broken Links Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Website Speed Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Indexed Pages Check",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google XML Sitemap",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Robots.txt Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Analytics Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Webmasters Tool Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Structured Data Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "On Site Blog Section Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "On Site Blog Posting - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setup of Website HTML Sitemap",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keyword Mapping To Target Pages",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Initial External Link Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "linking Restructuring & Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Meta Robots Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Language Tags Open Graph Tags",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Twitter Tags Email id Clickable",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone Number Clickable",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Copyright Tags implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Copyright Years Updating Favicon Implementation Social Media Icon Setup",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Schema Implementation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Analytics traffic analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ongoing quarterly keyword ranking reporting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ongoing user experience reporting (bounce rate, device category, etc.)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Ongoing quarterly competitor conquest reports",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google Business Profile optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "OFF-PAGE OPTIMIZATION AND LINK BUILDING",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Search Engine Submission (One Time Task) - 40",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Article Writing - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Article Posting - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Article Bookmarking - 40",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Classified Submissions - 25",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Writing - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Posting - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Blog Bookmarking - 40",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Business Listing - 10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Image sharing - 20",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "PPT Submissions - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Social Bookmarking - 50",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "PDF Sharing - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Profile Creation - 10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Quora Answering - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Video Marketing (if Client provides)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Writing",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Distribution",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release Promotion",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Guest Blog Outreach",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Guest Blog Promotion",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Writing-(N/A)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Distribution-(N/A)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Premium Press Release Promotion",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Press Release (if Client provides)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "FACEBOOK",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Facebook Profile Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Facebook Fan Page Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Facebook Posting & Sharing - 16",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "INSTAGRAM",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Instagram Profile Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Instagram Posting & Sharing - 16",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "TWITTER",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Twitter Profile Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Twitter Post - 12",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "PINTEREST",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Account Creation/Management",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Pinterest Followers",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Updating of pin boards - 12",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Pins (If Client Provides Images)",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "MONTHLY REPORTS",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Monthly Keywords Ranking Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Website Analytics Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Monthly Off Page Submission Report",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CUSTOMER SUPPORT",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
   ],
@@ -2792,201 +2883,209 @@ export const pricingDetails = {
       price: "$298",
       tagline: "Essential Services",
       lists: [
-        {
-          text: " Competitor Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Strategy Formation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Hashtag Creation And Promotion",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Creative Creation - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Postings - 4",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keywords",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Negative Keywords",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Engagement With Active Communities And Groups",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Network Build-Up",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Analysis Of Social Media Set-Up",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Posts Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Audience Behaviour Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Recommendations",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Building Social Media Strategy",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PAID PROMOTION",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Identifying Suitable Objectives",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Identifying Target Audience",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Creation Of Ad Accounts",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Budget Estimate",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Campaigns",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Creative Creation",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Daily Account Optimization",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Sales Funnel For Conversion Objective",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Conversion Tracking Assisted By Google Analytics",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "REMARKETING",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Identifying Suitable Objectives",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Identifying Target Audience",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Creation Of Ad Accounts",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Budget Estimate",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Campaigns",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Creative Creation",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Daily Account Optimization",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Sales Funnel For Conversion Objective",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Conversion Tracking Assisted By Google Analytics",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CUSTOMER SUPPORT",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: " Competitor Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Strategy Formation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Hashtag Creation And Promotion",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Creative Creation - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Postings - 4",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keywords",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Negative Keywords",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Engagement With Active Communities And Groups",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Network Build-Up",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Analysis Of Social Media Set-Up",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Posts Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Audience Behaviour Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Recommendations",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Building Social Media Strategy",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "PAID PROMOTION",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Identifying Suitable Objectives",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Identifying Target Audience",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Creation Of Ad Accounts",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Budget Estimate",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Campaigns",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Creative Creation",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Daily Account Optimization",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Sales Funnel For Conversion Objective",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Conversion Tracking Assisted By Google Analytics",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "REMARKETING",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Identifying Suitable Objectives",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Identifying Target Audience",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Creation Of Ad Accounts",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Budget Estimate",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Campaigns",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Creative Creation",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Daily Account Optimization",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Sales Funnel For Conversion Objective",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Conversion Tracking Assisted By Google Analytics",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CUSTOMER SUPPORT",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -2994,201 +3093,209 @@ export const pricingDetails = {
       price: "$348",
       tagline: "Essential Services",
       lists: [
-        {
-          text: " Competitor Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Strategy Formation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Hashtag Creation And Promotion",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Creative Creation - 8",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Postings - 8",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keywords",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Negative Keywords",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Engagement With Active Communities And Groups",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Network Build-Up",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Analysis Of Social Media Set-Up",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Posts Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Audience Behaviour Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Recommendations",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Building Social Media Strategy",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PAID PROMOTION",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Identifying Suitable Objectives",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Identifying Target Audience",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Creation Of Ad Accounts",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Budget Estimate",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Campaigns",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Creative Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Daily Account Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Sales Funnel For Conversion Objective",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Conversion Tracking Assisted By Google Analytics",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "REMARKETING",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Identifying Suitable Objectives",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Identifying Target Audience",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Creation Of Ad Accounts",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Budget Estimate",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Campaigns",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Creative Creation",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Daily Account Optimization",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Sales Funnel For Conversion Objective",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Conversion Tracking Assisted By Google Analytics",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CUSTOMER SUPPORT",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: " Competitor Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Strategy Formation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Hashtag Creation And Promotion",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Creative Creation - 8",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Postings - 8",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keywords",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Negative Keywords",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Engagement With Active Communities And Groups",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Network Build-Up",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Analysis Of Social Media Set-Up",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Posts Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Audience Behaviour Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Recommendations",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Building Social Media Strategy",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "PAID PROMOTION",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Identifying Suitable Objectives",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Identifying Target Audience",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Creation Of Ad Accounts",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Budget Estimate",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Campaigns",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Creative Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Daily Account Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Sales Funnel For Conversion Objective",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Conversion Tracking Assisted By Google Analytics",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "REMARKETING",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Identifying Suitable Objectives",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Identifying Target Audience",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Creation Of Ad Accounts",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Budget Estimate",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Campaigns",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Creative Creation",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Daily Account Optimization",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Sales Funnel For Conversion Objective",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Conversion Tracking Assisted By Google Analytics",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CUSTOMER SUPPORT",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -3196,201 +3303,209 @@ export const pricingDetails = {
       price: "$498",
       tagline: "Essential Services",
       lists: [
-        {
-          text: " Competitor Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Strategy Formation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Hashtag Creation And Promotion",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Creative Creation - 16",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Postings - 16",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keywords",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Negative Keywords",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Engagement With Active Communities And Groups",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Network Build-Up",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Content Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Analysis Of Social Media Set-Up",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Posts Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Audience Behaviour Analysis",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Recommendations",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Building Social Media Strategy",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "PAID PROMOTION",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Identifying Suitable Objectives",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Identifying Target Audience",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Creation Of Ad Accounts",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Budget Estimate",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Campaigns",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Creative Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Daily Account Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Sales Funnel For Conversion Objective",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Conversion Tracking Assisted By Google Analytics",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "REMARKETING",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Identifying Suitable Objectives",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Identifying Target Audience",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Creation Of Ad Accounts",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Budget Estimate",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Campaigns",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Creative Creation",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Daily Account Optimization",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Setting Up Sales Funnel For Conversion Objective",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Conversion Tracking Assisted By Google Analytics",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "CUSTOMER SUPPORT",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: " Competitor Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Strategy Formation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Hashtag Creation And Promotion",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Creative Creation - 16",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Postings - 16",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keywords",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Negative Keywords",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Engagement With Active Communities And Groups",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Network Build-Up",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Content Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Analysis Of Social Media Set-Up",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Posts Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Audience Behaviour Analysis",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Recommendations",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Building Social Media Strategy",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "PAID PROMOTION",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Identifying Suitable Objectives",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Identifying Target Audience",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Creation Of Ad Accounts",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Budget Estimate",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Campaigns",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Creative Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Daily Account Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Sales Funnel For Conversion Objective",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Conversion Tracking Assisted By Google Analytics",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "REMARKETING",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Identifying Suitable Objectives",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Identifying Target Audience",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Creation Of Ad Accounts",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Budget Estimate",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Campaigns",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Creative Creation",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Daily Account Optimization",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Setting Up Sales Funnel For Conversion Objective",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Conversion Tracking Assisted By Google Analytics",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "CUSTOMER SUPPORT",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
   ],
@@ -3400,136 +3515,144 @@ export const pricingDetails = {
       price: "$299",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "Setup Fee - $199",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Advertising Budget – upto $999/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Full Optimizations – 1/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Groups – Up To 5",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Silver Tasks",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "A/B Test",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keywords Up To 50",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Negative Keywords",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Conversion Tracking",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Monthly Reporting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "No Contracts",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Networks",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Yahoo",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Bing",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FB",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Mobile Ads",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Call Extensions",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Sitelink Extensions",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Remarketing",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Conference Calls",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Display/Image Ads",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Client Support",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "Setup Fee - $199",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Advertising Budget – upto $999/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Full Optimizations – 1/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Groups – Up To 5",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Silver Tasks",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "A/B Test",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keywords Up To 50",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Negative Keywords",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Conversion Tracking",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Monthly Reporting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "No Contracts",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Networks",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Yahoo",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Bing",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "FB",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Mobile Ads",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Call Extensions",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Sitelink Extensions",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Remarketing",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Conference Calls",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Display/Image Ads",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Client Support",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -3537,136 +3660,144 @@ export const pricingDetails = {
       price: "$399",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "Setup Fee - $349",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Advertising Budget – upto $1999/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Full Optimizations – 2/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Groups – Up To 10",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Gold Tasks",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "A/B Test",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keywords Up To 100",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Negative Keywords",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Conversion Tracking",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Monthly Reporting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "No Contracts",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Networks",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Yahoo",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Bing",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FB",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Mobile Ads",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Call Extensions",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Sitelink Extensions",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Remarketing",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Conference Calls",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Display/Image Ads",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Client Support",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "Setup Fee - $349",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Advertising Budget – upto $1999/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Full Optimizations – 2/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Groups – Up To 10",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Gold Tasks",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "A/B Test",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keywords Up To 100",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Negative Keywords",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Conversion Tracking",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Monthly Reporting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "No Contracts",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Networks",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Yahoo",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Bing",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "FB",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Mobile Ads",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Call Extensions",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Sitelink Extensions",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Remarketing",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Conference Calls",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Display/Image Ads",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Client Support",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -3674,136 +3805,144 @@ export const pricingDetails = {
       price: "$549",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "Setup Fee - $449",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Advertising Budget – upto $2999/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Full Optimizations – 3/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Groups – Up To 20",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Platinum Tasks",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "A/B Test",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keywords Up To 200",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Negative Keywords",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Conversion Tracking",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Monthly Reporting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "No Contracts",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Networks",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Yahoo",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Bing",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FB",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Mobile Ads",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Call Extensions",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Sitelink Extensions",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Remarketing",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Conference Calls",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Display/Image Ads",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Client Support",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "Setup Fee - $449",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Advertising Budget – upto $2999/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Full Optimizations – 3/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Groups – Up To 20",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Platinum Tasks",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "A/B Test",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keywords Up To 200",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Negative Keywords",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Conversion Tracking",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Monthly Reporting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "No Contracts",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Networks",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Yahoo",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Bing",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "FB",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Mobile Ads",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Call Extensions",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Sitelink Extensions",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Remarketing",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Conference Calls",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Display/Image Ads",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Client Support",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
     {
@@ -3811,136 +3950,144 @@ export const pricingDetails = {
       price: "$699",
       tagline: "Essential Services",
       lists: [
-        {
-          text: "Setup Fee - $599",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Advertising Budget – upto $2999/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Full Optimizations – 5/month",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Groups – Up To 40",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Diamond Tasks",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "A/B Test",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Keywords Up To 500",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Negative Keywords",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Conversion Tracking",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: " Monthly Reporting",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "No Contracts",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Ad Networks",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Google",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Yahoo",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Bing",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "FB",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Mobile Ads",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Call Extensions",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Sitelink Extensions",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Remarketing",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Monthly Conference Calls",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Display/Image Ads",
-          icon: CrossCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Client Support",
-          icon: CheckCricleImage,
-          isHeading: true,
-        },
-        {
-          text: "Chat",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Email",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
-        {
-          text: "Phone",
-          icon: CheckCricleImage,
-          isHeading: false,
-        },
+        [
+          {
+            text: "Setup Fee - $599",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Advertising Budget – upto $2999/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Full Optimizations – 5/month",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Groups – Up To 40",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Diamond Tasks",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "A/B Test",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Keywords Up To 500",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Negative Keywords",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Conversion Tracking",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: " Monthly Reporting",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "No Contracts",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Ad Networks",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Google",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Yahoo",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Bing",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "FB",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Mobile Ads",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Call Extensions",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Sitelink Extensions",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Remarketing",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Monthly Conference Calls",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Display/Image Ads",
+            icon: CrossCricleImage,
+            isHeading: false,
+          },
+        ],
+        [
+          {
+            text: "Client Support",
+            icon: CheckCricleImage,
+            isHeading: true,
+          },
+          {
+            text: "Chat",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Email",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+          {
+            text: "Phone",
+            icon: CheckCricleImage,
+            isHeading: false,
+          },
+        ],
       ],
     },
   ],
@@ -4025,7 +4172,7 @@ export const reviews = [
   {
     name: "Vansh Singh",
     image: Testimonial2,
-    review: `My experiences with Ophanim Technologies have been fantastic. Mr. Saurav and his team were extremely friendly, helpful, and quick to respond. They went above and beyond to help us reach many of our objectives. I can't recommend them enough! `,
+    review: `My experiences with Ophanim Technologies have been fantastic. Mr. Ryan and his team were extremely friendly, helpful, and quick to respond. They went above and beyond to help us reach many of our objectives. I can't recommend them enough! `,
     company: "Pragyavan Pvt Ltd.",
   },
   {

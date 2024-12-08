@@ -24,26 +24,31 @@ const PriceCard = ({ item, index }) => {
           )}
         </div>
       </div>
-      <div className='list'>
-        <ul>
-          {item.lists.map((listItem, index) => {
-            if (listItem.isHeading) {
+      {item?.lists?.map((listItems, listsIndex) => (
+        <div className='list' key={`key-${listsIndex}- ${index}`}>
+          <ul>
+            {listItems?.map((listItem, i) => {
+              if (listItem.isHeading) {
+                return (
+                  <li
+                    key={`lists - ${i} - ${listsIndex} - ${index}`}
+                    className='justify-content-center text-center'
+                  >
+                    <p>{listItem.text}</p>
+                  </li>
+                );
+              }
               return (
-                <li key={index}>
-                  <p>{listItem.text}</p>
-                </li>
+                <ListItem
+                  item={listItem?.text}
+                  index={`lists - ${index} - ${listsIndex} - ${i}`}
+                  icon={listItem?.icon}
+                />
               );
-            }
-            return (
-              <ListItem
-                item={listItem.text}
-                index={index}
-                icon={listItem.icon}
-              />
-            );
-          })}
-        </ul>
-      </div>
+            })}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 };

@@ -539,7 +539,7 @@ h1 {
   gap: 10px;
 }
 
-.carousel-slide .user img{
+.carousel-slide .user img {
   width: 48px;
   height: 48px;
   object-fit: cover;
@@ -1286,7 +1286,7 @@ h1 {
 .price-card.diamond {
   background: radial-gradient(
     81.03% 86.75% at 92.01% 8.34%,
-    #f0f6fd 3.94%,
+    #d5f190 3.94%,
     #ffffff 52.09%,
     #ffffff 71.2%
   );
@@ -1352,9 +1352,19 @@ h1 {
   background: none;
 }
 
+.price-wrapper .list {
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
 .price-wrapper .list ul li {
   margin-bottom: 12px;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .price-wrapper .list ul li img {
@@ -1365,7 +1375,7 @@ h1 {
 .price-wrapper .list ul li p {
   font-weight: 600;
   font-size: 20px;
-  margin: 12px 0px;
+  margin: 0px;
 }
 
 .price-header p {

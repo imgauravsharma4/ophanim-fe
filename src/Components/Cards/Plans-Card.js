@@ -36,9 +36,9 @@ const PlansCard = ({ planName, price, features, icon }) => {
               <path
                 d='M15.125 8.52756L9.875 13.7773L7.25 11.1526'
                 stroke='#1b5faa'
-                stroke-width='1.5'
-                stroke-linecap='round'
-                stroke-linejoin='round'
+                strokeWidth='1.5'
+                strokeLinecap='round'
+                strokeLinejoin='round'
               />
             </svg>
             {feature.text}

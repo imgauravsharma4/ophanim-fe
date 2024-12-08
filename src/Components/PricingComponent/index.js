@@ -30,16 +30,20 @@ const PricingComponent = ({ type }) => {
               } col-md-6 col-sm-12 price-for-desktop`}
               key={`key-${index}`}
             >
-              <PriceCard item={item} index={index} />
+              <PriceCard item={item} index={index+1} />
             </div>
           ))}
           <div className='price-for-mobile'>
             <div className='price-tabs'>
-              <ul class='nav nav-tabs' id='myTab' role='tablist'>
+              <ul className='nav nav-tabs' id='myTab' role='tablist'>
                 {data.map((item, index) => (
-                  <li class='nav-item' role='presentation' key={`key-${index}`}>
+                  <li
+                    className='nav-item'
+                    role='presentation'
+                    key={`key-${index}`}
+                  >
                     <button
-                      class={`nav-link ${index === 0 && "active"}`}
+                      className={`nav-link ${index === 0 && "active"}`}
                       id={`${item.type}-tab`}
                       data-bs-toggle='tab'
                       data-bs-target={`#${item.type}-tab-pane`}
@@ -54,17 +58,17 @@ const PricingComponent = ({ type }) => {
                 ))}
               </ul>
             </div>
-            <div class='tab-content' id='myTabContent'>
+            <div className='tab-content' id='myTabContent'>
               {data.map((item, index) => (
                 <div
-                  class={`tab-pane ${index === 0 && "fade show active "}`}
+                  className={`tab-pane ${index === 0 && "fade show active "}`}
                   id={`${item.type}-tab-pane`}
                   role='tabpanel'
                   aria-labelledby={`${item.typetype}-tab`}
-                  tabindex='0'
+                  tabIndex='0'
                   key={`key-${index}`}
                 >
-                  <PriceCard item={item} index={index} />
+                  <PriceCard item={item} index={`keys- ${index}`} />
                 </div>
               ))}
             </div>
