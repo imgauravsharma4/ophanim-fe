@@ -1,7 +1,11 @@
 import React, { useState } from "react";
-import { ContactInfoDetails } from "../../utlis/variables";
+import {
+  ContactInfoDetails,
+  pageTitleDescription,
+} from "../../utlis/variables";
 import emailjs from "@emailjs/browser";
 import PageHeader from "../../Components/PageHeader";
+import HelmetComponent from "../../Components/HelmetComponent";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -52,6 +56,10 @@ const ContactPage = () => {
   };
   return (
     <div>
+      <HelmetComponent
+        title={pageTitleDescription.CONTACT_US.title}
+        description={pageTitleDescription.CONTACT_US.description}
+      />
       <div className='container'>
         <PageHeader
           title={"Get in touch with us."}

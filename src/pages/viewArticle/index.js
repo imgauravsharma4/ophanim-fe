@@ -4,10 +4,16 @@ import NewsCard from "../../Components/NewsCard/NewsCard";
 import VectorImg from "../../assests/images/Vector.svg";
 import Tick from "../../assests/images/tick.svg";
 import social3 from "../../assests/images/social3.svg";
+import HelmetComponent from "../../Components/HelmetComponent";
+import { pageTitleDescription } from "../../utlis/variables";
 
 const ViewArticle = () => {
   return (
     <div>
+      <HelmetComponent
+        title={pageTitleDescription.NEWS.title}
+        description={pageTitleDescription.NEWS.description}
+      />
       <div className='container'>
         <div>
           <div className='hero-container'>

@@ -1,10 +1,16 @@
 import React from "react";
 import Post from "../../assests/images/mainImage.svg";
 import NewsCard from "../../Components/NewsCard/NewsCard";
+import HelmetComponent from "../../Components/HelmetComponent";
+import { pageTitleDescription } from "../../utlis/variables";
 
 const NewsPage = () => {
   return (
     <div>
+      <HelmetComponent
+        title={pageTitleDescription.NEWS.title}
+        description={pageTitleDescription.NEWS.description}
+      />
       <div className='container'>
         <div className='container-fluid p-0'>
           <div className='container py-5'>

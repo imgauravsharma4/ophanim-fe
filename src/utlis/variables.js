@@ -23,6 +23,7 @@ import CrossCricleImage from "../assests/images/x-circle-contained.png";
 import Testimonial1 from "../assests/images/testimonial-1.jpg";
 import Testimonial2 from "../assests/images/testimonial-2.jpg";
 import Testimonial3 from "../assests/images/testimonial-3.jpg";
+import BlankCheckBox from "../assests/images/BlankCheckBox.png";
 
 import { options } from "./config";
 export const quickLinks = [
@@ -4109,8 +4110,8 @@ export const seoPlans = [
       { icon: checkBox, text: "No. of Keywords - 30" },
       { icon: checkBox, text: "Landing Page - 05" },
       { icon: checkBox, text: "Backlinks Per Month - 120" },
-      { icon: emptyCheckBox, text: "Geotagging", disabled: true },
-      { icon: emptyCheckBox, text: "GBP (GMB)", disabled: true },
+      { icon: BlankCheckBox, text: "Geotagging", disabled: true },
+      { icon: BlankCheckBox, text: "GBP (GMB)", disabled: true },
     ],
     isHighlighted: false,
   },
@@ -4122,8 +4123,8 @@ export const seoPlans = [
       { icon: checkBox, text: "No. of Keywords - 40" },
       { icon: checkBox, text: "Landing Page - 10" },
       { icon: checkBox, text: "Backlinks Per Month - 210" },
-      { icon: checkBox, text: "Geotagging" },
       { icon: checkBox, text: "GBP (GMB)" },
+      { icon: BlankCheckBox, text: "Geotagging", disabled: true },
     ],
     isHighlighted: true,
   },
@@ -4195,5 +4196,29 @@ export const pageTitleDescription = {
   SEO_SERVICE: {
     title: `Complete SEO Services for Your Business by Ophanim Technologies`,
     description: `Increase organic traffic, leads, and sales with our comprehensive SEO solutions. We help medium to large businesses in the USA & Canada achieve top search rankings.`,
+  },
+  SEO_PRICING: {
+    title: `Seo Plan | Ophanim Technologies`,
+    description: ``,
+  },
+  SMO_PRICING: {
+    title: `Smo Plan | Ophanim Technologies`,
+    description: ``,
+  },
+  PPC_PRICING: {
+    title: `Ppc Plan | Ophanim Technologies`,
+    description: ``,
+  },
+  WEB_PRICING: {
+    title: `Web Development Plan | Ophanim Technologies`,
+    description: ``,
+  },
+  NEWS: {
+    title: `News | Ophanim Technologies`,
+    description: ``,
+  },
+  CONTACT_US: {
+    title: `Contact Us | Ophanim Technologies`,
+    description: ``,
   },
 };

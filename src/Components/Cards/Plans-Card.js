@@ -18,29 +18,33 @@ const PlansCard = ({ planName, price, features, icon }) => {
       <ul className='features'>
         {features.map((feature, index) => (
           <li key={index} className={feature.disabled ? "disabled" : ""}>
-            <svg
-              width='22'
-              height='23'
-              viewBox='0 0 22 23'
-              fill='none'
-              xmlns='http://www.w3.org/2000/svg'
-              className='me-2'
-            >
-              <rect
-                y='0.152344'
+            {feature.disabled ? (
+              <img src={feature.icon} className='img-fluid me-2' alt="icon"/>
+            ) : (
+              <svg
                 width='22'
-                height='22'
-                rx='11'
-                fill='#F0F5FF'
-              />
-              <path
-                d='M15.125 8.52756L9.875 13.7773L7.25 11.1526'
-                stroke='#1b5faa'
-                strokeWidth='1.5'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-              />
-            </svg>
+                height='23'
+                viewBox='0 0 22 23'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+                className='me-2'
+              >
+                <rect
+                  y='0.152344'
+                  width='22'
+                  height='22'
+                  rx='11'
+                  fill='#F0F5FF'
+                />
+                <path
+                  d='M15.125 8.52756L9.875 13.7773L7.25 11.1526'
+                  stroke='#1b5faa'
+                  strokeWidth='1.5'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                />
+              </svg>
+            )}
             {feature.text}
           </li>
         ))}

@@ -1,9 +1,18 @@
-import React from 'react'
-import PricingComponent from '../../Components/PricingComponent';
-import { pricingCategory } from '../../utlis/variables';
+import React from "react";
+import PricingComponent from "../../Components/PricingComponent";
+import { pageTitleDescription, pricingCategory } from "../../utlis/variables";
+import HelmetComponent from "../../Components/HelmetComponent";
 
 const Seo = () => {
-  return <PricingComponent type={pricingCategory.SEO} />;
-}
+  return (
+    <>
+      <HelmetComponent
+        title={pageTitleDescription.SEO_PRICING.title}
+        description={pageTitleDescription.SEO_PRICING.description}
+      />
+      <PricingComponent type={pricingCategory.SEO} />
+    </>
+  );
+};
 
-export default Seo
+export default Seo;
