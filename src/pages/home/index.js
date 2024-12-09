@@ -1,7 +1,12 @@
 import React from "react";
 import SliderContainer from "../../Components/Slide/SliderContainer";
 
-import { HomeChooseUsData, seoPlans, ServiceData } from "../../utlis/variables";
+import {
+  HomeChooseUsData,
+  pageTitleDescription,
+  seoPlans,
+  ServiceData,
+} from "../../utlis/variables";
 import Card from "../../Components/Cards/Card";
 import abcd from "../../assests/images/why-choose-us.png";
 import ProcessSection from "../../Components/ProcessSection/ProcessSection";
@@ -11,9 +16,14 @@ import Marketing from "../../assests/images/marketing.png";
 import Vector12 from "../../assests/images/Vector 12.png";
 import Ellipse26 from "../../assests/images/Ellipse 26.png";
 import HomePageImage from "../../assests/images/HomepageHalf.png";
+import HelmetComponent from "../../Components/HelmetComponent";
 function Home() {
   return (
     <>
+      <HelmetComponent
+        title={pageTitleDescription.HOME.title}
+        description={pageTitleDescription.HOME.description}
+      />
       <div className='position-relative'>
         <img src={HomePageImage} alt='' className='img-fluid home-page-bg' />
         <section className='section-wrapper'>

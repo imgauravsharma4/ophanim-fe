@@ -6,15 +6,21 @@ import Card from "../../Components/Cards/Card";
 import {
   AgencyData,
   ExpertiseData,
+  pageTitleDescription,
   SeoRankingData,
 } from "../../utlis/variables";
 import SliderContainer from "../../Components/Slide/SliderContainer";
 import ListItem from "../../Components/ListItem/ListItem";
 import PageHeader from "../../Components/PageHeader";
+import HelmetComponent from "../../Components/HelmetComponent";
 
 const ServicePage = () => {
   return (
     <div>
+      <HelmetComponent
+        title={pageTitleDescription.SEO_SERVICE.title}
+        description={pageTitleDescription.SEO_SERVICE.description}
+      />
       <PageHeader
         title={"Most In-Demand  "}
         subTitle={"SEO Services in the USA"}

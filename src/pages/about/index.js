@@ -1,15 +1,25 @@
 import React from "react";
 import aboutUsImage from "../../assests/images/aboutUs.png";
 import iconLens from "../../assests/images/icon-lens.svg";
-import { aboutUsData } from "../../utlis/variables";
+import { aboutUsData, pageTitleDescription } from "../../utlis/variables";
 import Card from "../../Components/Cards/Card";
 import SliderContainer from "../../Components/Slide/SliderContainer";
 import PageHeader from "../../Components/PageHeader";
+import HelmetComponent from "../../Components/HelmetComponent";
 
 const AboutPage = () => {
   return (
     <div>
-      <PageHeader title={"Welcome to"} subTitle={"Ophanim Technologies"} classes={'text-center'}/>
+      <HelmetComponent
+        title={pageTitleDescription.ABOUT_US.title}
+        description={pageTitleDescription.ABOUT_US.description}
+      />
+
+      <PageHeader
+        title={"Welcome to"}
+        subTitle={"Ophanim Technologies"}
+        classes={"text-center"}
+      />
       <div className='container'>
         <div className='row'>
           <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>

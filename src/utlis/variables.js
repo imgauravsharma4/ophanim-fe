@@ -4182,3 +4182,18 @@ export const reviews = [
     company: "Destin Services Pvt. Ltd.",
   },
 ];
+
+export const pageTitleDescription = {
+  HOME: {
+    title: `Leading Digital Marketing & SEO Agency | Ophanim Technologies`,
+    description: `Ophanim Technologies delivers measurable SEO results for enterprises and helps businesses achieve top search rankings and sustainable online success.`,
+  },
+  ABOUT_US: {
+    title: `Ophanim Technologies: Digital Marketing Agency | About Us`,
+    description: `Know more about Ophanim Technologies and how we craft data-driven strategies to elevate your search rankings and drive organic growth for your business.`,
+  },
+  SEO_SERVICE: {
+    title: `Complete SEO Services for Your Business by Ophanim Technologies`,
+    description: `Increase organic traffic, leads, and sales with our comprehensive SEO solutions. We help medium to large businesses in the USA & Canada achieve top search rankings.`,
+  },
+};
