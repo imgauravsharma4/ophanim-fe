@@ -27,68 +27,85 @@ import BlankCheckBox from "../assests/images/BlankCheckBox.png";
 import { options } from "./config";
 export const quickLinks = [
   {
-    link: "",
-    name: "About Us",
+    name: "About",
+    links: [
+      {
+        link: "/about",
+        name: "About Us",
+      },
+      {
+        link: "/contact",
+        name: "Contact Us",
+      },
+    ],
   },
   {
-    link: "",
-    name: "Plans & Pricing",
+    name: "Service",
+    links: [
+      {
+        link: "/smo-services",
+        name: "SMO Services",
+      },
+      {
+        link: "/online-reputation-management",
+        name: "Online Reputation",
+      },
+
+      {
+        link: "/pay-per-click",
+        name: "Pay Per Click",
+      },
+      {
+        link: "/content-marketing",
+        name: "Content Marketing",
+      },
+    ],
   },
   {
-    link: "",
-    name: "Personal AI Manager",
-  },
-  {
-    link: "",
-    name: "AI Business Writer",
-  },
-  {
-    link: "",
     name: "Pricing",
+    links: [
+      {
+        link: "/seo",
+        name: "SEO Pricing",
+      },
+      {
+        link: "/smo",
+        name: "SMO Pricing",
+      },
+      {
+        link: "/ppc",
+        name: "PPC Pricing",
+      },
+      {
+        link: "/web-development",
+        name: "Web Development",
+      },
+    ],
   },
   {
-    link: CheckCricleImage,
-    name: "Plans & Pricing",
-  },
-  {
-    link: "",
-    name: "Personal AI Manager",
-  },
-  {
-    link: "",
-    name: "AI Business Writer",
-  },
-  {
-    link: "",
-    name: "About Us",
-  },
-  {
-    link: "",
-    name: "Blog",
-  },
-  {
-    link: "",
-    name: "Careers",
-  },
-  {
-    link: "",
-    name: "News",
-  },
-  {
-    link: "",
-    name: "News",
-  },
-  {
-    link: "",
-    name: "Documentation",
-  },
-  {
-    link: "",
-    name: "Papers",
-  },
-  {
-    link: "",
-    name: "Press Conferences",
+    name: "Seo Services",
+    links: [
+      {
+        link: "/seo-services",
+        name: "SEO Services",
+      },
+      {
+        link: "/small-business-seo",
+        name: "Small Business SEO",
+      },
+      {
+        link: "/ecommerce-seo",
+        name: "ECommerce SEO",
+      },
+      {
+        link: "/local-seo-services",
+        name: "Local SEO Services",
+      },
+      {
+        link: "/white-label-seo",
+        name: "White Label SEO",
+      },
+    ],
   },
 ];
 
