@@ -17,7 +17,12 @@ import Vector12 from "../../assests/images/Vector 12.png";
 import Ellipse26 from "../../assests/images/Ellipse 26.png";
 import HomePageImage from "../../assests/images/HomepageHalf.png";
 import HelmetComponent from "../../Components/HelmetComponent";
+import { useNavigate } from "react-router-dom";
 function Home() {
+  const router = useNavigate();
+  const handleClick = () => {
+    router("/contact");
+  };
   return (
     <>
       <HelmetComponent
@@ -39,7 +44,9 @@ function Home() {
                     Generate <span className='bold-text'>500%</span> More
                     revenue with us.
                   </p>
-                  <button className='cta-button'>Get Started Now</button>
+                  <button className='cta-button' onClick={handleClick}>
+                    Get Started Now
+                  </button>
                 </div>
               </div>
               <div className='col-xl-5 col-lg-6 col-md-12 col-sm-12 text-center'>

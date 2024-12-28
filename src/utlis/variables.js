@@ -17,7 +17,6 @@ import DiamondIcon from "../assests/images/dimondicon.png";
 import GoldIcon from "../assests/images/goldIcon.png";
 import PlatiniumIcon from "../assests/images/platiniumIcon.png";
 import checkBox from "../assests/images/Check Box.png";
-import emptyCheckBox from "../assests/images//Empty Check Box.png";
 import CheckCricleImage from "../assests/images/Check circle.png";
 import CrossCricleImage from "../assests/images/x-circle-contained.png";
 import Testimonial1 from "../assests/images/testimonial-1.jpg";
@@ -217,35 +216,35 @@ export const ServiceData = [
     icon: Facebook,
     heading: `Facebook Marketing`,
     content: `With over 2 billion active users, your target audience is undoubtedly present on Facebook. The market potential is substantial, and there is a high likelihood that you will encounter an audience that is intrigued by your offerings. Ophanim enables you to engage with customers directly and bridge the digital divide. The most effective solutions are presented to you by the resources and experience we possess.`,
-    tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
+    tags: `Targeting the Audience of Facebook Ads,Facebook Advertising Design,Facebook Ads Copywriting,A/B Testing of Facebook Ads,A/B Testing of Landing Pages,Optimization and Analysis`,
   },
   {
     icon: Instagram,
     heading: `Instagram Marketing`,
     content: `Instagram is an ideal platform for businesses to connect with their target audience, as more than one billion individuals utilize it monthly. However, establishing a brand requires effort, as competing with brands on a global scale is necessary. This is why businesses invest in Instagram marketing services from Ophanim. Our cutting-edge Instagram marketing team generates visually appealing reels and posts that will go viral on Instagram and attract millions of impressions and leads to your account. Our Instagram marketing services encompass the following:
 `,
-    tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
+    tags: `Curation of the Instagram Calendar,Campaigns Set-up,Creating and Optimizing an Instagram Profile,Instagram Content Creation Instagram Postings and Promotions,Instagram advertising management`,
   },
   {
     icon: Linkedin,
     heading: `LinkedIn Marketing`,
     content: `LinkedIn is the optimal platform for connecting with professionals who are most likely to make critical business decisions. It boasts a conversion rate three times higher than that of any other ad platform. We offer LinkedIn Marketing services that target the entire sales funnel. We at Ophanim, possess a comprehensive expertise of LinkedIn's operations. We have recognized its usefulness and endeavour to enhance the number of users and your brand credibility most effectively.
  `,
-    tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
+    tags: `LinkedIn Advertising Optimization,LinkedIn Retargeting,LinkedIn Advertising Audits,LinkedIn Ad Management,Advertising Strategies on LinkedIn,Reporting on LinkedIn Ads`,
   },
   {
     icon: XLogo,
     heading: `X Marketing`,
     content: `X's millions of users are a treasure trove for traffic. It's unique features makes it a powerful tool for gaining audience insights and positioning your brand. Companies can even personalize their branding as per the trends. Ophanim assists your inbound marketing strategy by devising an effective content strategy. This strategy streamlines your content across multiple channels and reinforces your brand message in a fast, engaging, and enjoyable, such as in a tweet.
 `,
-    tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
+    tags: `X remarketing campaigns,Creating X ads,Campaigns Set-up,X marketing,X campaign management,X ad monitoring`,
   },
   {
     icon: Pinterest,
     heading: `Pinterest Marketing`,
     content: `With Ophanim's extensive experience and proven track record, you can confidently expand your company’s brand and reach on social media. When you're looking to increase the income stream of your business, whether it's to boost sales, improve efficiency, or establish a brand image, we're here to assist. We'll ensure that only the most effective Pinterest marketing strategies are at your disposal, making the process efficient and the results achievable. Our Pinterest marketing services in the United States are among the most effective, and by collaborating with us and utilizing our services, you will be able to address the numerous persistent challenges.
 `,
-    tags: `More Engagement,Better Branding,More Subscribers,More visibility,Better Traction,Higher Conversion Rates`,
+    tags: `Optimizing Pinterest Profile,Content Optimization,Scheduling Consistent Pins,Promotion of Pinterest Pins,Tracking Audience Engagement,Generate Pin-worthy Images,Increase Visual Appeal and Engagement`,
   },
 ];
 export const HomeChooseUsData = [
@@ -4193,7 +4192,7 @@ export const pageTitleDescription = {
     title: `Ophanim Technologies: Digital Marketing Agency | About Us`,
     description: `Know more about Ophanim Technologies and how we craft data-driven strategies to elevate your search rankings and drive organic growth for your business.`,
   },
-  SEO_SERVICE: {
+  SEO_SERVICES: {
     title: `Complete SEO Services for Your Business by Ophanim Technologies`,
     description: `Increase organic traffic, leads, and sales with our comprehensive SEO solutions. We help medium to large businesses in the USA & Canada achieve top search rankings.`,
   },
@@ -4221,4 +4220,432 @@ export const pageTitleDescription = {
     title: `Contact Us | Ophanim Technologies`,
     description: ``,
   },
+};
+
+export const ServicePagesData = {
+  SEO_SERVICES: {
+    pageHeader: {
+      title: `Most In-Demand`,
+      subTitle: `SEO Services in the USA`,
+      tagline: `#1 SEO service provider company that helps you establish the online presence you deserve, ensuring your business stands out in the digital landscape.`,
+    },
+    first_section_icon: Icon1Image,
+    first_section_heading: `Why Choose SEO Services for Your Business?`,
+    first_section_content1: `Search Engine Optimization(SEO) is a fundamental component of any digital marketing strategy. It shows the search engine Who you are and why you matter. SEO features: link building, website optimization, keyword research, backlinking, and many more features. A good SEO strategy improves page ranking, brand awareness, and website traffic, increasing lead conversion and revenue.`,
+    first_section_content2: `An SEO service company helps make a website market relevant and visible to the target audience. They can push you above your competitors so customers see you when they opt for the required product and service.`,
+    second_section_heading: `Why Choose Ophanim for SEO Services in the USA?`,
+    second_seaction_paragraph: `At Ophanim, we prioritize your success over money. Our goal is to
+              help your business website reach its targets with ease. Each
+              metric needs careful analysis. Seeking help from leading SEO
+              experts is essential for higher rankings and gaining a competitive
+              edge.`,
+    agencyData: [
+      {
+        icon: WorkFromHomeUserSofaStreamlineUltimate,
+        heading: "24x7 Exclusive Services",
+        content:
+          "Our connection with you is more important than our financial interests. Our 24/7 services are designed exclusively to help you with your business concerns.",
+      },
+      {
+        icon: StartupProductRocket,
+        heading: `Impressive Results`,
+        content: `Since our main focus is achieving results, we create strategies to fulfill this objective without taking shortcuts for long-term gains.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Dedicated & Focused`,
+        content: `Because of our dedication and single-minded focus, we will create new opportunities for your business and improve its overall performance.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Trustworthy`,
+        content: `At Ophanim, we understand the importance of trust in any business relationship. That's why we strive to establish a trustworthy and transparent relationship with our partners for long-term success.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Qualified and Professional`,
+        content: `We have a fantastic team of experienced professionals qualified to thrive in any challenging environment and deliver high performance.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Cutting Edge Tools`,
+        content: `In today’s highly competitive market, we utilize cutting-edge tools and strategies relevant to the market trends.`,
+      },
+    ],
+  },
+  SMO_SERVICES: {
+    pageHeader: {
+      title: `Most In-Demand`,
+      subTitle: `SMO Services in the USA`,
+      tagline: `#1 SMO service provider company that helps enhance your online visibility.`,
+    },
+    first_section_icon: Icon1Image,
+    first_section_heading: `Why Choose SMO Services for Your Business?`,
+    first_section_content1: `Utilizing social media optimization involves leveraging different social platforms to boost your company's visibility online and optimizing business profiles on sites like Facebook, Twitter, and Instagram.`,
+    first_section_content2: `By engaging Social Media Optimization services, you can increase your brand's reach on multiple social platforms, encourage user interaction, build trust, acquire customers, boost conversions, and drive sales.`,
+    second_section_heading: `Why Choose Ophanim As Your Social Media Optimization Agency?`,
+    second_seaction_paragraph: `Selecting the appropriate social media optimization services is crucial for the growth and success of your business. As a leading SMO company in the USA, we are proud to be the top choice for hundreds of companies. Learn why we are the go-to partner for SMO campaign success.`,
+    third_section_heading: `Our SMO Services`,
+    third_section_content: `Optimize your Social Media and drive customer engagement with our`,
+    agencyData: [
+      {
+        icon: WorkFromHomeUserSofaStreamlineUltimate,
+        heading: `Cost-Effective Solutions`,
+        content: `Our tailored SMO services elevate your social media presence while fitting seamlessly into your budget. We aim to empower your business growth through enhanced social media engagement, increased quality traffic, and lead generation. We customize our social media optimization services to meet your unique needs and preferences.`,
+      },
+      {
+        icon: StartupProductRocket,
+        heading: `Custom Social Media Optimization Strategy`,
+        content: `Your business requires a unique edge to compete with more giant corporations. To achieve this, we provide bespoke social media optimization services that cater to your needs. Rather than adopting a one-size-fits-all approach, we craft a tailored SMO marketing strategy that aligns with your objectives and resonates with your target demographic.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Google Certified Partner`,
+        content: `Consider selecting a Google Partner-certified agency like ours to benefit from dependable SEO and SMO services. This certification demonstrates our expertise and proven success in achieving desired outcomes. Being a Google partner, we focus on SMO, search, mobile, and SMM, providing comprehensive solutions for your digital requirements.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Broad Expertise Across Sectors`,
+        content: `Our extensive experience spanning multiple industries allows us to leverage various technical expertise and know-how on every social media optimization project we undertake. Having collaborated with thousands of businesses across diverse sectors, our SMO specialists are well-equipped to tailor their services to meet your business's distinct requirements.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Comprehensive SMO Services`,
+        content: `Our all-encompassing social media optimization services are designed to drive your online success. We offer a complete range of services, from devising a tailored strategy to implementing affordable social media, search engine optimization, digital marketing, and website optimization solutions, all aimed at delivering the outcomes necessary to propel your business forward.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Clear Communication`,
+        content: `As a leading SMO marketing agency, we value transparency in communication. Our dedicated project managers ensure you are informed at every stage, providing detailed insights into our actions and future direction.`,
+      },
+    ],
+    serviceData: ServiceData,
+  },
+  ONLINE_REPUTATION: {
+    pageHeader: {
+      title: `#1`,
+      subTitle: `ORM Services in the USA`,
+      tagline: `Premier Online Reputation Management service provider company for streamlined online presence solutions.`,
+    },
+    first_section_icon: Icon1Image,
+    first_section_heading: `How do Reputation Management Services help you Grow Your Revenue`,
+    first_section_content1: `In today's digital age, online reviews hold more sway with customers than word-of-mouth endorsements. The internet's far-reaching influence allows unfavourable feedback to circulate rapidly, potentially tarnishing your business's online standing.`,
+    first_section_content2: `Companies and individuals must invest significant resources in establishing a positive reputation, as this can be quickly tarnished by internet troublemakers or one's own mistakes. In the modern era, having a reputable online reputation management firm to oversee, enhance, and safeguard your brand is essential.`,
+    second_section_heading: `Why Choose Ophanim As Your Online Reputation Management Agency`,
+    second_seaction_paragraph: `Our organization is committed to excellence in every aspect of our operations. We tailor our approaches to meet your business's unique requirements while prioritizing optimizing your return on investment.`,
+    agencyData: [
+      {
+        icon: WorkFromHomeUserSofaStreamlineUltimate,
+        heading: `Skilled Team`,
+        content: `We only hire the most talented and skilled individuals in their respective fields. This ensures that our performance is consistently exceptional and that our clients receive the highest-quality service possible.`,
+      },
+      {
+        icon: StartupProductRocket,
+        heading: `In-Depth Research and Analysis`,
+        content: `With our cutting-edge approach, in-depth analysis, and extensive expertise in digital marketing, we are poised to elevate every facet of your online marketing strategy. Our pioneering spirit, rigorous research, and wealth of experience ensure that your campaign will flourish under our guidance.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Tailored ORM Approach`,
+        content: `We recognize that your business requires unique strategies compared to other brands. Therefore, we provide personalized reputation management services. Our expertise lies in using customized ORM methods to enhance your brand reputation, increase website traffic, and generate leads that align with your brand objectives and target audience.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Content Optimization Focus`,
+        content: `Our primary emphasis is optimizing content to enhance your brand's online reputation through strategic amplification and development. By creating strong content tailored for search engines and promoting positive messaging on appropriate platforms, we work to bolster your brand's image and minimize negative associations.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Tools and Technologies`,
+        content: `We utilize cutting-edge solutions tailored explicitly for reputation management, empowering us to craft data-driven strategies that drive optimal outcomes for your brand. By harnessing advanced keyword research tools and comprehensive analytics platforms, we refine our approaches to achieve unparalleled success.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `High Client Satisfaction`,
+        content: `Exceptional Client Experience places paramount importance on client satisfaction, boasting a client retention rate of over 90%. We take pride in the trust and loyalty of our clients, and we invite you to peruse our client testimonials to see firsthand the results-driven approach and unwavering commitment we bring to every client engagement.`,
+      },
+    ],
+  },
+  SMALL_BUSINESS_SEO: {
+    pageHeader: {
+      title: `#1 Small Business SEO`,
+      subTitle: `Services in the USA`,
+      tagline: `#1 SEO service provider company that helps you establish the online presence you deserve, ensuring your business stands out in the digital landscape.`,
+    },
+    first_section_icon: Icon1Image,
+    first_section_heading: `How Can Small Business SEO Services Increase Your Revenue?`,
+    first_section_content1: `Small-business SEO refers to enhancing your small business's web presence on the search results. SEO services for small businesses can improve your revenue by increasing your visibility online, attracting the appropriate audience, and improving your overall digital presence.`,
+    first_section_content2: ``,
+    second_section_heading: `Why Consider Ophanim for Your Small Business SEO?`,
+    second_seaction_paragraph: `The selection of appropriate small business SEO services is essential for the expansion of your business. We are honoured to be the preferred choice of hundreds of small and medium-sized businesses, as we are one of the most exceptional SEO companies for small businesses. Discover the reasons why numerous organizations select us for SEO success.`,
+    agencyData: [
+      {
+        icon: WorkFromHomeUserSofaStreamlineUltimate,
+        heading: `Reasonably Priced Plans`,
+        content: `Our SEO services for small businesses are cost-effective, allowing you to enhance online visibility while adhering to your budget. Our objective is to assist you in growing your business by providing you with high-quality traffic and leads at a reasonable cost. Our small business SEO services are entirely customizable to ensure your convenience.`,
+      },
+      {
+        icon: StartupProductRocket,
+        heading: `Tailored Search engine optimization strategy`,
+        content: `We recognize that your business's requirements are distinct from those of big brands. This is why we provide personalized SEO services. We refrain from employing generic strategies to enhance your online presence. Instead, we customize your SEO marketing campaign to align with your objectives and target audience.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Google Certified Partner`,
+        content: `For dependable SEO services for small businesses, select a Google Partner-certified agency like ours. This certification demonstrates our proficiency and demonstrated history of achieving results. We are a Google premier partner specializing in search, mobile, video, display, and shopping advertising, providing comprehensive solutions for your digital advertising requirements.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Proficiency in a Variety of Industries`,
+        content: `Due to our diverse industry background, we can contribute a wide range of skills and experience to each SMB project we undertake. Our team of small business SEO services experts has experience working with thousands of businesses in all niches, including yours. You can trust us to meet your specific requirements.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `One-Stop SEO Solutions`,
+        content: `We offer comprehensive SEO solutions, including search engine optimization, social media management, content writing, and development services. Our goal is to assist you in achieving the SEO results necessary to expand your business.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Transparent Reporting`,
+        content: `Your dedicated account managers closely monitor and track your SEO campaign. They also provide you with regular updates on your website's online and offline activities. Our SEO reports enable you to monitor your SEO performance, including rankings, traffic, and conversions.`,
+      },
+    ],
+  },
+  ECOMMERCE_SEO: {
+    pageHeader: {
+      title: `Most in-demand`,
+      subTitle: `E-Commerce SEO service`,
+      tagline: `Most in-demand E-Commerce SEO service companies help you establish the online presence you deserve, ensuring your business stands out in the digital landscape.`,
+    },
+    first_section_icon: Icon1Image,
+    first_section_heading: `Benefits of Employing an Ecommerce SEO Company`,
+    first_section_content1: `Ecommerce SEO is optimizing your website to adhere to search engine best practices and updating your content to align with the search queries of your potential customers. Any ecommerce business prioritizes the acquisition of more targeted traffic.`,
+    first_section_content2: `SEO professionals are proficient in the most recent technologies, tools, market trends, and intricate search engine algorithms to ensure your business remains at the forefront of the search engine results page (SERP). By employing an ecommerce SEO agency, you can allocate more time to your daily business operations. SEO services for ecommerce can increase revenue by improving digital presence, attracting the appropriate audience, and enhancing online visibility.`,
+    second_section_heading: `Why Choose Ophanim for E-Commerce SEO Services?`,
+    second_seaction_paragraph: `At Ophanim, we prioritize your success over money. Selecting the appropriate ecommerce SEO agency to facilitate your business's expansion. Discover the reasons why numerous organizations choose us for SEO success.`,
+    agencyData: [
+      {
+        icon: WorkFromHomeUserSofaStreamlineUltimate,
+        heading: `Comprehensive Strategy`,
+        content: `Our comprehensive SEO ecommerce strategy guarantees that we address all facets. We customize on-page SEO to meet the specific requirements of your website, conduct a thorough analysis of its structure, and implement our tools accordingly. We comprehend eCommerce sites' distinctive challenges and complexities, including product listings and reviews.`,
+      },
+      {
+        icon: StartupProductRocket,
+        heading: `Targeted Approach`,
+        content: `Our ecommerce SEO agency conducts exhaustive research to identify the most appropriate keywords rather than simply targeting any keyword. This guarantees that your website is accessible to individuals actively seeking your product. Our customized strategy guarantees that your messages are delivered to the appropriate audience, optimizing conversion and engagement opportunities.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Emphasis on Content Optimization`,
+        content: `Our team is dedicated to developing, optimizing, and amplifying content. This guarantees that each article we distribute is precisely customized to resonate with your intended audience and search engine bots. We comprehend the necessity of content that is both engaging and on-brand and that encourages link-building, keyword ranking, and traffic growth.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `SEO Strategy and Reporting`,
+        content: `We at the ecommerce SEO company recognize that the requirements of your business are distinct from those of other major brands. This is the reason we provide personalized SEO services for ecommerce. We refrain from employing generic strategies to enhance your online presence. Instead, we customize strategies to align with your objectives and target audience, as evidenced by our portfolio.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Client Satisfaction`,
+        content: `We have consistently believed that our clients are our most valuable asset. Our dedication to providing exceptional service is evident in our client retention rate of over 90%. Our client testimonial is available for your review. The relationships and trust we establish daily are the true meaning of our dedication; it is not solely based on numbers.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Reasonable Plans`,
+        content: `Our cost-effective ecommerce SEO services allow your business to enhance its online visibility while adhering to your budget. Our objective is to assist you in the growth of your ecommerce business by generating high-quality traffic and leads at a minimal cost. Investigate an inexpensive SEO package for ecommerce at this time.`,
+      },
+    ],
+  },
+  LOCAL_SEO_SERVICES: {
+    pageHeader: {
+      title: `Most In-Demand`,
+      subTitle: `SEO Services in the USA`,
+      tagline: `Most in-demand Local SEO service company that helps you establish a robust online presence. Our local SEO services are available at a reasonable price and can increase the number of calls, leads, store visits, and sales.`,
+    },
+    first_section_icon: Icon1Image,
+    first_section_heading: `Benefits of Employing an Local SEO Company`,
+    first_section_content1: `Local SEO services increase revenue for your business by enhancing your local positioning and GMB listings, boosting local reviews, and strategically targeting customers who desire products and services within your service area.`,
+    first_section_content2: ``,
+    second_section_heading: `Why Choose Ophanim for Local SEO Services?`,
+    second_seaction_paragraph: `One of the most critical actions to expand your business is to engage the services of the most qualified local SEO company. We are proud to be the preferred choice for hundreds of small and medium-sized businesses and are one of the top local SEO service providers. Discover the reasons why hundreds of businesses select us for their SEO success.`,
+    agencyData: [
+      {
+        icon: WorkFromHomeUserSofaStreamlineUltimate,
+        heading: `Local SEO Services of the Highest Quality`,
+        content: `Are you seeking to distinguish yourself in local search results? Ophanim is committed to providing exceptional local SEO services. We are committed to enhancing the visibility of your business when customers in the vicinity are conducting searches for your products or services.`,
+      },
+      {
+        icon: StartupProductRocket,
+        heading: `Reasonably priced Local SEO services`,
+        content: `Ophanim provides cost-effective solutions that yield results. Our affordable local SEO services are specifically engineered to empower small and medium-sized businesses, guaranteeing that you can improve your local online presence without exceeding your budget.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Local SEO Reports`,
+        content: `Are you interested in the status of your local SEO campaign? We have you covered with our comprehensive reporting. Ophanim offers valuable information regarding your organization's performance in local searches. We are committed to maintaining transparency to enable you to observe the results of our endeavors.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Local Industry Experience`,
+        content: `Our team has a wealth of experience in navigating local markets. We know your local industry's distinctive obstacles and employ our expertise to create strategies that resonate with your target audience. You can be confident that your SEO campaign is in the capable hands of our local SEO company.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Local Digital Marketing Solutions`,
+        content: `Your digital marketing solutions should be distinctive, just as your business is. In addition to providing exceptional local SEO services, we also address your comprehensive online marketing requirements, enabling you to develop customized strategies specifically designed to target your local audience. We guarantee that your digital initiatives align with the local community you serve.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Transparent communication`,
+        content: `Clear communication is essential for a partnership to be successful. That is why we emphasize the importance of transparent communication. Our local SEO package prioritizes your input throughout the SEO campaign and delivers consistent updates. We have a dedicated project manager; you will always be informed of our efforts to enhance your local presence.`,
+      },
+    ],
+  },
+  WHITE_LABEL_SEO: {
+    pageHeader: {
+      title: `Our Services`,
+      subTitle: ``,
+      tagline: `Operating a digital agency can be difficult, mainly when resources are scarce. Our white-label SEO services enable you to concentrate on your business operations while we manage the SEO.`,
+    },
+    first_section_icon: Icon1Image,
+    first_section_heading: `Benefits of Employing a White-Label SEO Company`,
+    first_section_content1: `A white-label digital marketing company usually offers services like SEO, content marketing, Google Ads, or Facebook ads that you can rebrand using your name or logo and sell to clients at an additional cost.`,
+    first_section_content2: `White-label hiring services help your agency's digital marketing and SEO companies or consulting firms and permit you to deliver superior service, save time, and cut down on business expenses.`,
+    second_section_heading: `Why Choose Ophanim for White-Label SEO Services?`,
+    second_seaction_paragraph: `Our services are designed to provide solutions that unlock a new realm of opportunity, and we are recognized as one of the top White Label SEO companies.`,
+    agencyData: [
+      {
+        icon: WorkFromHomeUserSofaStreamlineUltimate,
+        heading: `Customized Software`,
+        content: `We offer a diverse selection of customized software fully equipped with the requisite data to support your varied online campaigns, all seamlessly integrated into your dashboard.`,
+      },
+      {
+        icon: StartupProductRocket,
+        heading: `PPC`,
+        content: `Ophanim possesses an extensive comprehension of PPC, and most SEO resellers anticipate its compatibility with the diverse complexities.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `SEO Services`,
+        content: `Our SEO services are designed to provide visibility and ranking, significantly distinguishing your business from the competition.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Local SEO optimization`,
+        content: `Our comprehensive White Label SEO program will make your business visible to nearby residents and businesses.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Concise Reporting`,
+        content: `We are committed to providing our esteemed clients with precise and detailed reports that provide a comprehensive understanding of our operations.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `24X7 Support`,
+        content: `At Ophanim, we maintain a team of exceptional professionals available 24/7 to assist you in resolving a wide range of issues.`,
+      },
+    ],
+  },
+  PAY_PER_CLICK: {
+    pageHeader: {
+      title: `The most effective PPC`,
+      subTitle: `management company in the United States.`,
+      tagline: `Gain immediate and consistent traffic and leads by implementing optimized advertising campaigns. Ophanim's Pay-per-click marketing services will enable you to achieve immediate visibility on Google Ads, even for the most competitive keywords in your industry.`,
+    },
+    first_section_icon: Icon1Image,
+    first_section_heading: `Benefits of Employing a PPC Optimization Company`,
+    first_section_content1: `The realm of paid ads continues to evolve. Because of this, it's challenging to keep up with the latest techniques. When you choose an agency specializing in PPC and PPC, they'll assist you in remaining on top of changes. They'll understand what's being done across various agencies and can incorporate those results for your campaign.`,
+    first_section_content2: `Additionally, as the agency comprises a whole team that includes everyone, you'll be able to access various perspectives and knowledge. You'll have only one viewpoint if only one PPC director is on your internal team.`,
+    second_section_heading: `Why Choose Ophanim for PPC Services?`,
+    second_seaction_paragraph: `Since our inception, Ophanim has been committed to providing the most reliable and exceptional PPC services in the United States. We know the necessary steps to provide superior alternatives, and our solutions are designed to give you a good return on your investment in expanding and growing your business. You can always rely on us if you are searching for a reliable PPC company.NAs a result of our ability to create result-oriented and tactical PPC campaigns that align with the practical user experience, we are highly regarded by most of our clients.`,
+    agencyData: [
+      {
+        icon: WorkFromHomeUserSofaStreamlineUltimate,
+        heading: `Conversion-Oriented Tactics`,
+        content: `Your sales channel and user experience meticulously devise our strategies. This assists us in eliminating obstacles and achieving your conversion objective.`,
+      },
+      {
+        icon: StartupProductRocket,
+        heading: `Distinct Marketing Strategies`,
+        content: `As a digital marketing firm, we rely on the expertise of our consultants. They develop ingenious strategies that will further help you overcome numerous obstacles.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Factual Analysis`,
+        content: `We optimize the website to increase your visibility and relevance by streamlining the process after thoroughly analyzing all aspects.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Website Evaluation`,
+        content: `Our objective is to assist you in determining the appropriate course of action by conducting consistent website audits that encompass traffic flow analysis and current conversion rates.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Customized Campaigns`,
+        content: `A single possible pain can't be suitable for all clients. We ensure that each business design campaign's unique requirements are met.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Utilizing Extensions`,
+        content: `Extensions are excellent for engaging your target audience and converting their lucrative interest into sales. This, in turn, contributes to the success of your PPC campaign.`,
+      },
+    ],
+  },
+  CONTENT_MARKETING: {
+    pageHeader: {
+      title: `Our content marketing services effectively`,
+      subTitle: `establish you as the industry leader.`,
+      tagline: `Google presents visitors with the most pertinent content based on their search intent. This is why providing high-quality content relevant to your audience is crucial. To ensure that your sales funnel is successful and that your audience converts at each stage, it is essential to have SEO content that is relevant, helpful, and informative for your business.`,
+    },
+    first_section_icon: Icon1Image,
+    first_section_heading: `Benefits of Employing a Content Marketing Company`,
+    first_section_content1: `In this digital age, where attention spans are getting increasingly limited and online competition intense, companies recognize the significance of a successful content marketing plan. High-quality content has been the primary ingredient in profitable marketing campaigns. It allows companies to attract and engage with their intended viewers.`,
+    first_section_content2: `While some companies might choose to navigate the challenging terrain of creating and distributing content independently, many have discovered the significant benefits of outsourcing to a professional company for marketing content.`,
+    second_section_heading: `Why Choose Ophanim for Content Marketing Services in the USA?`,
+    second_seaction_paragraph: `Our comprehensive content marketing services are designed to achieve your primary objective and increase your business's visibility to potential customers.`,
+    agencyData: [
+      {
+        icon: WorkFromHomeUserSofaStreamlineUltimate,
+        heading: `Establishment of a Blog`,
+        content: `In addition to enhancing brand recognition, we strive to improve your search engine visibility by generating pertinent blog posts by our content team.`,
+      },
+      {
+        icon: StartupProductRocket,
+        heading: `White Papers and Case Studies`,
+        content: `Our content team will develop captivating materials, including white papers and case studies, for your website to increase sales and revenue.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Infographics`,
+        content: `Visual marketing is essential for attracting the appropriate audience, and our team will create exceptional infographics that will improve your brand's reputation.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Email and Newsletter`,
+        content: `Our email marketers provide a significant opportunity to generate and maintain leads, thereby fostering the desired loyalty from your potential customers.`,
+      },
+      {
+        icon: HumanResourcesNetwork,
+        heading: `Product Videos`,
+        content: `By utilizing our exclusive video marketing services, your business can reach new audiences and overcome the broader communication barrier.`,
+      },
+      {
+        icon: HumanResourcesWorkflow,
+        heading: `Copywriting for the website`,
+        content: `To achieve significant success in marketing initiatives, our content developers will generate compelling content that will be instrumental in the organization's branding.`,
+      },
+    ],
+  },
+};
+
+export const servicesCategory = {
+  SEO_SERVICES: "SEO_SERVICES",
+  SMO_SERVICES: "SMO_SERVICES",
+  ONLINE_REPUTATION: "ONLINE_REPUTATION",
+  SMALL_BUSINESS_SEO: "SMALL_BUSINESS_SEO",
+  ECOMMERCE_SEO: "ECOMMERCE_SEO",
+  LOCAL_SEO_SERVICES: "LOCAL_SEO_SERVICES",
+  WHITE_LABEL_SEO: "WHITE_LABEL_SEO",
+  PAY_PER_CLICK: "PAY_PER_CLICK",
+  CONTENT_MARKETING: "CONTENT_MARKETING",
 };

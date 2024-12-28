@@ -55,8 +55,46 @@ const Navbar = () => {
             <li>
               <Link to={"/about"}>About</Link>
             </li>
-            <li>
-              <Link to={"/service"}>Services</Link>
+            <li className='nav-item dropdown navbarItem-hover'>
+              <Link
+                href='#'
+                role='button'
+                data-bs-toggle='dropdown'
+                aria-expanded='false'
+              >
+                Services
+              </Link>
+              <ul className='dropdown-menu dropMenu active'>
+                <li>
+                  <Link to={"/seo-services"}>SEO Services</Link>
+                </li>
+                <li>
+                  <Link to={"/smo-services"}>SMO Services</Link>
+                </li>
+                <li>
+                  <Link to={"/online-reputation-management"}>
+                    Online Reputation
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/small-business-seo"}>Small Business SEO</Link>
+                </li>
+                <li>
+                  <Link to={"/ecommerce-seo"}>ECommerce SEO</Link>
+                </li>
+                <li>
+                  <Link to={"/local-seo-services"}>Local SEO Services</Link>
+                </li>
+                <li>
+                  <Link to={"/white-label-seo"}>White Label SEO</Link>
+                </li>
+                <li>
+                  <Link to={"/pay-per-click"}>Pay Per Click</Link>
+                </li>
+                <li>
+                  <Link to={"/content-marketing"}>Content Marketing</Link>
+                </li>
+              </ul>
             </li>
             <li className='nav-item dropdown navbarItem-hover'>
               <Link
